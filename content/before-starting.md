@@ -3,6 +3,13 @@ title: "Before Starting"
 description: "In the world of coding. Where to start, is the biggest question nowadays?"
 date: "2024-07-20"
 tags: ["coding", "What is the right path?"]
+author: "thatonevikash"
+social:
+  {
+    github: "https://github.com/thatonevikash",
+    linkedin: "https://www.linkedin.com/in/thatonevikash/",
+    x: "https://x.com/thatonevikash",
+  }
 ---
 
 ## Before Starting!

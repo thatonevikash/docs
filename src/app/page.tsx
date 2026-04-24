@@ -1,5 +1,5 @@
 import { getAllPosts } from "@/lib/posts";
-import PostCard from "@/components/PostCard";
+import { PostCard } from "@/components/post-card";
 import { Container, Grid, Typography, Box } from "@mui/material";
 
 export default function Home() {

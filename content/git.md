@@ -3,6 +3,13 @@ title: "The Git Commands"
 description: "Git is a distributed version control system that allows developers to track changes in source code during software development."
 date: "2025-01-20"
 tags: ["Git", "What is git?", "work flow"]
+author: "thatonevikash"
+social:
+  {
+    github: "https://github.com/thatonevikash",
+    linkedin: "https://www.linkedin.com/in/thatonevikash/",
+    x: "https://x.com/thatonevikash",
+  }
 ---
 
 ## Git

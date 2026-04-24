@@ -3,6 +3,13 @@ title: "JavaScript Basics"
 description: "Explore the world of web with JavaScript. Why JavaScript exists in this world?"
 date: "2024-11-09"
 tags: ["coding", "What is the right path?"]
+author: "thatonevikash"
+social:
+  {
+    github: "https://github.com/thatonevikash",
+    linkedin: "https://www.linkedin.com/in/thatonevikash/",
+    x: "https://x.com/thatonevikash",
+  }
 ---
 
 ## JavaScript

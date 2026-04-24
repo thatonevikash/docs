@@ -3,6 +3,13 @@ title: "JavaScript for Beginner"
 description: "In JavaScript, We create variables to hold data. Variables are like containers in which we store some data."
 date: "2024-11-14"
 tags: ["programming", "programming in javascript", "basics of programming"]
+author: "thatonevikash"
+social:
+  {
+    github: "https://github.com/thatonevikash",
+    linkedin: "https://www.linkedin.com/in/thatonevikash/",
+    x: "https://x.com/thatonevikash",
+  }
 ---
 
 ## JavaScript
