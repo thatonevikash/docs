@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [pivot/docs]
+    branches: [main]
 
 permissions:
   contents: write

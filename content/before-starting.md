@@ -1,11 +1,11 @@
 ---
 title: "Before Starting"
-description: "In the world of coding. Where to start?, is the biggest question nowadays."
-date: "2024-04-20"
-tags: ["coding", "right start"]
+description: "In the world of coding. Where to start, is the biggest question nowadays?"
+date: "2024-07-20"
+tags: ["coding", "What is the right path?"]
 ---
 
-## Docs.dev - Before Coding!
+## Before Starting!
 
 ### Where to start?
 
@@ -69,28 +69,28 @@ Which provides all _the facilities you will use to build any project_.
 Download vscode from the official site:
 [install](https://code.visualstudio.com/download)
 
-![vs code](vscode.png)
+![vs code](internals/before-starting/vscode.png)
 
 ### Popular extenstion for `vscode` 👇
 
 1. Live server
 
-![live server](live-server.png)
+![live server](internals/before-starting/live-server.png)
 
 2. Prettier
 
-![prettier](prettier.png)
+![prettier](internals/before-starting/prettier.png)
 
 3. Code runner
 
-![code runner](code-runner.png)
+![code runner](internals/before-starting/code-runner.png)
 
 4. Material icons
 
-![material icons](material-icons.png)
+![material icons](internals/before-starting/material-icons.png)
 
 5. Auto rename tag
 
-![auto rename tag](auto-rename-tag.png)
+![auto rename tag](internals/before-starting/auto-rename-tag.png)
 
-#### Made with 💖 by _thatonevikash_!
+#### Written with 💖 by _thatonevikash_!
