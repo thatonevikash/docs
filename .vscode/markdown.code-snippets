@@ -1,0 +1,23 @@
+{
+  "Markdown Frontmatter": {
+    "scope": "markdown",
+    "prefix": "!!",
+    "body": [
+      "---",
+      "title: \"${1}\"",
+      "description: \"${2}\"",
+      "date: \"$CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE\"",
+      "tags: [\"\"]",
+      "author: \"thatonevikash\"",
+      "social: {",
+      "   github: \"https://github.com/thatonevikash\"",
+      "   linkedin: \"https://www.linkedin.com/in/thatonevikash/\"",
+      "   x: \"https://x.com/thatonevikash\"",
+      "}",
+      "---",
+      "",
+      "$0",
+    ],
+    "description": "Add boilerplate for markdown files",
+  },
+}

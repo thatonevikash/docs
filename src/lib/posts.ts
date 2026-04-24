@@ -14,11 +14,17 @@ export interface Post {
   description: string;
   date: string;
   tags: string[];
+  author: string;
+  social: {
+    github: string;
+    linkedin: string;
+    x: string;
+  };
   content: string;
 }
 
 // Used on the home page — no content needed
-export function getAllPosts(): Omit<Post, "content">[] {
+export function getAllPosts(): Omit<Post, "content", "social">[] {
   const files = fs.readdirSync(contentDir);
   return files
     .filter((f) => f.endsWith(".md"))
@@ -30,6 +36,7 @@ export function getAllPosts(): Omit<Post, "content">[] {
         slug,
         title: data.title,
         description: data.description,
+        author: data.author,
         date: data.date,
         tags: data.tags ?? [],
       };
@@ -53,6 +60,12 @@ export async function getPostBySlug(slug: string): Promise<Post> {
     slug,
     title: data.title ?? slug,
     description: data.description ?? "",
+    author: data.author ?? "",
+    social: {
+      github: data.social.github ?? "",
+      linkedin: data.social.linkedin ?? "",
+      x: data.social.x ?? "",
+    },
     date: data.date ?? "",
     tags: data.tags ?? [],
     content: processed.toString(),
