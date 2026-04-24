@@ -1,0 +1,90 @@
+1:"$Sreact.fragment"
+2:I[66919,["/docs/_next/static/chunks/12on2ckv04d45.js","/docs/_next/static/chunks/0ph4z_57~uj41.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js","/docs/_next/static/chunks/16jn7dbkl9nfq.js"],"default"]
+3:I[36729,["/docs/_next/static/chunks/12on2ckv04d45.js","/docs/_next/static/chunks/0ph4z_57~uj41.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js","/docs/_next/static/chunks/16jn7dbkl9nfq.js"],"default"]
+4:I[53488,["/docs/_next/static/chunks/12on2ckv04d45.js","/docs/_next/static/chunks/0ph4z_57~uj41.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js","/docs/_next/static/chunks/16jn7dbkl9nfq.js"],"default"]
+5:I[5573,["/docs/_next/static/chunks/12on2ckv04d45.js","/docs/_next/static/chunks/0ph4z_57~uj41.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js","/docs/_next/static/chunks/16jn7dbkl9nfq.js"],"default"]
+a:I[97367,["/docs/_next/static/chunks/12on2ckv04d45.js","/docs/_next/static/chunks/0ph4z_57~uj41.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
+b:"$Sreact.suspense"
+:HL["/docs/_next/static/chunks/0apzrrrxeu37_.css","style"]
+6:Tcff,<h2>Docs.dev - Before Coding!</h2>
+<h3>Where to start?</h3>
+<p><strong>In the world of coding</strong>!
+Where to start?, is the biggest question nowadays.</p>
+<p>Many will suggest you, You can start coding in <code>notepad</code>.
+Which may be a good idea but not the best.</p>
+<p>Because, notepad is capable enough to make a source file.
+Open notepad then create a file and save it with extension <code>.js</code></p>
+<pre><code class="hljs language-txt">// index.js
+console.log("Hello World!")
+</code></pre>
+<blockquote>
+<p>[!important]<br>
+<strong>source file</strong>, is the file which has an specific extension type.<br>
+And when we exexute the file using a compiler, it produces some output.</p>
+</blockquote>
+<p><em>As I said</em>!
+<code>notepad</code> is capable enough to create a source file, but it is not a best choice,
+If you are targetting to code for longer.</p>
+<p>You must go with an <strong>IDE</strong>! ⭐</p>
+<h3>What is an <code>IDE</code>?</h3>
+<p>IDE, stands for <strong>I</strong>ntegrated <strong>D</strong>evelopment <strong>E</strong>nvironment.
+Which provides all <em>the facilities you will use to build any project</em>.</p>
+<ol>
+<li>
+<p><strong>Syntax hightlighting</strong></p>
+<pre><code class="hljs language-js"><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">"Docs.dev - Before Coding"</span>);
+</code></pre>
+</li>
+<li>
+<p><strong>Auto indentation</strong></p>
+<pre><code class="hljs language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">sayHello</span>(<span class="hljs-params"></span>) {
+  <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">"hello!"</span>);
+}
+
+<span class="hljs-title function_">sayHello</span>();
+</code></pre>
+</li>
+<li>
+<p><strong>Integrated terminal</strong>: To run and execute <code>CLI</code>s.</p>
+</li>
+<li>
+<p><strong>Version control</strong>: Default support for version control systems using <code>git</code>, <code>github</code>, and <code>gitlab</code> more.</p>
+</li>
+<li>
+<p><strong>Extension supports</strong>: To work efficiently and to use different different features in one place.</p>
+</li>
+<li>
+<p><strong>Language support</strong>: Whether you are coding in <code>JavaScript</code>, <code>Python</code>, <code>Java</code> or any other language, an IDE offers a consistent interface.</p>
+</li>
+</ol>
+<h3>Let's go with <code>vscode</code> 😎</h3>
+<p>*A powerful <code>IDE</code> built by <strong>Microsoft*</strong>.</p>
+<p>Download vscode from the official site:
+<a href="https://code.visualstudio.com/download">install</a></p>
+<p><img src="vscode.png" alt="vs code"></p>
+<h3>Popular extenstion for <code>vscode</code> 👇</h3>
+<ol>
+<li>Live server</li>
+</ol>
+<p><img src="live-server.png" alt="live server"></p>
+<ol start="2">
+<li>Prettier</li>
+</ol>
+<p><img src="prettier.png" alt="prettier"></p>
+<ol start="3">
+<li>Code runner</li>
+</ol>
+<p><img src="code-runner.png" alt="code runner"></p>
+<ol start="4">
+<li>Material icons</li>
+</ol>
+<p><img src="material-icons.png" alt="material icons"></p>
+<ol start="5">
+<li>Auto rename tag</li>
+</ol>
+<p><img src="auto-rename-tag.png" alt="auto rename tag"></p>
+<h4>Made with 💖 by <em>thatonevikash</em>!</h4>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"maxWidth":"sm","sx":{"py":6},"children":[["$","$L3",null,{"sx":{"mb":4},"children":[["$","$L4",null,{"variant":"h4","sx":{"fontWeight":500},"gutterBottom":true,"children":"Before Starting"}],["$","$L4",null,{"variant":"caption","color":"text.disabled","sx":{"display":"block","mb":1.5},"children":"20 April 2024"}],["$","$L3",null,{"sx":{"display":"flex","gap":0.5,"flexWrap":"wrap"},"children":[["$","$L5","coding",{"label":"coding","size":"small","variant":"outlined"}],["$","$L5","right start",{"label":"right start","size":"small","variant":"outlined"}]]}]]}],["$","$L3",null,{"className":"markdown-body","dangerouslySetInnerHTML":{"__html":"$6"},"sx":{"& pre":{"borderRadius":1,"overflow":"auto"},"& code":{"fontSize":"0.875rem"},"& img":{"maxWidth":"100%"}}}]]}],["$L7","$L8"],"$L9"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Kg6fYT72oyAhhDzmPEs0W"}
+7:["$","link","0",{"rel":"stylesheet","href":"/docs/_next/static/chunks/0apzrrrxeu37_.css","precedence":"next"}]
+8:["$","script","script-0",{"src":"/docs/_next/static/chunks/16jn7dbkl9nfq.js","async":true}]
+9:["$","$La",null,{"children":["$","$b",null,{"name":"Next.MetadataOutlet","children":"$@c"}]}]
+c:null
