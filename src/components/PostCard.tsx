@@ -41,8 +41,7 @@ export default function PostCard({ post }: PostCardProps) {
             <Typography
               variant="caption"
               color="text.disabled"
-              display="block"
-              sx={{ mb: 1.5 }}
+              sx={{ mb: 1.5, display: "block" }}
             >
               {new Date(post.date).toLocaleDateString("en-IN", {
                 year: "numeric",
