@@ -17,10 +17,6 @@ export interface Post {
   content: string;
 }
 
-export interface PostWithContent extends Post {
-  contentHtml: string;
-}
-
 // Used on the home page — no content needed
 export function getAllPosts(): Omit<Post, "content">[] {
   const files = fs.readdirSync(contentDir);
@@ -42,7 +38,7 @@ export function getAllPosts(): Omit<Post, "content">[] {
 }
 
 // Used on the individual post page — parses markdown to HTML
-export async function getPostBySlug(slug: string): Promise<PostWithContent> {
+export async function getPostBySlug(slug: string): Promise<Post> {
   const fullPath = path.join(contentDir, `${slug}.md`);
   const raw = fs.readFileSync(fullPath, "utf-8");
   const { data, content } = matter(raw);
@@ -59,7 +55,7 @@ export async function getPostBySlug(slug: string): Promise<PostWithContent> {
     description: data.description ?? "",
     date: data.date ?? "",
     tags: data.tags ?? [],
-    contentHtml: processed.toString(),
+    content: processed.toString(),
   };
 }
 

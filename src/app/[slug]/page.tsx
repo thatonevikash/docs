@@ -48,7 +48,7 @@ export default async function BlogPost({ params }: PageProps) {
       {/* Markdown content — github-markdown-css styles this */}
       <Box
         className="markdown-body"
-        dangerouslySetInnerHTML={{ __html: post.contentHtml }}
+        dangerouslySetInnerHTML={{ __html: post.content }}
         sx={{
           "& pre": { borderRadius: 1, overflow: "auto" },
           "& code": { fontSize: "0.875rem" },
