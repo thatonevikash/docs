@@ -5,9 +5,6 @@ const theme = createTheme({
   palette: { mode: "light" },
   typography: {
     fontFamily: "var(--font-geist-sans), Arial, sans-serif",
-    code: {
-      fontFamily: "var(--font-geist-mono), monospace",
-    },
   },
 });
 
