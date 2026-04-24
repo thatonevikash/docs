@@ -24,7 +24,7 @@ export interface Post {
 }
 
 // Used on the home page — no content needed
-export function getAllPosts(): Omit<Post, "content", "social">[] {
+export function getAllPosts(): Omit<Post, "content" | "social">[] {
   const files = fs.readdirSync(contentDir);
   return files
     .filter((f) => f.endsWith(".md"))

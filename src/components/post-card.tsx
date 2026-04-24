@@ -14,7 +14,7 @@ import Link from "next/link";
 import type { Post } from "@/lib/posts";
 
 interface PostCardProps {
-  post: Omit<Post, "content">;
+  post: Omit<Post, "content" | "social">;
 }
 
 export function PostCard({ post }: PostCardProps) {
