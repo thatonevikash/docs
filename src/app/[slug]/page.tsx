@@ -20,7 +20,7 @@ export default async function BlogPost({ params }: PageProps) {
     <Container maxWidth="sm" sx={{ py: 6 }}>
       {/* Header */}
       <Box sx={{ mb: 4 }}>
-        <Typography variant="h4" fontWeight={500} gutterBottom>
+        <Typography variant="h4" sx={{ fontWeight: 500 }} gutterBottom>
           {post.title}
         </Typography>
 
@@ -28,8 +28,7 @@ export default async function BlogPost({ params }: PageProps) {
           <Typography
             variant="caption"
             color="text.disabled"
-            display="block"
-            sx={{ mb: 1.5 }}
+            sx={{ display: "block", mb: 1.5 }}
           >
             {new Date(post.date).toLocaleDateString("en-IN", {
               year: "numeric",

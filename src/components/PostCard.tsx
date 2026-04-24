@@ -27,7 +27,7 @@ export default function PostCard({ post }: PostCardProps) {
         sx={{ flexGrow: 1, alignItems: "flex-start", display: "flex" }}
       >
         <CardContent sx={{ width: "100%" }}>
-          <Typography variant="h6" fontWeight={500} gutterBottom>
+          <Typography variant="h6" sx={{ fontWeight: 500 }} gutterBottom>
             {post.title}
           </Typography>
 

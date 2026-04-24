@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <Container maxWidth="lg" sx={{ py: 6 }}>
       <Box sx={{ mb: 5 }}>
-        <Typography variant="h4" fontWeight={600} gutterBottom>
+        <Typography variant="h4" sx={{ fontWeight: 600 }} gutterBottom>
           thatonevikash
           <Box component="span" sx={{ color: "text.secondary" }}>
             /docs
