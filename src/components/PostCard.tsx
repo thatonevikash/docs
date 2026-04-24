@@ -12,7 +12,7 @@ import Link from "next/link";
 import type { Post } from "@/lib/posts";
 
 interface PostCardProps {
-  post: Post;
+  post: Omit<Post, "content">;
 }
 
 export default function PostCard({ post }: PostCardProps) {
