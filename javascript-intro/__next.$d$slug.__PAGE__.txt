@@ -1,0 +1,197 @@
+1:"$Sreact.fragment"
+2:I[66919,["/docs/_next/static/chunks/0ruq.vn2t9va1.js","/docs/_next/static/chunks/0d.e2voopfi.j.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js","/docs/_next/static/chunks/0109au5sf364x.js","/docs/_next/static/chunks/0_u6~eqg.bm5h.js"],"default"]
+3:I[36729,["/docs/_next/static/chunks/0ruq.vn2t9va1.js","/docs/_next/static/chunks/0d.e2voopfi.j.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js","/docs/_next/static/chunks/0109au5sf364x.js","/docs/_next/static/chunks/0_u6~eqg.bm5h.js"],"default"]
+4:I[53488,["/docs/_next/static/chunks/0ruq.vn2t9va1.js","/docs/_next/static/chunks/0d.e2voopfi.j.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js","/docs/_next/static/chunks/0109au5sf364x.js","/docs/_next/static/chunks/0_u6~eqg.bm5h.js"],"default"]
+5:I[5573,["/docs/_next/static/chunks/0ruq.vn2t9va1.js","/docs/_next/static/chunks/0d.e2voopfi.j.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js","/docs/_next/static/chunks/0109au5sf364x.js","/docs/_next/static/chunks/0_u6~eqg.bm5h.js"],"default"]
+6:I[23262,["/docs/_next/static/chunks/0ruq.vn2t9va1.js","/docs/_next/static/chunks/0d.e2voopfi.j.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js","/docs/_next/static/chunks/0109au5sf364x.js","/docs/_next/static/chunks/0_u6~eqg.bm5h.js"],"default"]
+7:I[32073,["/docs/_next/static/chunks/0ruq.vn2t9va1.js","/docs/_next/static/chunks/0d.e2voopfi.j.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js","/docs/_next/static/chunks/0109au5sf364x.js","/docs/_next/static/chunks/0_u6~eqg.bm5h.js"],"default"]
+8:I[55534,["/docs/_next/static/chunks/0ruq.vn2t9va1.js","/docs/_next/static/chunks/0d.e2voopfi.j.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js","/docs/_next/static/chunks/0109au5sf364x.js","/docs/_next/static/chunks/0_u6~eqg.bm5h.js"],"default"]
+9:I[84244,["/docs/_next/static/chunks/0ruq.vn2t9va1.js","/docs/_next/static/chunks/0d.e2voopfi.j.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js","/docs/_next/static/chunks/0109au5sf364x.js","/docs/_next/static/chunks/0_u6~eqg.bm5h.js"],"default"]
+a:I[29086,["/docs/_next/static/chunks/0ruq.vn2t9va1.js","/docs/_next/static/chunks/0d.e2voopfi.j.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js","/docs/_next/static/chunks/0109au5sf364x.js","/docs/_next/static/chunks/0_u6~eqg.bm5h.js"],"default"]
+b:I[75611,["/docs/_next/static/chunks/0ruq.vn2t9va1.js","/docs/_next/static/chunks/0d.e2voopfi.j.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js","/docs/_next/static/chunks/0109au5sf364x.js","/docs/_next/static/chunks/0_u6~eqg.bm5h.js"],"default"]
+c:I[80874,["/docs/_next/static/chunks/0ruq.vn2t9va1.js","/docs/_next/static/chunks/0d.e2voopfi.j.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js","/docs/_next/static/chunks/0109au5sf364x.js","/docs/_next/static/chunks/0_u6~eqg.bm5h.js"],"default"]
+12:I[97367,["/docs/_next/static/chunks/0ruq.vn2t9va1.js","/docs/_next/static/chunks/0d.e2voopfi.j.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
+13:"$Sreact.suspense"
+:HL["/docs/_next/static/chunks/0apzrrrxeu37_.css","style"]
+d:T2680,<h2>JavaScript</h2>
+<p><strong>JavaScript: The dynamic language of the web.</strong></p>
+<p>JavaScript is a programming language that brings web pages to life.
+It's the core technology of the web, working alongside HTML and CSS.
+While HTML structures the content and CSS styles it.
+JavaScript adds <em>interactivity</em> and <em>dynamic behaviour</em>.</p>
+<hr>
+<h3>What can we do with JavaScript ?</h3>
+<ul>
+<li><strong>Create interactive elements</strong>: <code>button</code>s, <code>menu</code>s, <code>slider</code>s, etc.</li>
+<li><strong>Animate graphics and images</strong>: Create engaging visual effects.</li>
+<li><strong>Update content dynamically</strong>: Load new data without reloading the page.</li>
+<li><strong>Build web applications</strong>: Complex applications like online stores, social media platforms.</li>
+<li><strong>Develop server side applications</strong>: Using Node.js, you can create backend systems.</li>
+</ul>
+<h3>Key characterstics of JavaScript</h3>
+<ul>
+<li><strong>Lightweight and Interpreted</strong>: It runs directly in the browser without needing compilation.</li>
+<li><strong>Cross-Platform</strong>: Works on different operating systems and browsers.</li>
+<li><strong>Object-Oriented</strong>: Supports object-based programming for code organization.</li>
+<li><strong>Dynamically types</strong>: You don't need to specify data types beforehand.</li>
+</ul>
+<h2>History of JavaScript</h2>
+<h3>Birth of JavaScript</h3>
+<ul>
+<li>
+<p><strong>1995</strong><em>Brenden Eich</em>, a programmer at <strong>Netscape Communication</strong>, created JavaScript in a mere 10 days. Initially named <strong>Mocha</strong>, it was later renamed <strong>LiveScript</strong> and finally <strong>JavaScript</strong> to capitalize on the popularity of <strong>Java</strong> at the time.</p>
+</li>
+<li>
+<p><strong>Purpose</strong>Designed to add interactivity to static HTML pages, JavaScript brought life to the web.</p>
+</li>
+</ul>
+<h3>Early years and Browser's war</h3>
+<ul>
+<li>
+<p><strong>1996 - 1997</strong>JavaScript gained rapid adoption with <strong>Netscape Navigator</strong> and <strong>Internet Explorer</strong> becoming the dominant browsers.</p>
+</li>
+<li>
+<p><strong>Browser wars</strong>Intense competiton between <strong>Netscape</strong> and <strong>Microsoft</strong> led to different JavaScript implementations, causing compatiblity issues.</p>
+</li>
+<li>
+<p><strong>ECMAScript</strong>To standardize the language, <em>ECMA International</em> created <strong>ECMAScript</strong>, a specification for JavaScript.</p>
+</li>
+</ul>
+<h3>Growth and Maturity</h3>
+<ul>
+<li>
+<p><strong>1997 - 2000</strong>The Document Object Model ( <strong>DOM</strong> ) and Dynamic HTML ( <strong>DHTML</strong> ) emerged, expanding JavaScript capablities.</p>
+</li>
+<li>
+<p><strong>2006 - 2010</strong><strong>jquery</strong> and other libraries simplified JavaScript development and popularized its use.</p>
+</li>
+<li>
+<p><strong>2009 - 2015</strong>ECMAScript 5 and 6 introduced significant improvements, making JavaScript a more robust language.</p>
+</li>
+</ul>
+<h3>Modern JavaScript</h3>
+<ul>
+<li>
+<p><strong>2015 onwards</strong>JavaScript has evolved rapidly, becoming a full-fledge language for building complex applications.</p>
+</li>
+<li>
+<p><strong>Node.js</strong>Revolutionized server-side development with JavaScript, enabling full stack development.</p>
+</li>
+<li>
+<p><strong>Frameworks and Libraries</strong>React, Angular, Vue, and others emerged, providing powerful tools for building user interfaces.</p>
+</li>
+</ul>
+<h2>Creation of server-side JavaScript</h2>
+<p>While JavaScript initially designed for the client-side, its versatility and popularity led to its expansion into server-side development.</p>
+<h3>Early attempts</h3>
+<ul>
+<li>
+<p><strong>Before Node.js</strong>Several attempts were made to run JavaScript on the server, but they lacked widespread adoption.</p>
+</li>
+<li>
+<p><strong>Challenges</strong>Performance, scalablity, and ecosystem limitations hindered these early efforts.</p>
+</li>
+</ul>
+<h3>The rise of Node.js</h3>
+<ul>
+<li>
+<p><strong>2009</strong><em>Ryan Dahl</em> released Node.js, a JavaScript runtime built on chrome's V8 Javascript engine.</p>
+</li>
+<li>
+<p><strong>Event-driven architecture</strong>Node.js's non-blocking, event-driven approach made it highly efficient for handling concurrent connections.</p>
+</li>
+<li>
+<p><strong>Package ecosystem</strong> ( <strong>npm</strong> )A vast collection of reusable modules accelerated development.</p>
+</li>
+<li>
+<p><strong>Full-Stack JavaScript</strong>Developers could now use JavaScript for both front-end and back-end development.</p>
+</li>
+</ul>
+<h3>Impact of Node.js</h3>
+<ul>
+<li>
+<p><strong>Rapid growth</strong>Node.js gained immense popularity, becoming a preferred choice for server-side development</p>
+</li>
+<li>
+<p><strong>Diverse application</strong>Used for web servers, real-time applications, APIs, and more.</p>
+</li>
+<li>
+<p><strong>Ecosystem expansion</strong>A thriving ecosystem of frameworks, libraries, and tools emerged.</p>
+</li>
+</ul>
+<h3>Beyond Node.js</h3>
+<ul>
+<li>
+<p><strong>Other options</strong>While Node.js dominates the server-side JavaScript landscape, alternatives like Deno have emerged.</p>
+</li>
+<li>
+<p><strong>Continued evolution</strong>JavaScript and Node.js are constantly evolving, with new features and improvements enhancing their capablities.</p>
+</li>
+</ul>
+<h1>You have to know!</h1>
+<h3>What is the difference between a normal text file and a source code file ?</h3>
+<p>Lets create a file as <code>test.js</code></p>
+<pre><code class="hljs language-js"><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">"vikash"</span>);
+</code></pre>
+<p>Inside the <code>test.js</code> file we have <code>console.log("vikash")</code> and each word has specific task or meaning on the programming.
+<code>console</code> does a specific task when the source code executed on the software.</p>
+<p>Lets create another file as <code>test.txt</code></p>
+<pre><code>console.log("vikash")
+</code></pre>
+<p>But the main thing, which file can be executed, when we inject them into a software ( <code>compiler</code>/<code>interpreter</code> ).
+This software has a task to identify the extension of file and perform actions according to the written source code.</p>
+<p>Every programming language has a syntax to write their source code and every programming language comes with their extension.
+eg. <code>.js</code>, <code>.java</code>, <code>.cpp</code>, <code>.py</code> and so on..</p>
+<h3>Old style vs New style of learning JavaScript</h3>
+<p>In early days, People runs script using a HTML file.
+They just simply create an <code>index.html</code> file and inside it they start a <code>&#x3C;script></code> tag for writing Javascript.</p>
+<pre><code class="hljs language-html"><span class="hljs-meta">&#x3C;!DOCTYPE <span class="hljs-keyword">html</span>></span>
+<span class="hljs-tag">&#x3C;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>></span>
+  <span class="hljs-tag">&#x3C;<span class="hljs-name">head</span>></span>
+    <span class="hljs-tag">&#x3C;<span class="hljs-name">title</span>></span>Document<span class="hljs-tag">&#x3C;/<span class="hljs-name">title</span>></span>
+  <span class="hljs-tag">&#x3C;/<span class="hljs-name">head</span>></span>
+  <span class="hljs-tag">&#x3C;<span class="hljs-name">body</span>></span>
+    <span class="hljs-tag">&#x3C;<span class="hljs-name">script</span>></span><span class="javascript">
+      <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">"Hello world!"</span>);
+    </span><span class="hljs-tag">&#x3C;/<span class="hljs-name">script</span>></span>
+  <span class="hljs-tag">&#x3C;/<span class="hljs-name">body</span>></span>
+<span class="hljs-tag">&#x3C;/<span class="hljs-name">html</span>></span>
+</code></pre>
+<p>and executes the HTML file on the browser.
+Because JavaScript is hidden inside for a long time in the browser.</p>
+<p>But in the recent past
+It emerged from the browser by <em>Ryan Dahl</em>.</p>
+<p>Nowadays, we can execute our JavaScript code standalone like <code>python</code>, <code>java</code>, <code>c++</code> code.</p>
+<h3>Lets talk about PC configuration and Softwares to run JavaScript</h3>
+<p>For running JavaScript, There is no any higher requirement. We can run our code directly on the browser.</p>
+<ol>
+<li>
+<p>Directly on browser's console</p>
+</li>
+<li>
+<p>Install a runtime for JavaScript like <code>node.js</code>
+Once you download and installing, confirm it.</p>
+<pre><code class="hljs language-bash">node -v
+</code></pre>
+</li>
+<li>
+<p>Install a code editor ( IDE ) like <code>vs code</code>
+VS code is an IDE ( Integrated Development Environment ) provides multiple features like <strong>auto indentation</strong>, <strong>code suggestion</strong>, <strong>Extension supports</strong>, File tracking using <strong>git</strong> and <strong>GitHub</strong>, <strong>Integrated Terminal</strong>.</p>
+</li>
+</ol>
+<h3>Run your first JavaScript file</h3>
+<p>Create a directory where you want to store your JavaScript file, open it in vs code.</p>
+<p>Lets create a file as <code>test.js</code> and write some code</p>
+<pre><code class="hljs language-js"><span class="hljs-comment">// test.js</span>
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">"hello world!"</span>);
+</code></pre>
+<p>Now look on the top of the vs code you will find Terminal, create a new terminal and execute the source file</p>
+<pre><code class="hljs language-bash">node test.js
+</code></pre>
+<h4>Written with 💖 by <em>thatonevikash</em>!</h4>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"maxWidth":"sm","sx":{"py":6},"children":[["$","$L3",null,{"sx":{"position":"relative","border":"1px solid","borderColor":"divider","borderRadius":2,"p":3,"mb":5,"overflow":"hidden","&::before":{"content":"\"\"","position":"absolute","left":0,"top":0,"bottom":0,"width":3,"bgcolor":"primary.main","borderRadius":"0 2px 2px 0"}},"children":[["$","$L4",null,{"variant":"caption","sx":{"color":"text.disabled","letterSpacing":"0.04em","fontVariantNumeric":"tabular-nums","display":"block","mb":1.5},"children":"9 November 2024"}],["$","$L4",null,{"variant":"h4","sx":{"fontWeight":600,"letterSpacing":"-0.02em","lineHeight":1.3,"mb":2},"children":"JavaScript Basics"}],["$","$L3",null,{"sx":{"display":"flex","gap":0.75,"flexWrap":"wrap","mb":3},"children":[["$","$L5","coding",{"label":"coding","size":"small","variant":"filled","sx":{"bgcolor":"action.hover","color":"text.secondary","fontSize":"0.7rem","height":22,"fontWeight":500,"& .MuiChip-label":{"px":1}}}],["$","$L5","What is the right path?",{"label":"What is the right path?","size":"small","variant":"filled","sx":{"bgcolor":"action.hover","color":"text.secondary","fontSize":"0.7rem","height":22,"fontWeight":500,"& .MuiChip-label":{"px":1}}}]]}],["$","$L6",null,{"sx":{"mx":-3,"mb":2.5}}],["$","$L3",null,{"sx":{"display":"flex","alignItems":"center","justifyContent":"space-between"},"children":[["$","$L3",null,{"sx":{"display":"flex","alignItems":"center","gap":1},"children":[["$","$L7",null,{"sx":{"width":28,"height":28,"fontSize":"0.7rem","fontWeight":700,"bgcolor":"primary.main"},"children":"T"}],["$","$L3",null,{"children":[["$","$L4",null,{"variant":"caption","sx":{"color":"text.disabled","display":"block","lineHeight":1},"children":"Written by"}],["$","$L4",null,{"variant":"body2","sx":{"fontWeight":600,"lineHeight":1.4},"children":"thatonevikash"}]]}]]}],["$","$L3",null,{"sx":{"display":"flex","gap":0.25},"children":[["$","$L8",null,{"title":"GitHub","arrow":true,"children":["$","$L9",null,{"size":"small","component":"a","href":"https://github.com/thatonevikash","target":"_blank","rel":"noopener noreferrer","aria-label":"GitHub profile","sx":{"color":"text.secondary","transition":"color 0.15s ease, transform 0.15s ease","&:hover":{"color":"text.primary","bgcolor":"transparent"}},"children":["$","$La",null,{"sx":{"fontSize":18}}]}]}],["$","$L8",null,{"title":"LinkedIn","arrow":true,"children":["$","$L9",null,{"size":"small","component":"a","href":"https://www.linkedin.com/in/thatonevikash/","target":"_blank","rel":"noopener noreferrer","aria-label":"LinkedIn profile","sx":{"color":"text.secondary","transition":"color 0.15s ease, transform 0.15s ease","&:hover":{"color":"#0A66C2","bgcolor":"transparent"}},"children":["$","$Lb",null,{"sx":{"fontSize":18}}]}]}],["$","$L8",null,{"title":"X (Twitter)","arrow":true,"children":["$","$L9",null,{"size":"small","component":"a","href":"https://x.com/thatonevikash","target":"_blank","rel":"noopener noreferrer","aria-label":"X profile","sx":{"color":"text.secondary","transition":"color 0.15s ease, transform 0.15s ease","&:hover":{"color":"text.primary","bgcolor":"transparent"}},"children":["$","$Lc",null,{"sx":{"fontSize":18}}]}]}]]}]]}]]}],["$","$L3",null,{"className":"markdown-body","dangerouslySetInnerHTML":{"__html":"$d"},"sx":{"& pre":{"borderRadius":1,"overflow":"auto"},"& code":{"fontSize":"0.875rem"},"& img":{"maxWidth":"100%"}}}]]}],["$Le","$Lf","$L10"],"$L11"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"XCg9BOjW482q6TJ7Sk1tT"}
+e:["$","link","0",{"rel":"stylesheet","href":"/docs/_next/static/chunks/0apzrrrxeu37_.css","precedence":"next"}]
+f:["$","script","script-0",{"src":"/docs/_next/static/chunks/0109au5sf364x.js","async":true}]
+10:["$","script","script-1",{"src":"/docs/_next/static/chunks/0_u6~eqg.bm5h.js","async":true}]
+11:["$","$L12",null,{"children":["$","$13",null,{"name":"Next.MetadataOutlet","children":"$@14"}]}]
+14:null

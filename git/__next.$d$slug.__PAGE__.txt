@@ -1,10 +1,282 @@
 1:"$Sreact.fragment"
-2:I[66919,["/docs/_next/static/chunks/12on2ckv04d45.js","/docs/_next/static/chunks/0ph4z_57~uj41.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js","/docs/_next/static/chunks/16jn7dbkl9nfq.js"],"default"]
-3:I[36729,["/docs/_next/static/chunks/12on2ckv04d45.js","/docs/_next/static/chunks/0ph4z_57~uj41.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js","/docs/_next/static/chunks/16jn7dbkl9nfq.js"],"default"]
-4:I[53488,["/docs/_next/static/chunks/12on2ckv04d45.js","/docs/_next/static/chunks/0ph4z_57~uj41.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js","/docs/_next/static/chunks/16jn7dbkl9nfq.js"],"default"]
-5:I[5573,["/docs/_next/static/chunks/12on2ckv04d45.js","/docs/_next/static/chunks/0ph4z_57~uj41.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js","/docs/_next/static/chunks/16jn7dbkl9nfq.js"],"default"]
-6:I[97367,["/docs/_next/static/chunks/12on2ckv04d45.js","/docs/_next/static/chunks/0ph4z_57~uj41.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
-7:"$Sreact.suspense"
+2:I[66919,["/docs/_next/static/chunks/0ruq.vn2t9va1.js","/docs/_next/static/chunks/0d.e2voopfi.j.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js","/docs/_next/static/chunks/0109au5sf364x.js","/docs/_next/static/chunks/0_u6~eqg.bm5h.js"],"default"]
+3:I[36729,["/docs/_next/static/chunks/0ruq.vn2t9va1.js","/docs/_next/static/chunks/0d.e2voopfi.j.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js","/docs/_next/static/chunks/0109au5sf364x.js","/docs/_next/static/chunks/0_u6~eqg.bm5h.js"],"default"]
+4:I[53488,["/docs/_next/static/chunks/0ruq.vn2t9va1.js","/docs/_next/static/chunks/0d.e2voopfi.j.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js","/docs/_next/static/chunks/0109au5sf364x.js","/docs/_next/static/chunks/0_u6~eqg.bm5h.js"],"default"]
+5:I[5573,["/docs/_next/static/chunks/0ruq.vn2t9va1.js","/docs/_next/static/chunks/0d.e2voopfi.j.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js","/docs/_next/static/chunks/0109au5sf364x.js","/docs/_next/static/chunks/0_u6~eqg.bm5h.js"],"default"]
+6:I[23262,["/docs/_next/static/chunks/0ruq.vn2t9va1.js","/docs/_next/static/chunks/0d.e2voopfi.j.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js","/docs/_next/static/chunks/0109au5sf364x.js","/docs/_next/static/chunks/0_u6~eqg.bm5h.js"],"default"]
+7:I[32073,["/docs/_next/static/chunks/0ruq.vn2t9va1.js","/docs/_next/static/chunks/0d.e2voopfi.j.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js","/docs/_next/static/chunks/0109au5sf364x.js","/docs/_next/static/chunks/0_u6~eqg.bm5h.js"],"default"]
+8:I[55534,["/docs/_next/static/chunks/0ruq.vn2t9va1.js","/docs/_next/static/chunks/0d.e2voopfi.j.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js","/docs/_next/static/chunks/0109au5sf364x.js","/docs/_next/static/chunks/0_u6~eqg.bm5h.js"],"default"]
+9:I[84244,["/docs/_next/static/chunks/0ruq.vn2t9va1.js","/docs/_next/static/chunks/0d.e2voopfi.j.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js","/docs/_next/static/chunks/0109au5sf364x.js","/docs/_next/static/chunks/0_u6~eqg.bm5h.js"],"default"]
+a:I[29086,["/docs/_next/static/chunks/0ruq.vn2t9va1.js","/docs/_next/static/chunks/0d.e2voopfi.j.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js","/docs/_next/static/chunks/0109au5sf364x.js","/docs/_next/static/chunks/0_u6~eqg.bm5h.js"],"default"]
+b:I[75611,["/docs/_next/static/chunks/0ruq.vn2t9va1.js","/docs/_next/static/chunks/0d.e2voopfi.j.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js","/docs/_next/static/chunks/0109au5sf364x.js","/docs/_next/static/chunks/0_u6~eqg.bm5h.js"],"default"]
+c:I[80874,["/docs/_next/static/chunks/0ruq.vn2t9va1.js","/docs/_next/static/chunks/0d.e2voopfi.j.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js","/docs/_next/static/chunks/0109au5sf364x.js","/docs/_next/static/chunks/0_u6~eqg.bm5h.js"],"default"]
+12:I[97367,["/docs/_next/static/chunks/0ruq.vn2t9va1.js","/docs/_next/static/chunks/0d.e2voopfi.j.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
+13:"$Sreact.suspense"
 :HL["/docs/_next/static/chunks/0apzrrrxeu37_.css","style"]
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"maxWidth":"sm","sx":{"py":6},"children":[["$","$L3",null,{"sx":{"mb":4},"children":[["$","$L4",null,{"variant":"h4","sx":{"fontWeight":500},"gutterBottom":true,"children":"Git"}],["$","$L4",null,{"variant":"caption","color":"text.disabled","sx":{"display":"block","mb":1.5},"children":"16 January 2024"}],["$","$L3",null,{"sx":{"display":"flex","gap":0.5,"flexWrap":"wrap"},"children":[["$","$L5","hello",{"label":"hello","size":"small","variant":"outlined"}],["$","$L5","about git",{"label":"about git","size":"small","variant":"outlined"}]]}]]}],["$","$L3",null,{"className":"markdown-body","dangerouslySetInnerHTML":{"__html":"<h1>What is Git?</h1>\n<p>Its time to learn about git</p>\n<h2>Welcome to the page</h2>\n<pre><code class=\"hljs language-jsx\"><span class=\"hljs-variable language_\">console</span>.<span class=\"hljs-title function_\">log</span>(<span class=\"hljs-string\">\"Git\"</span>);\n</code></pre>"},"sx":{"& pre":{"borderRadius":1,"overflow":"auto"},"& code":{"fontSize":"0.875rem"},"& img":{"maxWidth":"100%"}}}]]}],[["$","link","0",{"rel":"stylesheet","href":"/docs/_next/static/chunks/0apzrrrxeu37_.css","precedence":"next"}],["$","script","script-0",{"src":"/docs/_next/static/chunks/16jn7dbkl9nfq.js","async":true}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Kg6fYT72oyAhhDzmPEs0W"}
-8:null
+d:T2f35,<h2>Git</h2>
+<p><strong>Git</strong> is a distributed version control system that allows developers to track changes in source code during software development.
+Created by <em>Linus Torvalds</em> in 2005, it helps manage project history, collaborate with others, and roll back to previous versions if needed.
+Git stores data as snapshots of the entire project, unlike traditional systems that track file-by-file changes.</p>
+<h3>Key feature of Git</h3>
+<ul>
+<li><strong>Branching</strong>: Developers can create branches to experiment with changes without affecting the main codebase.</li>
+<li><strong>Merging</strong>: Combines changes from different branches or developers.</li>
+<li><strong>Commit history</strong>: Records snapshots of changes, enabling easy tracking of project progress.</li>
+<li><strong>Collaboration</strong>: Supports teamwork by allowing multiple contributors to work on the same project from different locations.</li>
+</ul>
+<h3>Let's setup Git</h3>
+<p><strong>Windows</strong>: <strong><a href="https://git-scm.com/downloads/win">Download Git</a></strong> and run the installer. You can use the default settings.
+<strong>MacOS</strong>: Git is usually pre-installed. If not, install it using Homebrew</p>
+<pre><code class="hljs language-bash">brew install git
+</code></pre>
+<p><strong>Linux</strong>: Install using your package manager, like this.</p>
+<pre><code class="hljs language-bash"><span class="hljs-built_in">sudo</span> apt update
+<span class="hljs-built_in">sudo</span> apt install git
+</code></pre>
+<h4>Configure Git</h4>
+<pre><code class="hljs language-bash">git config --global user.name <span class="hljs-string">"Your Name"</span>
+git config --global user.email <span class="hljs-string">"you@example.com"</span>
+</code></pre>
+<blockquote>
+<p>[!NOTE]<br>
+Check your configuration with:\</p>
+<pre><code class="hljs language-bash">git config --list
+</code></pre>
+</blockquote>
+<p><strong>Finally, Git configured</strong> 🤓
+Now you can use git commands to upload your code into GitHub codebase.</p>
+<blockquote>
+<p>[!WARNING]<br>
+Wait... Have you logged in at GitHub? No 😅
+What are you waiting for, create an account on GitHub with the registered <code>email</code> and <code>username</code> as per Git config.</p>
+<p>Rather then create an account on <strong>GitHub</strong> then config <strong>Git</strong></p>
+</blockquote>
+<h3>Initialize a Repository</h3>
+<p><strong>Don't be confused</strong> 😵
+Repository is noting just a folder. In which your all the code will be stored.</p>
+<p><strong>Let's upload your first project to the GitHub codebase</strong>
+Create an empty folder ( eg. github-demo )</p>
+<p>And open it with any code editor. I'm going with VS code.</p>
+<p>You can use in-built source control 😉
+<img src="internals/git/git-control.png" alt="git-control"></p>
+<p><strong>Using Git with command lines is really fun</strong></p>
+<p>Let's create a basic website.</p>
+<p>Open up terminal or press <code>ctrl</code> + `</p>
+<pre><code class="hljs language-bash"><span class="hljs-built_in">touch</span> index.html
+</code></pre>
+<p>Write the boiler plate code using <code>shift</code> + <code>!</code></p>
+<pre><code class="hljs language-html"><span class="hljs-tag">&#x3C;<span class="hljs-name">h1</span>></span>Hello world!<span class="hljs-tag">&#x3C;/<span class="hljs-name">h1</span>></span>
+</code></pre>
+<p>Open it using live server.</p>
+<blockquote>
+<p>[!NOTE]<br>
+It is not necessary that you will have to initialize project before starting the project.</p>
+</blockquote>
+<p>Let's initialize now!</p>
+<pre><code class="hljs language-bash">git init
+</code></pre>
+<blockquote>
+<p>[!IMPORTANT]<br>
+<code>.gitignore</code> file will help you to ignore any file or directory from tracking</p>
+<pre><code class="hljs language-bash">README.md
+package.json
+node_modules
+</code></pre>
+<p>You will see, now <code>index.html</code> is tracked by git.</p>
+</blockquote>
+<pre><code class="hljs language-bash">git add .
+
+git commit -m<span class="hljs-string">"first commit"</span>
+</code></pre>
+<p>Create a repo on GitHub ( eg. demo )</p>
+<pre><code class="hljs language-bash">git remote add origin https://github.com/username/demo.git
+
+git branch -M main
+
+git push -u origin main
+</code></pre>
+<h3>Git Commands</h3>
+<p>Before deep diving to git commands learn the tracking flow.
+<img src="internals/git/git-track-process.png" alt="alt text"></p>
+<pre><code class="hljs language-bash"><span class="hljs-comment"># add all untracked files</span>
+git add .
+</code></pre>
+<pre><code class="hljs language-bash"><span class="hljs-comment"># take a snapshot of tracked files with a message</span>
+git commit -m<span class="hljs-string">"message"</span>
+</code></pre>
+<blockquote>
+<p>[!NOTE]<br>
+<code>-m</code> flag is used to add commit message</p>
+</blockquote>
+<pre><code class="hljs language-bash"><span class="hljs-comment"># upload the tracked files to codebase</span>
+git push
+</code></pre>
+<h3>Branching</h3>
+<p>Before learning <em>branching</em> 🔍 have a look on the previous code pushing flow.
+<img src="internals/git/code-flow.png" alt="code flow"></p>
+<p>There will not be any complication because — "<em>you have only one branch that is</em> <code>main</code> <em>branch</em>" 😅</p>
+<pre><code class="hljs language-bash"><span class="hljs-comment"># list all branch</span>
+git branch
+</code></pre>
+<blockquote>
+<p>[!IMPORTANT]<br>
+It will not preview all the branches that are on remote</p>
+</blockquote>
+<p><strong>Create a branch</strong></p>
+<pre><code class="hljs language-bash">git branch &#x3C;branch-name>
+</code></pre>
+<p>Now, You can list all branches using <code>git branch</code></p>
+<p>You have learnt that how to create branch.
+What is the usecase of it? 🧐</p>
+<p><strong>Branch</strong>, is like a separate copy of your local codebase, in the same local setup.</p>
+<p>When there is only one branch that is <code>main</code>, your all <code>commit</code>s will be pushed to <code>main</code>.
+<img src="internals/git/only-main.png" alt="only main"></p>
+<p><strong>Let's discuss the usecase</strong> 🤓
+Working in a team means multiple local setup. Which mean multiple collaborator to push code.
+But there is a problem with many collaborator.</p>
+<p><img src="internals/git/conflict-1.png" alt="conflict with single branch">
+Here is the breakdown, <code>User_1</code> has pushed his commit before <code>User_2</code> on the <code>main</code> branch.
+But the <code>User_2</code> still in initial commit state. His local setup is not aware of changes which is done by <code>User_1</code>.</p>
+<p><code>User_2</code>s local setup has no idea what was the change <code>User_1</code> made may be it is a adding code, creating file, modifying a file or deleting a file.</p>
+<p>Suppose, <code>User_2</code> has modified a file which is deleted or modified in second commit of <code>User_1</code>.
+And already pushed to main.</p>
+<p>The file is changed in <code>main</code> branch. If the <code>User_2</code> pushes the change. It will show a conflict.</p>
+<p>Because of modifying same file at the same line
+<img src="internals/git/confusion.png" alt="confusion"></p>
+<p>Now somehow <code>User_2</code> pushes his change to <code>main</code> next time <code>User_1</code> will have to face conflicts.</p>
+<p><strong>How branching works?</strong>
+Before creating a branch make sure you are in <code>main</code> branch. 😀</p>
+<pre><code class="hljs language-bash"><span class="hljs-comment"># create branch</span>
+git branch new-feature
+
+<span class="hljs-comment"># navigate to branch</span>
+git checkout new-feature
+</code></pre>
+<p>Alternate</p>
+<pre><code class="hljs language-bash">git checkout -b new-feature
+</code></pre>
+<blockquote>
+<p><code>-b</code> is a flag to create branch</p>
+</blockquote>
+<p>Check the current branch <code>git branch</code></p>
+<p>Now you are able to make changes on newly created branch ( eg. <code>new-feature</code> ).
+Once the changes have done, you can push the changes to remote.</p>
+<pre><code class="hljs language-bash">git add .
+
+git commit -m<span class="hljs-string">"change"</span>
+
+git push -u origin new-feature
+</code></pre>
+<blockquote>
+<p>[!WARNING]<br>
+Default upstream is set to <code>main</code></p>
+<p><code>-u</code> flag is used change the upstream so that next time when you push the code from <code>new-feature</code> branch<br>
+You can use the <code>git push</code> command.</p>
+<p><code>origin</code> creates branch on remote for current push, if not existed.</p>
+<p>Alternate</p>
+<pre><code class="hljs language-bash">git push origin main
+</code></pre>
+<p>Will push changes on remote but does not change upstream.<br>
+In this case if you switch back to main branch for few changes to push directly into main.\</p>
+<pre><code class="hljs language-bash"><span class="hljs-comment"># switch branch</span>
+git checkout main
+
+<span class="hljs-comment"># push changes from main</span>
+git push
+</code></pre>
+</blockquote>
+<p><img src="internals/git/git-branch-flow.png" alt="branch flow"></p>
+<p><strong>Work is not over yet</strong> 😉
+You have just pushed changes to new branch ( eg. <code>new-feature</code> ), It does not mean all the changes will reflect to <code>main</code> branch.</p>
+<p>What!
+— "<em>Is there any bug?</em>" 🥲</p>
+<p>Because, Your <code>new-feature</code> branch is independent.
+You will have to say the remote — my branch is done with changes, you please merge it.</p>
+<p>Kidding, Just open up your repo in GitHub and raise a <code>pull request</code>. Once it merged to <code>main</code> branch your changes will reflect on <code>main</code>.</p>
+<blockquote>
+<p>[!IMPORTANT]<br>
+Once your branch is merged to <code>main</code><br>
+You will have to update your <code>main</code> branch</p>
+<pre><code class="hljs language-bash"><span class="hljs-comment"># switch to main</span>
+git checkout main
+
+<span class="hljs-comment"># pull changes</span>
+git pull origin main
+</code></pre>
+<p>If your upstream is not changed</p>
+<pre><code class="hljs language-bash">git pull
+</code></pre>
+</blockquote>
+<p>After merge your flow will be
+<img src="internals/git/git-merged.png" alt="alt text"></p>
+<hr>
+<h3>Commands ⚡</h3>
+<pre><code class="hljs language-bash"><span class="hljs-comment"># clone</span>
+git <span class="hljs-built_in">clone</span> &#x3C;repository-url>
+
+<span class="hljs-comment"># initialize</span>
+git init
+
+<span class="hljs-comment"># check status</span>
+git status
+
+<span class="hljs-comment"># add to track</span>
+git add .
+
+<span class="hljs-comment"># take snapshot</span>
+git commit -m<span class="hljs-string">"message"</span>
+
+<span class="hljs-comment"># push changes</span>
+git push
+
+<span class="hljs-comment"># list branch</span>
+git branch
+
+<span class="hljs-comment"># create branch</span>
+git branch new-feature
+
+<span class="hljs-comment"># switch branch</span>
+git checkout new-feature
+
+<span class="hljs-comment"># create and switch branch</span>
+git checkout -b new-feature
+
+<span class="hljs-comment"># push on branch ( without modifying upstream )</span>
+git push origin new-feature
+
+<span class="hljs-comment"># push on branch ( with modifying upstram )</span>
+git push -u origin new-feature
+
+<span class="hljs-comment"># pull changes</span>
+git pull
+
+<span class="hljs-comment"># pull from branch</span>
+git pull origin new-feature
+
+<span class="hljs-comment"># check commits history</span>
+git <span class="hljs-built_in">log</span>
+
+<span class="hljs-comment"># check commits name</span>
+git <span class="hljs-built_in">log</span> --oneline
+
+<span class="hljs-comment"># delete a branch ( safe, ensures no unmerged changes )</span>
+git branch -d &#x3C;branch-name>
+
+<span class="hljs-comment"># delete a branch ( forcefully )</span>
+git branch -D &#x3C;branch-name>
+
+<span class="hljs-comment"># pluck all changes from any branch</span>
+git stash
+
+<span class="hljs-comment"># apply all plucked changes</span>
+git stash apply
+
+<span class="hljs-comment"># reset all current changes</span>
+git reset --hard
+</code></pre>
+<h4>Written with 💖 by <em>thatonevikash</em></h4>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"maxWidth":"sm","sx":{"py":6},"children":[["$","$L3",null,{"sx":{"position":"relative","border":"1px solid","borderColor":"divider","borderRadius":2,"p":3,"mb":5,"overflow":"hidden","&::before":{"content":"\"\"","position":"absolute","left":0,"top":0,"bottom":0,"width":3,"bgcolor":"primary.main","borderRadius":"0 2px 2px 0"}},"children":[["$","$L4",null,{"variant":"caption","sx":{"color":"text.disabled","letterSpacing":"0.04em","fontVariantNumeric":"tabular-nums","display":"block","mb":1.5},"children":"20 January 2025"}],["$","$L4",null,{"variant":"h4","sx":{"fontWeight":600,"letterSpacing":"-0.02em","lineHeight":1.3,"mb":2},"children":"The Git Commands"}],["$","$L3",null,{"sx":{"display":"flex","gap":0.75,"flexWrap":"wrap","mb":3},"children":[["$","$L5","Git",{"label":"Git","size":"small","variant":"filled","sx":{"bgcolor":"action.hover","color":"text.secondary","fontSize":"0.7rem","height":22,"fontWeight":500,"& .MuiChip-label":{"px":1}}}],["$","$L5","What is git?",{"label":"What is git?","size":"small","variant":"filled","sx":{"bgcolor":"action.hover","color":"text.secondary","fontSize":"0.7rem","height":22,"fontWeight":500,"& .MuiChip-label":{"px":1}}}],["$","$L5","work flow",{"label":"work flow","size":"small","variant":"filled","sx":{"bgcolor":"action.hover","color":"text.secondary","fontSize":"0.7rem","height":22,"fontWeight":500,"& .MuiChip-label":{"px":1}}}]]}],["$","$L6",null,{"sx":{"mx":-3,"mb":2.5}}],["$","$L3",null,{"sx":{"display":"flex","alignItems":"center","justifyContent":"space-between"},"children":[["$","$L3",null,{"sx":{"display":"flex","alignItems":"center","gap":1},"children":[["$","$L7",null,{"sx":{"width":28,"height":28,"fontSize":"0.7rem","fontWeight":700,"bgcolor":"primary.main"},"children":"T"}],["$","$L3",null,{"children":[["$","$L4",null,{"variant":"caption","sx":{"color":"text.disabled","display":"block","lineHeight":1},"children":"Written by"}],["$","$L4",null,{"variant":"body2","sx":{"fontWeight":600,"lineHeight":1.4},"children":"thatonevikash"}]]}]]}],["$","$L3",null,{"sx":{"display":"flex","gap":0.25},"children":[["$","$L8",null,{"title":"GitHub","arrow":true,"children":["$","$L9",null,{"size":"small","component":"a","href":"https://github.com/thatonevikash","target":"_blank","rel":"noopener noreferrer","aria-label":"GitHub profile","sx":{"color":"text.secondary","transition":"color 0.15s ease, transform 0.15s ease","&:hover":{"color":"text.primary","bgcolor":"transparent"}},"children":["$","$La",null,{"sx":{"fontSize":18}}]}]}],["$","$L8",null,{"title":"LinkedIn","arrow":true,"children":["$","$L9",null,{"size":"small","component":"a","href":"https://www.linkedin.com/in/thatonevikash/","target":"_blank","rel":"noopener noreferrer","aria-label":"LinkedIn profile","sx":{"color":"text.secondary","transition":"color 0.15s ease, transform 0.15s ease","&:hover":{"color":"#0A66C2","bgcolor":"transparent"}},"children":["$","$Lb",null,{"sx":{"fontSize":18}}]}]}],["$","$L8",null,{"title":"X (Twitter)","arrow":true,"children":["$","$L9",null,{"size":"small","component":"a","href":"https://x.com/thatonevikash","target":"_blank","rel":"noopener noreferrer","aria-label":"X profile","sx":{"color":"text.secondary","transition":"color 0.15s ease, transform 0.15s ease","&:hover":{"color":"text.primary","bgcolor":"transparent"}},"children":["$","$Lc",null,{"sx":{"fontSize":18}}]}]}]]}]]}]]}],["$","$L3",null,{"className":"markdown-body","dangerouslySetInnerHTML":{"__html":"$d"},"sx":{"& pre":{"borderRadius":1,"overflow":"auto"},"& code":{"fontSize":"0.875rem"},"& img":{"maxWidth":"100%"}}}]]}],["$Le","$Lf","$L10"],"$L11"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"XCg9BOjW482q6TJ7Sk1tT"}
+e:["$","link","0",{"rel":"stylesheet","href":"/docs/_next/static/chunks/0apzrrrxeu37_.css","precedence":"next"}]
+f:["$","script","script-0",{"src":"/docs/_next/static/chunks/0109au5sf364x.js","async":true}]
+10:["$","script","script-1",{"src":"/docs/_next/static/chunks/0_u6~eqg.bm5h.js","async":true}]
+11:["$","$L12",null,{"children":["$","$13",null,{"name":"Next.MetadataOutlet","children":"$@14"}]}]
+14:null

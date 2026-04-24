@@ -1,0 +1,390 @@
+1:"$Sreact.fragment"
+2:I[24007,["/docs/_next/static/chunks/0ruq.vn2t9va1.js","/docs/_next/static/chunks/0d.e2voopfi.j.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js"],"MuiProvider"]
+3:I[39756,["/docs/_next/static/chunks/0ruq.vn2t9va1.js","/docs/_next/static/chunks/0d.e2voopfi.j.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js"],"default"]
+4:I[37457,["/docs/_next/static/chunks/0ruq.vn2t9va1.js","/docs/_next/static/chunks/0d.e2voopfi.j.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js"],"default"]
+6:I[97367,["/docs/_next/static/chunks/0ruq.vn2t9va1.js","/docs/_next/static/chunks/0d.e2voopfi.j.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+a:I[97367,["/docs/_next/static/chunks/0ruq.vn2t9va1.js","/docs/_next/static/chunks/0d.e2voopfi.j.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js"],"ViewportBoundary"]
+c:I[97367,["/docs/_next/static/chunks/0ruq.vn2t9va1.js","/docs/_next/static/chunks/0d.e2voopfi.j.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js"],"MetadataBoundary"]
+e:I[68027,["/docs/_next/static/chunks/0ruq.vn2t9va1.js","/docs/_next/static/chunks/0d.e2voopfi.j.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js"],"default",1]
+:HL["/docs/_next/static/chunks/0jsqcxe3.fnop.css","style"]
+:HL["/docs/_next/static/media/797e433ab948586e-s.p.0.q-h669a_dqa.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/docs/_next/static/media/caa3a2e1cccd8315-s.p.16t1db8_9y2o~.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/docs/_next/static/chunks/0apzrrrxeu37_.css","style"]
+0:{"P":null,"c":["","javascript-for-beginner",""],"q":"","i":false,"f":[[["",{"children":[["slug","javascript-for-beginner","d",null],{"children":["__PAGE__",{}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/docs/_next/static/chunks/0jsqcxe3.fnop.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/docs/_next/static/chunks/0ruq.vn2t9va1.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/docs/_next/static/chunks/0d.e2voopfi.j.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/docs/_next/static/chunks/0d3shmwh5_nmn.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable","suppressHydrationWarning":true,"children":["$","body",null,{"children":["$","$L2",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","link","0",{"rel":"stylesheet","href":"/docs/_next/static/chunks/0apzrrrxeu37_.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/docs/_next/static/chunks/0109au5sf364x.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/docs/_next/static/chunks/0_u6~eqg.bm5h.js","async":true,"nonce":"$undefined"}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,null]},null,false,"$@9"]},null,false,null],["$","$1","h",{"children":[null,["$","$La",null,{"children":"$Lb"}],["$","div",null,{"hidden":true,"children":["$","$Lc",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$Ld"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$e",[["$","link","0",{"rel":"stylesheet","href":"/docs/_next/static/chunks/0jsqcxe3.fnop.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"XCg9BOjW482q6TJ7Sk1tT"}
+f:[]
+9:"$Wf"
+10:I[66919,["/docs/_next/static/chunks/0ruq.vn2t9va1.js","/docs/_next/static/chunks/0d.e2voopfi.j.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js","/docs/_next/static/chunks/0109au5sf364x.js","/docs/_next/static/chunks/0_u6~eqg.bm5h.js"],"default"]
+11:I[36729,["/docs/_next/static/chunks/0ruq.vn2t9va1.js","/docs/_next/static/chunks/0d.e2voopfi.j.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js","/docs/_next/static/chunks/0109au5sf364x.js","/docs/_next/static/chunks/0_u6~eqg.bm5h.js"],"default"]
+12:I[53488,["/docs/_next/static/chunks/0ruq.vn2t9va1.js","/docs/_next/static/chunks/0d.e2voopfi.j.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js","/docs/_next/static/chunks/0109au5sf364x.js","/docs/_next/static/chunks/0_u6~eqg.bm5h.js"],"default"]
+13:I[5573,["/docs/_next/static/chunks/0ruq.vn2t9va1.js","/docs/_next/static/chunks/0d.e2voopfi.j.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js","/docs/_next/static/chunks/0109au5sf364x.js","/docs/_next/static/chunks/0_u6~eqg.bm5h.js"],"default"]
+14:I[23262,["/docs/_next/static/chunks/0ruq.vn2t9va1.js","/docs/_next/static/chunks/0d.e2voopfi.j.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js","/docs/_next/static/chunks/0109au5sf364x.js","/docs/_next/static/chunks/0_u6~eqg.bm5h.js"],"default"]
+15:I[32073,["/docs/_next/static/chunks/0ruq.vn2t9va1.js","/docs/_next/static/chunks/0d.e2voopfi.j.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js","/docs/_next/static/chunks/0109au5sf364x.js","/docs/_next/static/chunks/0_u6~eqg.bm5h.js"],"default"]
+16:I[55534,["/docs/_next/static/chunks/0ruq.vn2t9va1.js","/docs/_next/static/chunks/0d.e2voopfi.j.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js","/docs/_next/static/chunks/0109au5sf364x.js","/docs/_next/static/chunks/0_u6~eqg.bm5h.js"],"default"]
+17:I[84244,["/docs/_next/static/chunks/0ruq.vn2t9va1.js","/docs/_next/static/chunks/0d.e2voopfi.j.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js","/docs/_next/static/chunks/0109au5sf364x.js","/docs/_next/static/chunks/0_u6~eqg.bm5h.js"],"default"]
+18:I[29086,["/docs/_next/static/chunks/0ruq.vn2t9va1.js","/docs/_next/static/chunks/0d.e2voopfi.j.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js","/docs/_next/static/chunks/0109au5sf364x.js","/docs/_next/static/chunks/0_u6~eqg.bm5h.js"],"default"]
+19:I[75611,["/docs/_next/static/chunks/0ruq.vn2t9va1.js","/docs/_next/static/chunks/0d.e2voopfi.j.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js","/docs/_next/static/chunks/0109au5sf364x.js","/docs/_next/static/chunks/0_u6~eqg.bm5h.js"],"default"]
+1a:I[80874,["/docs/_next/static/chunks/0ruq.vn2t9va1.js","/docs/_next/static/chunks/0d.e2voopfi.j.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js","/docs/_next/static/chunks/0109au5sf364x.js","/docs/_next/static/chunks/0_u6~eqg.bm5h.js"],"default"]
+1b:T6ffc,<h2>JavaScript</h2>
+<p>In JavaScript, We print values using <code>console</code></p>
+<pre><code class="hljs language-js"><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">"Hello World!"</span>);
+</code></pre>
+<h3>Variables</h3>
+<p>In JavaScript, We create variables to hold data. Variables are like containers in which we store some data.</p>
+<p><strong>Const</strong>
+For creating a constant we have only one keyword that is <code>const</code></p>
+<pre><code class="hljs language-js"><span class="hljs-keyword">const</span> userId = <span class="hljs-number">198</span>;
+</code></pre>
+<p>Constants are unchangable variables, so that by mistaken your variable should not change by you or others.</p>
+<blockquote>
+<p>[!NOTE]<br>
+We can write variable name in different manners.<br>
+<code>userId</code> is very common style of writing name of the variable, we can write it in another style as well like <code>user_id</code>, <code>user_Id</code></p>
+<p>It totally depends on the user or programmer, How he/she wants to write the name.<br>
+But make sure you are using an readable variable name<br>
+eg. <code>a = 198</code> is not comes under the good pratice instead you can write <code>myNumber = 198</code></p>
+</blockquote>
+<p><strong>Let and Var</strong>
+For creating a changeable variable we have two keywords <code>let</code> and <code>var</code>.</p>
+<p>In modern JavaScript, We only use <code>let</code> keyword for defining changeable variable not <code>var</code>.</p>
+<pre><code class="hljs language-js"><span class="hljs-keyword">let</span> userName = <span class="hljs-string">"vikash"</span>;
+<span class="hljs-keyword">var</span> userEmail = <span class="hljs-string">"vikash@google.com"</span>;
+</code></pre>
+<p>Prefer not to use <code>var</code>
+<code>var</code> has issues with block scope and functional scope.</p>
+<blockquote>
+<p>[!IMPORTANT]<br>
+A block means</p>
+<pre><code class="hljs language-js">{
+  <span class="hljs-comment">// Code block</span>
+}
+</code></pre>
+<p>In JavaScript we use blocks in <code>if-else</code>, <code>loop</code>s and <code>function</code>s</p>
+<pre><code class="hljs language-js"><span class="hljs-keyword">if</span> (condition) {
+
+}
+
+<span class="hljs-keyword">for</span> (start; end; increment/decrement) {
+
+}
+
+<span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) {
+
+}
+</code></pre>
+</blockquote>
+<p><strong>Comments</strong>
+Unlike another languages, In JavaScript we can also write comments.
+Comments are ignored by the compiler.</p>
+<pre><code class="hljs language-js"><span class="hljs-comment">// Single line comment</span>
+
+<span class="hljs-comment">/*
+Multiline
+
+comments
+*/</span>
+</code></pre>
+<blockquote>
+<p>[!NOTE]<br>
+If you are using a code editor like VS Code.<br>
+Then you can comment lines very efficiently<br>
+Select the lines and <code>ctrl</code> + <code>/</code> ( <code>cmd</code> + <code>/</code> )</p>
+</blockquote>
+<h3>Standard code and Importance of code readablity</h3>
+<p>As we discussed to standardize the JavaScript code ECMAScript International writes standards.
+For the browser how they will treat the code
+<code>"use strict"</code></p>
+<pre><code class="hljs language-js"><span class="hljs-meta">"use strict"</span>;
+
+<span class="hljs-comment">// above statement ensures that your source code will be treated as newer version of javascript</span>
+</code></pre>
+<blockquote>
+<p>[!WARNING]<br>
+<code>alert("Hello")</code> statement won't work when we execute our script file using <code>node.js</code><br>
+It only works when you are on the broswer's console or running your script on the browser.</p>
+</blockquote>
+<p>In the coding, it always recommended that your code should readable.</p>
+<pre><code class="hljs language-js"><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-number">3</span> + <span class="hljs-number">3</span>);
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">"javascript"</span>);
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">"Vikash"</span>);
+</code></pre>
+<p>The above examples are not comes under the good practice.</p>
+<blockquote>
+<p>[!IMPORTANT]<br>
+Our main goal to write the code readable, Code readablity should be high.</p>
+</blockquote>
+<h3>Data Types</h3>
+<p>In other programming languages like <code>C#</code> and <code>C++</code>, there is a most important concept of <strong>Call by Value</strong> and <strong>Call by Reference</strong>.</p>
+<p>In the very top level data types are categorized based on how a data value will be stored in memory, and how they can be accessed by the user.</p>
+<p>Here we have two category - <code>Primitive</code> ( Call by value ) and <code>Reference</code> | Non-primitive ( Call by reference )</p>
+<p><strong>Call by value</strong>: A copy of original value to be passed.
+<strong>Call by reference</strong>: Original value to be passed.</p>
+<p><strong>Primitive data types</strong></p>
+<ul>
+<li><code>number</code> ( 198, 143, 1.45 ), Range 2^53 - 1</li>
+<li><code>bigint</code> ( 198n ), trading, stock market, reddit like websites</li>
+<li><code>string</code> ( "vikash", 'kumar' )</li>
+<li><code>boolean</code> ( <code>true</code> / <code>false</code> )</li>
+<li><code>null</code> ( standalone value | dataType = <code>Object</code> )</li>
+<li><code>undefined</code> ( dataType )</li>
+<li><code>symbol</code> ( unique )</li>
+</ul>
+<p>We have a <code>typeof</code> method for investigation, what kind of data type we are storing in a variable.
+There are two ways to write typeof method as</p>
+<pre><code class="hljs language-js"><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-keyword">typeof</span> <span class="hljs-number">198</span>);
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-keyword">typeof</span> <span class="hljs-number">198</span>);
+</code></pre>
+<p>List of types of data types</p>
+<pre><code class="hljs language-js"><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-keyword">typeof</span> <span class="hljs-string">"vikash"</span>); <span class="hljs-comment">// string</span>
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-keyword">typeof</span> <span class="hljs-number">187</span>); <span class="hljs-comment">// number</span>
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-keyword">typeof</span> <span class="hljs-number">198n</span>); <span class="hljs-comment">// bigint</span>
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-keyword">typeof</span> <span class="hljs-literal">true</span>); <span class="hljs-comment">// boolean</span>
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-keyword">typeof</span> <span class="hljs-literal">null</span>); <span class="hljs-comment">// object</span>
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-keyword">typeof</span> <span class="hljs-literal">undefined</span>); <span class="hljs-comment">// undefined</span>
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-keyword">typeof</span> <span class="hljs-title class_">Object</span>()); <span class="hljs-comment">// object</span>
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-keyword">typeof</span> <span class="hljs-title class_">Array</span>()); <span class="hljs-comment">// object</span>
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-keyword">typeof</span> <span class="hljs-title class_">String</span>()); <span class="hljs-comment">// string</span>
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-keyword">typeof</span> <span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) {}); <span class="hljs-comment">// functional object</span>
+</code></pre>
+<p><strong>Symbol data type</strong>
+A symbol in JavaScript is a unique, immutable data type that is often used to create unique identifiers for properties on objects. Unlike strings, symbols are not comparable by value, meaning two symbols created with the same description are not considered equal.</p>
+<pre><code class="hljs language-js"><span class="hljs-keyword">const</span> id = <span class="hljs-title class_">Symbol</span>(<span class="hljs-number">12</span>);
+
+<span class="hljs-keyword">const</span> anotherId = <span class="hljs-title class_">Symbol</span>(<span class="hljs-number">12</span>);
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(id === anotherId); <span class="hljs-comment">// false</span>
+</code></pre>
+<h3>Conversions</h3>
+<p>It is possible to convert data types in JavaScript.
+eg. <code>number</code> -> <code>string</code> | <code>string</code> -> <code>number</code> | <code>number</code> -> <code>boolean</code> | <code>string</code> -> <code>boolean</code> | <code>boolean</code> -> <code>string</code> | <code>boolean</code> -> <code>number</code></p>
+<p><strong>Why we need conversion</strong>?
+Most of the time browser returns a string value to user.
+Whenever we fetch some data from an API. ( eg. Weather API )</p>
+<p>Conversion will not become a problem if you know what will be the expected result after conversion.</p>
+<p>We have <code>Number()</code> for converting values in number.</p>
+<pre><code class="hljs language-js"><span class="hljs-keyword">let</span> score = <span class="hljs-string">"21"</span>;
+
+<span class="hljs-keyword">let</span> scoreInNumber = <span class="hljs-title class_">Number</span>(score);
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(scoreInNumber); <span class="hljs-comment">// 21</span>
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-keyword">typeof</span> scoreInNumber); <span class="hljs-comment">// number</span>
+</code></pre>
+<p><strong>Conversion List of Number</strong>
+| Value | Converted Value |
+| :--- | :--- |
+| <code>Number</code>("21") | 21 |
+| <code>Number</code>("21xyz") | NaN |
+| <code>Number</code>(null) | 0 |
+| <code>Number</code>(undefined) | NaN |
+| <code>Number</code>(true) | 1 |
+| <code>Number</code>(false) | 0 |
+| <code>Number</code>({ }) | NaN |
+| <code>Number</code>([ ]) | 0 |</p>
+<blockquote>
+<p>[!IMPORTANT]<br>
+JavaScript converts data type, but values may not certain.</p>
+<p>When JavaScript unable to convert the values into number, it returns a <code>NaN</code> ( Not a Number ).</p>
+</blockquote>
+<p>We have a <code>Boolean()</code> for converting values in boolean.</p>
+<pre><code class="hljs language-js"><span class="hljs-keyword">let</span> isLoggedIn = <span class="hljs-number">0</span>;
+
+<span class="hljs-keyword">let</span> booleanIsLoggedIn = <span class="hljs-title class_">Boolean</span>(isLoggedIn);
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(booleanIsLoggedIn); <span class="hljs-comment">// false</span>
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-keyword">typeof</span> booleanIsLoggedIn); <span class="hljs-comment">// boolean</span>
+</code></pre>
+<p><strong>Conversion List of Boolean</strong>
+| Value | Converted Value |
+| :--- | :--- |
+| <code>Boolean</code>(" ") | false |
+| <code>Boolean</code>("vikash") | true |
+| <code>Boolean</code>(1) | true |
+| <code>Boolean</code>(0) | false |
+| <code>Boolean</code>(null) | false |
+| <code>Boolean</code>(undefined) | false |
+| <code>Boolean</code>({ }) | true |
+| <code>Boolean</code>([ ]) | true |
+| <code>Boolean</code>(function (){}) | true |</p>
+<p>Similarly, We have <code>String()</code> for converting values in string.</p>
+<pre><code class="hljs language-js"><span class="hljs-keyword">let</span> myString = <span class="hljs-number">2</span>;
+
+<span class="hljs-keyword">let</span> myStringValue = <span class="hljs-title class_">String</span>(myString);
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(myStringValue); <span class="hljs-comment">// "2"</span>
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-keyword">typeof</span> myStringValue); <span class="hljs-comment">// string</span>
+</code></pre>
+<p><strong>Conversion List of string</strong>
+| Value | Converted Value |
+| :--- | :--- |
+| <code>String</code>(2) | "2" |
+| <code>String</code>(null) | "null" |
+| <code>String</code>(undefined) | "undefined" |
+| <code>String</code>(true) | "true" |
+| <code>String</code>(false) | "false" |</p>
+<p><strong>Here are some special cases</strong>.
+When we try to convert datatype of an object</p>
+<pre><code class="hljs language-js"><span class="hljs-keyword">let</span> myString = {};
+
+<span class="hljs-keyword">let</span> myStringValue = <span class="hljs-title class_">String</span>(myString);
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(myStringValue); <span class="hljs-comment">// [object Object]</span>
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-keyword">typeof</span> myStringValue); <span class="hljs-comment">// string</span>
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">`Hello<span class="hljs-subst">${myStringValue}</span>World`</span>); <span class="hljs-comment">// Hello[object Object]World</span>
+</code></pre>
+<p>When we try to convert datatype of an array</p>
+<pre><code class="hljs language-js"><span class="hljs-keyword">let</span> myString = [];
+
+<span class="hljs-keyword">let</span> myStringValue = <span class="hljs-title class_">String</span>(myString);
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(myStringValue); <span class="hljs-comment">//</span>
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-keyword">typeof</span> myStringValue); <span class="hljs-comment">// string</span>
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">`Hello<span class="hljs-subst">${myStringValue}</span>World`</span>); <span class="hljs-comment">// HelloWorld</span>
+</code></pre>
+<h3>Operations</h3>
+<p>Operations are used to manipulate data stored in a variable.</p>
+<pre><code class="hljs language-js"><span class="hljs-keyword">let</span> value = <span class="hljs-number">3</span>;
+<span class="hljs-keyword">let</span> negValue = -value;
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(negValue); <span class="hljs-comment">// -3</span>
+</code></pre>
+<p>We have many types of mathematical operations to perform on the variables.</p>
+<pre><code class="hljs language-js"><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-number">2</span> + <span class="hljs-number">2</span>); <span class="hljs-comment">// 4</span>
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-number">2</span> - <span class="hljs-number">2</span>); <span class="hljs-comment">// 0</span>
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-number">2</span> * <span class="hljs-number">2</span>); <span class="hljs-comment">// 4</span>
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-number">2</span> ** <span class="hljs-number">3</span>); <span class="hljs-comment">// 8</span>
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-number">2</span> / <span class="hljs-number">2</span>); <span class="hljs-comment">// 1</span>
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-number">2</span> % <span class="hljs-number">2</span>); <span class="hljs-comment">// 0</span>
+</code></pre>
+<blockquote>
+<p>[!NOTE]<br>
+Modulas ( <code>%</code> ) operator calculates the remainder after division.<br>
+eg. <code>5 % 2 => 1</code>.</p>
+<p>Double astrik ( <code>**</code> ) operator calculates the exponential value.<br>
+eg. <code>3 ** 2 => 9</code></p>
+</blockquote>
+<p><strong>Addition operator with <code>string</code>s</strong></p>
+<pre><code class="hljs language-js"><span class="hljs-keyword">let</span> str1 = <span class="hljs-string">"hello"</span>;
+<span class="hljs-keyword">let</span> str2 = <span class="hljs-string">" vikash"</span>;
+
+<span class="hljs-keyword">let</span> str3 = str1 + str2;
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(str3); <span class="hljs-comment">// hello vikash</span>
+</code></pre>
+<blockquote>
+<p>[!NOTE]<br>
+<code>str1 - str2</code> not possible 😅</p>
+</blockquote>
+<p>We have already talked about <strong>explicit</strong> conversion.</p>
+<pre><code class="hljs language-js"><span class="hljs-keyword">let</span> userId = <span class="hljs-string">"198"</span>;
+<span class="hljs-keyword">let</span> userIdInNumber = <span class="hljs-title class_">Number</span>(userId);
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(userIdInNumber); <span class="hljs-comment">// 198</span>
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-keyword">typeof</span> userIdInNumber); <span class="hljs-comment">// number</span>
+</code></pre>
+<p><strong>Problems with implicit conversion</strong>
+In implicit conversion <code>string</code>s are very powerful.</p>
+<pre><code class="hljs language-js"><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">"1"</span> + <span class="hljs-number">2</span>); <span class="hljs-comment">// 12</span>
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-number">1</span> + <span class="hljs-string">"2"</span>); <span class="hljs-comment">// 12</span>
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">"1"</span> + <span class="hljs-string">"2"</span>); <span class="hljs-comment">// 12</span>
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-number">1</span> + <span class="hljs-string">"2"</span> + <span class="hljs-number">2</span>); <span class="hljs-comment">// 122</span>
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-number">1</span> + <span class="hljs-number">2</span> + <span class="hljs-string">"2"</span>); <span class="hljs-comment">// 32</span>
+</code></pre>
+<blockquote>
+<p>[!IMPORTANT]<br>
+Until a <code>string</code> datatype appears all the numbers are treated as <code>number</code>.<br>
+But once the expression get any <code>string</code> value all the rest numbers will be treated as <code>string</code>.</p>
+</blockquote>
+<p><strong>Writing mathematical expressions</strong>
+In JavaScript it is complicated to predict the result of a messy expression.
+eg. <code>( 3 + 4 * 5 % 3 )</code>
+There is no any certainity in the above expression. Instead we can use more parenthesis for a more certain result.</p>
+<pre><code class="hljs language-js"><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-number">3</span> + ((<span class="hljs-number">4</span> * <span class="hljs-number">5</span>) % <span class="hljs-number">3</span>)); <span class="hljs-comment">// Wrong approach to write expressions</span>
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>((<span class="hljs-number">3</span> + <span class="hljs-number">4</span> * <span class="hljs-number">5</span>) % <span class="hljs-number">3</span>); <span class="hljs-comment">// More reliable approach to write expressions</span>
+</code></pre>
+<p>Some more expressions are written as
+<code>+true</code> and <code>+""</code></p>
+<pre><code class="hljs language-js"><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(+<span class="hljs-literal">true</span>); <span class="hljs-comment">// 1  ( Prefer not to use in programming )</span>
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(+<span class="hljs-string">""</span>); <span class="hljs-comment">// 0  ( Prefer not to use in programming )</span>
+</code></pre>
+<h4>PostFix and PreFix operators</h4>
+<p>PostFix and PreFix operators work on single value.</p>
+<pre><code class="hljs language-js"><span class="hljs-keyword">let</span> gameCounter = <span class="hljs-number">10</span>;
+
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(++gameCounter); <span class="hljs-comment">// 11</span>
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(gameCounter++); <span class="hljs-comment">// 11</span>
+</code></pre>
+<p>Here you are thinking that both the operators did the same work but they works differently.</p>
+<p>| Value: gameCounter = 10 | Current value | Passed value |
+| :---------------------- | :------------ | :----------- |
+| gameCounter             | 10            | 10           |
+| ++gameCounter           | 11            | 11           |
+| gameCounter++           | 11            | 12           |
+| ++gameCounter           | 13            | 13           |
+| gameCounter--           | 13            | 12           |
+| --gameCounter           | 11            | 11           |</p>
+<blockquote>
+<p>We print only current values in the console</p>
+</blockquote>
+<h3>Comparisons</h3>
+<p>Comparisons are used to compare between two values or expressions.
+Comparison operators return a <strong>boolean</strong> value ( <code>true</code>/<code>false</code>). Most of the logic of the programming based on comparison. In conditionals ( <code>if-else</code> ) and <code>loop</code>s.</p>
+<p>List of comparisons</p>
+<pre><code class="hljs language-js"><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-number">2</span> > <span class="hljs-number">4</span>); <span class="hljs-comment">// false</span>
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-number">2</span> >= <span class="hljs-number">4</span>); <span class="hljs-comment">// false</span>
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-number">2</span> &#x3C; <span class="hljs-number">4</span>); <span class="hljs-comment">// true</span>
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-number">2</span> &#x3C;= <span class="hljs-number">4</span>); <span class="hljs-comment">// true</span>
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-number">2</span> == <span class="hljs-number">4</span>); <span class="hljs-comment">// false</span>
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-number">2</span> != <span class="hljs-number">4</span>); <span class="hljs-comment">// true</span>
+</code></pre>
+<p>Here is an example of bad comparing practice</p>
+<pre><code class="hljs language-js"><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">"2"</span> > <span class="hljs-number">1</span>); <span class="hljs-comment">// true</span>
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">"02"</span> > <span class="hljs-number">2</span>); <span class="hljs-comment">// true</span>
+</code></pre>
+<blockquote>
+<p>[!WARNING]<br>
+Makesure you are comparing similar datatype variable so that your result may not be unexpected.</p>
+</blockquote>
+<p>Have a look on an special type of comparison with <code>null</code> 👀</p>
+<pre><code class="hljs language-js"><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-literal">null</span> > <span class="hljs-number">0</span>); <span class="hljs-comment">// false</span>
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-literal">null</span> == <span class="hljs-number">0</span>); <span class="hljs-comment">// false</span>
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-literal">null</span> >= <span class="hljs-number">0</span>); <span class="hljs-comment">// true</span>
+</code></pre>
+<p>An unexpected result will occur if we compare value with <code>null</code>.</p>
+<blockquote>
+<p>[!IMPORTANT]<br>
+The reason is that an equality check <code>==</code> and comparisons <code>></code> , <code>&#x3C;</code> , <code>>=</code> , <code>&#x3C;=</code> work differently</p>
+<p>Comparisons convert null to a number, treating it as 0 that's why<br>
+( <code>null >= 0</code> ) is <code>true</code><br>
+( <code>null > 0</code> ) is <code>false</code></p>
+</blockquote>
+<p>Don't worry!
+Let's look the Comparison with <code>undefined</code></p>
+<pre><code class="hljs language-js"><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-literal">undefined</span> == <span class="hljs-number">0</span>); <span class="hljs-comment">// false</span>
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-literal">undefined</span> > <span class="hljs-number">0</span>); <span class="hljs-comment">// false</span>
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-literal">undefined</span> &#x3C; <span class="hljs-number">0</span>); <span class="hljs-comment">// false</span>
+</code></pre>
+<p><strong>Strict checking</strong>
+JavaScript can compare between two different data type variable. Due to this functionality of JavaScript, we may face unexpected error.</p>
+<pre><code class="hljs language-js"><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">"3"</span> == <span class="hljs-number">3</span>); <span class="hljs-comment">// true</span>
+</code></pre>
+<p>In the above expression we are comparing an <code>string</code> data type with a <code>number</code> data type. Because traditional equlity check ( <code>==</code> ) only perform the comparison based on the value, Not data type.</p>
+<p>JavaScript should not proceed the comparison.
+To prevent this type of comparison we use strict checking.</p>
+<pre><code class="hljs language-js"><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">"3"</span> === <span class="hljs-number">3</span>); <span class="hljs-comment">// false</span>
+</code></pre>
+<blockquote>
+<p>[!NOTE]<br>
+Strict checking compare between not only values but also data type of the variables.</p>
+</blockquote>
+<h4>Written with 💖 by <em>thatonevikash</em>!</h4>5:["$","$L10",null,{"maxWidth":"sm","sx":{"py":6},"children":[["$","$L11",null,{"sx":{"position":"relative","border":"1px solid","borderColor":"divider","borderRadius":2,"p":3,"mb":5,"overflow":"hidden","&::before":{"content":"\"\"","position":"absolute","left":0,"top":0,"bottom":0,"width":3,"bgcolor":"primary.main","borderRadius":"0 2px 2px 0"}},"children":[["$","$L12",null,{"variant":"caption","sx":{"color":"text.disabled","letterSpacing":"0.04em","fontVariantNumeric":"tabular-nums","display":"block","mb":1.5},"children":"14 November 2024"}],["$","$L12",null,{"variant":"h4","sx":{"fontWeight":600,"letterSpacing":"-0.02em","lineHeight":1.3,"mb":2},"children":"JavaScript for Beginner"}],["$","$L11",null,{"sx":{"display":"flex","gap":0.75,"flexWrap":"wrap","mb":3},"children":[["$","$L13","programming",{"label":"programming","size":"small","variant":"filled","sx":{"bgcolor":"action.hover","color":"text.secondary","fontSize":"0.7rem","height":22,"fontWeight":500,"& .MuiChip-label":{"px":1}}}],["$","$L13","programming in javascript",{"label":"programming in javascript","size":"small","variant":"filled","sx":{"bgcolor":"action.hover","color":"text.secondary","fontSize":"0.7rem","height":22,"fontWeight":500,"& .MuiChip-label":{"px":1}}}],["$","$L13","basics of programming",{"label":"basics of programming","size":"small","variant":"filled","sx":{"bgcolor":"action.hover","color":"text.secondary","fontSize":"0.7rem","height":22,"fontWeight":500,"& .MuiChip-label":{"px":1}}}]]}],["$","$L14",null,{"sx":{"mx":-3,"mb":2.5}}],["$","$L11",null,{"sx":{"display":"flex","alignItems":"center","justifyContent":"space-between"},"children":[["$","$L11",null,{"sx":{"display":"flex","alignItems":"center","gap":1},"children":[["$","$L15",null,{"sx":{"width":28,"height":28,"fontSize":"0.7rem","fontWeight":700,"bgcolor":"primary.main"},"children":"T"}],["$","$L11",null,{"children":[["$","$L12",null,{"variant":"caption","sx":{"color":"text.disabled","display":"block","lineHeight":1},"children":"Written by"}],["$","$L12",null,{"variant":"body2","sx":{"fontWeight":600,"lineHeight":1.4},"children":"thatonevikash"}]]}]]}],["$","$L11",null,{"sx":{"display":"flex","gap":0.25},"children":[["$","$L16",null,{"title":"GitHub","arrow":true,"children":["$","$L17",null,{"size":"small","component":"a","href":"https://github.com/thatonevikash","target":"_blank","rel":"noopener noreferrer","aria-label":"GitHub profile","sx":{"color":"text.secondary","transition":"color 0.15s ease, transform 0.15s ease","&:hover":{"color":"text.primary","bgcolor":"transparent"}},"children":["$","$L18",null,{"sx":{"fontSize":18}}]}]}],["$","$L16",null,{"title":"LinkedIn","arrow":true,"children":["$","$L17",null,{"size":"small","component":"a","href":"https://www.linkedin.com/in/thatonevikash/","target":"_blank","rel":"noopener noreferrer","aria-label":"LinkedIn profile","sx":{"color":"text.secondary","transition":"color 0.15s ease, transform 0.15s ease","&:hover":{"color":"#0A66C2","bgcolor":"transparent"}},"children":["$","$L19",null,{"sx":{"fontSize":18}}]}]}],["$","$L16",null,{"title":"X (Twitter)","arrow":true,"children":["$","$L17",null,{"size":"small","component":"a","href":"https://x.com/thatonevikash","target":"_blank","rel":"noopener noreferrer","aria-label":"X profile","sx":{"color":"text.secondary","transition":"color 0.15s ease, transform 0.15s ease","&:hover":{"color":"text.primary","bgcolor":"transparent"}},"children":["$","$L1a",null,{"sx":{"fontSize":18}}]}]}]]}]]}]]}],["$","$L11",null,{"className":"markdown-body","dangerouslySetInnerHTML":{"__html":"$1b"},"sx":{"& pre":{"borderRadius":1,"overflow":"auto"},"& code":{"fontSize":"0.875rem"},"& img":{"maxWidth":"100%"}}}]]}]
+b:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+1c:I[27201,["/docs/_next/static/chunks/0ruq.vn2t9va1.js","/docs/_next/static/chunks/0d.e2voopfi.j.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js"],"IconMark"]
+8:null
+d:[["$","title","0",{"children":"docs | thatonevikash"}],["$","meta","1",{"name":"description","content":"welcome to the docs of thatonevikash"}],["$","link","2",{"rel":"icon","href":"/docs/favicon.ico?favicon.0x3dzn~oxb6tn.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L1c","3",{}]]
