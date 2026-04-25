@@ -11,7 +11,7 @@ e:I[68027,["/docs/_next/static/chunks/0ruq.vn2t9va1.js","/docs/_next/static/chun
 :HL["/docs/_next/static/media/797e433ab948586e-s.p.0.q-h669a_dqa.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/docs/_next/static/media/caa3a2e1cccd8315-s.p.16t1db8_9y2o~.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/docs/_next/static/chunks/0apzrrrxeu37_.css","style"]
-0:{"P":null,"c":["","git",""],"q":"","i":false,"f":[[["",{"children":[["slug","git","d",null],{"children":["__PAGE__",{}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/docs/_next/static/chunks/0jsqcxe3.fnop.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/docs/_next/static/chunks/0ruq.vn2t9va1.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/docs/_next/static/chunks/0d.e2voopfi.j.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/docs/_next/static/chunks/0d3shmwh5_nmn.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable","suppressHydrationWarning":true,"children":["$","body",null,{"children":["$","$L2",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","link","0",{"rel":"stylesheet","href":"/docs/_next/static/chunks/0apzrrrxeu37_.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/docs/_next/static/chunks/0109au5sf364x.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/docs/_next/static/chunks/0_u6~eqg.bm5h.js","async":true,"nonce":"$undefined"}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,null]},null,false,"$@9"]},null,false,null],["$","$1","h",{"children":[null,["$","$La",null,{"children":"$Lb"}],["$","div",null,{"hidden":true,"children":["$","$Lc",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$Ld"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$e",[["$","link","0",{"rel":"stylesheet","href":"/docs/_next/static/chunks/0jsqcxe3.fnop.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"zuJg_UvE9ezpqt95iQhJ9"}
+0:{"P":null,"c":["","the-git-commands",""],"q":"","i":false,"f":[[["",{"children":[["slug","the-git-commands","d",null],{"children":["__PAGE__",{}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/docs/_next/static/chunks/0jsqcxe3.fnop.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/docs/_next/static/chunks/0ruq.vn2t9va1.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/docs/_next/static/chunks/0d.e2voopfi.j.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/docs/_next/static/chunks/0d3shmwh5_nmn.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable","suppressHydrationWarning":true,"children":["$","body",null,{"children":["$","$L2",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","link","0",{"rel":"stylesheet","href":"/docs/_next/static/chunks/0apzrrrxeu37_.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/docs/_next/static/chunks/0109au5sf364x.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/docs/_next/static/chunks/0_u6~eqg.bm5h.js","async":true,"nonce":"$undefined"}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,null]},null,false,"$@9"]},null,false,null],["$","$1","h",{"children":[null,["$","$La",null,{"children":"$Lb"}],["$","div",null,{"hidden":true,"children":["$","$Lc",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$Ld"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$e",[["$","link","0",{"rel":"stylesheet","href":"/docs/_next/static/chunks/0jsqcxe3.fnop.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"BvvzdL8FajiyKmZN14a7X"}
 f:[]
 9:"$Wf"
 10:I[66919,["/docs/_next/static/chunks/0ruq.vn2t9va1.js","/docs/_next/static/chunks/0d.e2voopfi.j.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js","/docs/_next/static/chunks/0109au5sf364x.js","/docs/_next/static/chunks/0_u6~eqg.bm5h.js"],"default"]
@@ -25,7 +25,7 @@ f:[]
 18:I[29086,["/docs/_next/static/chunks/0ruq.vn2t9va1.js","/docs/_next/static/chunks/0d.e2voopfi.j.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js","/docs/_next/static/chunks/0109au5sf364x.js","/docs/_next/static/chunks/0_u6~eqg.bm5h.js"],"default"]
 19:I[75611,["/docs/_next/static/chunks/0ruq.vn2t9va1.js","/docs/_next/static/chunks/0d.e2voopfi.j.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js","/docs/_next/static/chunks/0109au5sf364x.js","/docs/_next/static/chunks/0_u6~eqg.bm5h.js"],"default"]
 1a:I[80874,["/docs/_next/static/chunks/0ruq.vn2t9va1.js","/docs/_next/static/chunks/0d.e2voopfi.j.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js","/docs/_next/static/chunks/0109au5sf364x.js","/docs/_next/static/chunks/0_u6~eqg.bm5h.js"],"default"]
-1b:T2f35,<h2>Git</h2>
+1b:T2f3f,<h2>Git</h2>
 <p><strong>Git</strong> is a distributed version control system that allows developers to track changes in source code during software development.
 Created by <em>Linus Torvalds</em> in 2005, it helps manage project history, collaborate with others, and roll back to previous versions if needed.
 Git stores data as snapshots of the entire project, unlike traditional systems that track file-by-file changes.</p>
@@ -70,7 +70,7 @@ Repository is noting just a folder. In which your all the code will be stored.</
 Create an empty folder ( eg. github-demo )</p>
 <p>And open it with any code editor. I'm going with VS code.</p>
 <p>You can use in-built source control 😉
-<img src="internals/git/git-control.png" alt="git-control"></p>
+<img src="/internals/git/git-control.png" alt="git-control"></p>
 <p><strong>Using Git with command lines is really fun</strong></p>
 <p>Let's create a basic website.</p>
 <p>Open up terminal or press <code>ctrl</code> + `</p>
@@ -109,7 +109,7 @@ git push -u origin main
 </code></pre>
 <h3>Git Commands</h3>
 <p>Before deep diving to git commands learn the tracking flow.
-<img src="internals/git/git-track-process.png" alt="alt text"></p>
+<img src="/internals/git/git-track-process.png" alt="alt text"></p>
 <pre><code class="hljs language-bash"><span class="hljs-comment"># add all untracked files</span>
 git add .
 </code></pre>
@@ -125,7 +125,7 @@ git push
 </code></pre>
 <h3>Branching</h3>
 <p>Before learning <em>branching</em> 🔍 have a look on the previous code pushing flow.
-<img src="internals/git/code-flow.png" alt="code flow"></p>
+<img src="/internals/git/code-flow.png" alt="code flow"></p>
 <p>There will not be any complication because — "<em>you have only one branch that is</em> <code>main</code> <em>branch</em>" 😅</p>
 <pre><code class="hljs language-bash"><span class="hljs-comment"># list all branch</span>
 git branch
@@ -142,11 +142,11 @@ It will not preview all the branches that are on remote</p>
 What is the usecase of it? 🧐</p>
 <p><strong>Branch</strong>, is like a separate copy of your local codebase, in the same local setup.</p>
 <p>When there is only one branch that is <code>main</code>, your all <code>commit</code>s will be pushed to <code>main</code>.
-<img src="internals/git/only-main.png" alt="only main"></p>
+<img src="/internals/git/only-main.png" alt="only main"></p>
 <p><strong>Let's discuss the usecase</strong> 🤓
 Working in a team means multiple local setup. Which mean multiple collaborator to push code.
 But there is a problem with many collaborator.</p>
-<p><img src="internals/git/conflict-1.png" alt="conflict with single branch">
+<p><img src="/internals/git/conflict-1.png" alt="conflict with single branch">
 Here is the breakdown, <code>User_1</code> has pushed his commit before <code>User_2</code> on the <code>main</code> branch.
 But the <code>User_2</code> still in initial commit state. His local setup is not aware of changes which is done by <code>User_1</code>.</p>
 <p><code>User_2</code>s local setup has no idea what was the change <code>User_1</code> made may be it is a adding code, creating file, modifying a file or deleting a file.</p>
@@ -154,7 +154,7 @@ But the <code>User_2</code> still in initial commit state. His local setup is no
 And already pushed to main.</p>
 <p>The file is changed in <code>main</code> branch. If the <code>User_2</code> pushes the change. It will show a conflict.</p>
 <p>Because of modifying same file at the same line
-<img src="internals/git/confusion.png" alt="confusion"></p>
+<img src="/internals/git/confusion.png" alt="confusion"></p>
 <p>Now somehow <code>User_2</code> pushes his change to <code>main</code> next time <code>User_1</code> will have to face conflicts.</p>
 <p><strong>How branching works?</strong>
 Before creating a branch make sure you are in <code>main</code> branch. 😀</p>
@@ -197,7 +197,7 @@ git checkout main
 git push
 </code></pre>
 </blockquote>
-<p><img src="internals/git/git-branch-flow.png" alt="branch flow"></p>
+<p><img src="/internals/git/git-branch-flow.png" alt="branch flow"></p>
 <p><strong>Work is not over yet</strong> 😉
 You have just pushed changes to new branch ( eg. <code>new-feature</code> ), It does not mean all the changes will reflect to <code>main</code> branch.</p>
 <p>What!
@@ -220,7 +220,7 @@ git pull origin main
 </code></pre>
 </blockquote>
 <p>After merge your flow will be
-<img src="internals/git/git-merged.png" alt="alt text"></p>
+<img src="/internals/git/git-merged.png" alt="git merged"></p>
 <hr>
 <h3>Commands ⚡</h3>
 <pre><code class="hljs language-bash"><span class="hljs-comment"># clone</span>
