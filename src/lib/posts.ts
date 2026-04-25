@@ -6,6 +6,8 @@ import remarkRehype from "remark-rehype";
 import rehypeHighlight from "rehype-highlight";
 import rehypeStringify from "rehype-stringify";
 
+import { rehypeAlerts } from "@/extensions/rehype-alerts";
+
 const contentDir = path.join(process.cwd(), "content");
 
 export interface Post {
@@ -52,6 +54,7 @@ export async function getPostBySlug(slug: string): Promise<Post> {
 
   const processed = await remark()
     .use(remarkRehype)
+    .use(rehypeAlerts)
     .use(rehypeHighlight)
     .use(rehypeStringify)
     .process(content);
