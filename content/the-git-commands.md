@@ -14,7 +14,7 @@ social:
 
 ## Git
 
-<img src="/icons/ic-git.svg" height="95px" align="left">
+<img src="icons/ic-git.svg" alt="image" height="95px" align="left">
 
 **Git** is a distributed version control system that allows developers to track changes in source code during software development.<br/>
 Created by _Linus Torvalds_ in 2005, it helps manage project history, collaborate with others, and roll back to previous versions if needed.<br/>
@@ -77,7 +77,7 @@ Create an empty folder ( eg. github-demo )
 And open it with any code editor. I'm going with VS code.
 
 You can use in-built source control 😉
-![git-control](internals/git/git-control.png)
+![git-control](/internals/git/git-control.png)
 
 **Using Git with command lines is really fun**
 
@@ -136,7 +136,7 @@ git push -u origin main
 ### Git Commands
 
 Before deep diving to git commands learn the tracking flow.
-![alt text](internals/git/git-track-process.png)
+![alt text](/internals/git/git-track-process.png)
 
 ```bash
 # add all untracked files
@@ -159,7 +159,7 @@ git push
 ### Branching
 
 Before learning _branching_ 🔍 have a look on the previous code pushing flow.
-![code flow](internals/git/code-flow.png)
+![code flow](/internals/git/code-flow.png)
 
 There will not be any complication because —<br/> "_you have only one branch that is_ `main` _branch_" 😅
 
@@ -185,13 +185,13 @@ What is the usecase of it? 🧐
 **Branch**, is like a separate copy of your local codebase, in the same local setup.
 
 When there is only one branch that is `main`, your all `commit`s will be pushed to `main`.
-![only main](internals/git/only-main.png)
+![only main](/internals/git/only-main.png)
 
 **Let's discuss the usecase** 🤓<br/>
 Working in a team means multiple local setup. Which mean multiple collaborator to push code.<br/>
 But there is a problem with many collaborator.
 
-![conflict with single branch](internals/git/conflict-1.png)
+![conflict with single branch](/internals/git/conflict-1.png)
 Here is the breakdown, `User_1` has pushed his commit before `User_2` on the `main` branch.<br/>
 But the `User_2` still in initial commit state. His local setup is not aware of changes which is done by `User_1`.
 
@@ -203,7 +203,7 @@ And already pushed to main.
 The file is changed in `main` branch. If the `User_2` pushes the change. It will show a conflict.
 
 Because of modifying same file at the same line
-![confusion](internals/git/confusion.png)
+![confusion](/internals/git/confusion.png)
 
 Now somehow `User_2` pushes his change to `main` next time `User_1` will have to face conflicts.
 
@@ -264,7 +264,7 @@ git push -u origin new-feature
 > git push
 > ```
 
-![branch flow](internals/git/git-branch-flow.png)
+![branch flow](/internals/git/git-branch-flow.png)
 
 **Work is not over yet** 😉<br/>
 You have just pushed changes to new branch ( eg. `new-feature` ), It does not mean all the changes will reflect to `main` branch.
@@ -296,7 +296,7 @@ Kidding, Just open up your repo in GitHub and raise a `pull request`. Once it me
 > ```
 
 After merge your flow will be
-![alt text](internals/git/git-merged.png)
+![git merged](/internals/git/git-merged.png)
 
 ---
 

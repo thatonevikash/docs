@@ -16,7 +16,7 @@ social:
 
 **JavaScript: The dynamic language of the web.**
 
-<img src="https://github.com/Ninja-Vikash/web_assets/blob/main/icons_svg/JS.svg" height="95px" align="left">
+<img src="/icons/ic-javascript.svg" height="95px" align="left">
 
 JavaScript is a programming language that brings web pages to life.<br/>
 It's the core technology of the web, working alongside HTML and CSS.<br/>
