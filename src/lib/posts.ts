@@ -7,6 +7,7 @@ import rehypeHighlight from "rehype-highlight";
 import rehypeStringify from "rehype-stringify";
 
 import { rehypeAlerts } from "@/extensions/rehype-alerts";
+import { rehypeNormalizeLocalImageSrc } from "@/extensions/rehype-normalize-local-image-src";
 
 const contentDir = path.join(process.cwd(), "content");
 
@@ -55,6 +56,7 @@ export async function getPostBySlug(slug: string): Promise<Post> {
   const processed = await remark()
     .use(remarkRehype)
     .use(rehypeAlerts)
+    .use(rehypeNormalizeLocalImageSrc)
     .use(rehypeHighlight)
     .use(rehypeStringify)
     .process(content);
