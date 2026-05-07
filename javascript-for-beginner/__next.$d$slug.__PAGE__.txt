@@ -13,7 +13,7 @@ c:I[80874,["/docs/_next/static/chunks/0ruq.vn2t9va1.js","/docs/_next/static/chun
 12:I[97367,["/docs/_next/static/chunks/0ruq.vn2t9va1.js","/docs/_next/static/chunks/0d.e2voopfi.j.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
 13:"$Sreact.suspense"
 :HL["/docs/_next/static/chunks/0apzrrrxeu37_.css","style"]
-d:T7545,<h2>JavaScript</h2>
+d:T8884,<h2>JavaScript</h2>
 <p>In JavaScript, We print values using <code>console</code></p>
 <pre><code class="hljs language-js"><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">"Hello World!"</span>);
 </code></pre>
@@ -24,9 +24,8 @@ For creating a constant we have only one keyword that is <code>const</code></p>
 <pre><code class="hljs language-js"><span class="hljs-keyword">const</span> userId = <span class="hljs-number">198</span>;
 </code></pre>
 <p>Constants are unchangable variables, so that by mistaken your variable should not change by you or others.</p>
-<div class="alert alert-note"><div class="alert-header"><span class="alert-icon">ℹ️</span><span class="alert-label">Note</span></div>
-<p><br>
-We can write variable name in different manners.<br>
+<div class="alert alert-note"><div class="alert-header"><span class="alert-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="alert-icon-svg"><circle cx="12" cy="12" r="10"></circle><path d="M12 16v-4"></path><path d="M12 8h.01"></path></svg></span><span class="alert-label">Note</span></div>
+<p>We can write variable name in different manners.<br>
 <code>userId</code> is very common style of writing name of the variable, we can write it in another style as well like <code>user_id</code>, <code>user_Id</code></p>
 <p>It totally depends on the user or programmer, How he/she wants to write the name.<br>
 But make sure you are using an readable variable name<br>
@@ -40,9 +39,8 @@ For creating a changeable variable we have two keywords <code>let</code> and <co
 </code></pre>
 <p>Prefer not to use <code>var</code>
 <code>var</code> has issues with block scope and functional scope.</p>
-<div class="alert alert-important"><div class="alert-header"><span class="alert-icon">📌</span><span class="alert-label">Important</span></div>
-<p><br>
-A block means</p>
+<div class="alert alert-important"><div class="alert-header"><span class="alert-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="alert-icon-svg"><path d="M12 16h.01"></path><path d="M12 8v4"></path><path d="M15.312 2a2 2 0 0 1 1.414.586l4.688 4.688A2 2 0 0 1 22 8.688v6.624a2 2 0 0 1-.586 1.414l-4.688 4.688a2 2 0 0 1-1.414.586H8.688a2 2 0 0 1-1.414-.586l-4.688-4.688A2 2 0 0 1 2 15.312V8.688a2 2 0 0 1 .586-1.414l4.688-4.688A2 2 0 0 1 8.688 2z"></path></svg></span><span class="alert-label">Important</span></div>
+<p>A block means</p>
 <pre><code class="hljs language-js">{
   <span class="hljs-comment">// Code block</span>
 }
@@ -72,9 +70,8 @@ Multiline
 comments
 */</span>
 </code></pre>
-<div class="alert alert-note"><div class="alert-header"><span class="alert-icon">ℹ️</span><span class="alert-label">Note</span></div>
-<p><br>
-If you are using a code editor like VS Code.<br>
+<div class="alert alert-note"><div class="alert-header"><span class="alert-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="alert-icon-svg"><circle cx="12" cy="12" r="10"></circle><path d="M12 16v-4"></path><path d="M12 8h.01"></path></svg></span><span class="alert-label">Note</span></div>
+<p>If you are using a code editor like VS Code.<br>
 Then you can comment lines very efficiently<br>
 Select the lines and <code>ctrl</code> + <code>/</code> ( <code>cmd</code> + <code>/</code> )</p>
 </div>
@@ -86,9 +83,8 @@ For the browser how they will treat the code
 
 <span class="hljs-comment">// above statement ensures that your source code will be treated as newer version of javascript</span>
 </code></pre>
-<div class="alert alert-warning"><div class="alert-header"><span class="alert-icon">⚠️</span><span class="alert-label">Warning</span></div>
-<p><br>
-<code>alert("Hello")</code> statement won't work when we execute our script file using <code>node.js</code><br>
+<div class="alert alert-warning"><div class="alert-header"><span class="alert-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="alert-icon-svg"><path d="m21.73 18-8-14a2 2 0 0 0-3.46 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"></path><path d="M12 9v4"></path><path d="M12 17h.01"></path></svg></span><span class="alert-label">Warning</span></div>
+<p><code>alert("Hello")</code> statement won't work when we execute our script file using <code>node.js</code><br>
 It only works when you are on the broswer's console or running your script on the browser.</p>
 </div>
 <p>In the coding, it always recommended that your code should readable.</p>
@@ -98,7 +94,7 @@ It only works when you are on the broswer's console or running your script on th
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">"Vikash"</span>);
 </code></pre>
 <p>The above examples are not comes under the good practice.</p>
-<div class="alert alert-important"><div class="alert-header"><span class="alert-icon">📌</span><span class="alert-label">Important</span></div>
+<div class="alert alert-important"><div class="alert-header"><span class="alert-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="alert-icon-svg"><path d="M12 16h.01"></path><path d="M12 8v4"></path><path d="M15.312 2a2 2 0 0 1 1.414.586l4.688 4.688A2 2 0 0 1 22 8.688v6.624a2 2 0 0 1-.586 1.414l-4.688 4.688a2 2 0 0 1-1.414.586H8.688a2 2 0 0 1-1.414-.586l-4.688-4.688A2 2 0 0 1 2 15.312V8.688a2 2 0 0 1 .586-1.414l4.688-4.688A2 2 0 0 1 8.688 2z"></path></svg></span><span class="alert-label">Important</span></div>
 <p><br>
 Our main goal to write the code readable, Code readablity should be high.</p>
 </div>
@@ -171,9 +167,8 @@ Whenever we fetch some data from an API. ( eg. Weather API )</p>
 | <code>Number</code>(false) | 0 |
 | <code>Number</code>({ }) | NaN |
 | <code>Number</code>([ ]) | 0 |</p>
-<div class="alert alert-important"><div class="alert-header"><span class="alert-icon">📌</span><span class="alert-label">Important</span></div>
-<p><br>
-JavaScript converts data type, but values may not certain.</p>
+<div class="alert alert-important"><div class="alert-header"><span class="alert-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="alert-icon-svg"><path d="M12 16h.01"></path><path d="M12 8v4"></path><path d="M15.312 2a2 2 0 0 1 1.414.586l4.688 4.688A2 2 0 0 1 22 8.688v6.624a2 2 0 0 1-.586 1.414l-4.688 4.688a2 2 0 0 1-1.414.586H8.688a2 2 0 0 1-1.414-.586l-4.688-4.688A2 2 0 0 1 2 15.312V8.688a2 2 0 0 1 .586-1.414l4.688-4.688A2 2 0 0 1 8.688 2z"></path></svg></span><span class="alert-label">Important</span></div>
+<p>JavaScript converts data type, but values may not certain.</p>
 <p>When JavaScript unable to convert the values into number, it returns a <code>NaN</code> ( Not a Number ).</p>
 </div>
 <p>We have a <code>Boolean()</code> for converting values in boolean.</p>
@@ -248,9 +243,8 @@ When we try to convert datatype of an object</p>
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-number">2</span> / <span class="hljs-number">2</span>); <span class="hljs-comment">// 1</span>
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-number">2</span> % <span class="hljs-number">2</span>); <span class="hljs-comment">// 0</span>
 </code></pre>
-<div class="alert alert-note"><div class="alert-header"><span class="alert-icon">ℹ️</span><span class="alert-label">Note</span></div>
-<p><br>
-Modulas ( <code>%</code> ) operator calculates the remainder after division.<br>
+<div class="alert alert-note"><div class="alert-header"><span class="alert-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="alert-icon-svg"><circle cx="12" cy="12" r="10"></circle><path d="M12 16v-4"></path><path d="M12 8h.01"></path></svg></span><span class="alert-label">Note</span></div>
+<p>Modulas ( <code>%</code> ) operator calculates the remainder after division.<br>
 eg. <code>5 % 2 => 1</code>.</p>
 <p>Double astrik ( <code>**</code> ) operator calculates the exponential value.<br>
 eg. <code>3 ** 2 => 9</code></p>
@@ -263,9 +257,8 @@ eg. <code>3 ** 2 => 9</code></p>
 
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(str3); <span class="hljs-comment">// hello vikash</span>
 </code></pre>
-<div class="alert alert-note"><div class="alert-header"><span class="alert-icon">ℹ️</span><span class="alert-label">Note</span></div>
-<p><br>
-<code>str1 - str2</code> not possible 😅</p>
+<div class="alert alert-note"><div class="alert-header"><span class="alert-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="alert-icon-svg"><circle cx="12" cy="12" r="10"></circle><path d="M12 16v-4"></path><path d="M12 8h.01"></path></svg></span><span class="alert-label">Note</span></div>
+<p><code>str1 - str2</code> not possible 😅</p>
 </div>
 <p>We have already talked about <strong>explicit</strong> conversion.</p>
 <pre><code class="hljs language-js"><span class="hljs-keyword">let</span> userId = <span class="hljs-string">"198"</span>;
@@ -283,9 +276,8 @@ In implicit conversion <code>string</code>s are very powerful.</p>
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-number">1</span> + <span class="hljs-string">"2"</span> + <span class="hljs-number">2</span>); <span class="hljs-comment">// 122</span>
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-number">1</span> + <span class="hljs-number">2</span> + <span class="hljs-string">"2"</span>); <span class="hljs-comment">// 32</span>
 </code></pre>
-<div class="alert alert-important"><div class="alert-header"><span class="alert-icon">📌</span><span class="alert-label">Important</span></div>
-<p><br>
-Until a <code>string</code> datatype appears all the numbers are treated as <code>number</code>.<br>
+<div class="alert alert-important"><div class="alert-header"><span class="alert-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="alert-icon-svg"><path d="M12 16h.01"></path><path d="M12 8v4"></path><path d="M15.312 2a2 2 0 0 1 1.414.586l4.688 4.688A2 2 0 0 1 22 8.688v6.624a2 2 0 0 1-.586 1.414l-4.688 4.688a2 2 0 0 1-1.414.586H8.688a2 2 0 0 1-1.414-.586l-4.688-4.688A2 2 0 0 1 2 15.312V8.688a2 2 0 0 1 .586-1.414l4.688-4.688A2 2 0 0 1 8.688 2z"></path></svg></span><span class="alert-label">Important</span></div>
+<p>Until a <code>string</code> datatype appears all the numbers are treated as <code>number</code>.<br>
 But once the expression get any <code>string</code> value all the rest numbers will be treated as <code>string</code>.</p>
 </div>
 <p><strong>Writing mathematical expressions</strong>
@@ -335,9 +327,8 @@ Comparison operators return a <strong>boolean</strong> value ( <code>true</code>
 <pre><code class="hljs language-js"><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">"2"</span> > <span class="hljs-number">1</span>); <span class="hljs-comment">// true</span>
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">"02"</span> > <span class="hljs-number">2</span>); <span class="hljs-comment">// true</span>
 </code></pre>
-<div class="alert alert-warning"><div class="alert-header"><span class="alert-icon">⚠️</span><span class="alert-label">Warning</span></div>
-<p><br>
-Makesure you are comparing similar datatype variable so that your result may not be unexpected.</p>
+<div class="alert alert-warning"><div class="alert-header"><span class="alert-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="alert-icon-svg"><path d="m21.73 18-8-14a2 2 0 0 0-3.46 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"></path><path d="M12 9v4"></path><path d="M12 17h.01"></path></svg></span><span class="alert-label">Warning</span></div>
+<p>Makesure you are comparing similar datatype variable so that your result may not be unexpected.</p>
 </div>
 <p>Have a look on an special type of comparison with <code>null</code> 👀</p>
 <pre><code class="hljs language-js"><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-literal">null</span> > <span class="hljs-number">0</span>); <span class="hljs-comment">// false</span>
@@ -345,9 +336,8 @@ Makesure you are comparing similar datatype variable so that your result may not
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-literal">null</span> >= <span class="hljs-number">0</span>); <span class="hljs-comment">// true</span>
 </code></pre>
 <p>An unexpected result will occur if we compare value with <code>null</code>.</p>
-<div class="alert alert-important"><div class="alert-header"><span class="alert-icon">📌</span><span class="alert-label">Important</span></div>
-<p><br>
-The reason is that an equality check <code>==</code> and comparisons <code>></code> , <code>&#x3C;</code> , <code>>=</code> , <code>&#x3C;=</code> work differently</p>
+<div class="alert alert-important"><div class="alert-header"><span class="alert-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="alert-icon-svg"><path d="M12 16h.01"></path><path d="M12 8v4"></path><path d="M15.312 2a2 2 0 0 1 1.414.586l4.688 4.688A2 2 0 0 1 22 8.688v6.624a2 2 0 0 1-.586 1.414l-4.688 4.688a2 2 0 0 1-1.414.586H8.688a2 2 0 0 1-1.414-.586l-4.688-4.688A2 2 0 0 1 2 15.312V8.688a2 2 0 0 1 .586-1.414l4.688-4.688A2 2 0 0 1 8.688 2z"></path></svg></span><span class="alert-label">Important</span></div>
+<p>The reason is that an equality check <code>==</code> and comparisons <code>></code> , <code>&#x3C;</code> , <code>>=</code> , <code>&#x3C;=</code> work differently</p>
 <p>Comparisons convert null to a number, treating it as 0 that's why<br>
 ( <code>null >= 0</code> ) is <code>true</code><br>
 ( <code>null > 0</code> ) is <code>false</code></p>
@@ -367,11 +357,10 @@ JavaScript can compare between two different data type variable. Due to this fun
 To prevent this type of comparison we use strict checking.</p>
 <pre><code class="hljs language-js"><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">"3"</span> === <span class="hljs-number">3</span>); <span class="hljs-comment">// false</span>
 </code></pre>
-<div class="alert alert-note"><div class="alert-header"><span class="alert-icon">ℹ️</span><span class="alert-label">Note</span></div>
-<p><br>
-Strict checking compare between not only values but also data type of the variables.</p>
+<div class="alert alert-note"><div class="alert-header"><span class="alert-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="alert-icon-svg"><circle cx="12" cy="12" r="10"></circle><path d="M12 16v-4"></path><path d="M12 8h.01"></path></svg></span><span class="alert-label">Note</span></div>
+<p>Strict checking compare between not only values but also data type of the variables.</p>
 </div>
-<h4>Written with 💖 by <em>thatonevikash</em>!</h4>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"maxWidth":"sm","sx":{"py":6},"children":[["$","$L3",null,{"sx":{"position":"relative","border":"1px solid","borderColor":"divider","borderRadius":2,"p":3,"mb":5,"overflow":"hidden","&::before":{"content":"\"\"","position":"absolute","left":0,"top":0,"bottom":0,"width":3,"bgcolor":"primary.main","borderRadius":"0 2px 2px 0"}},"children":[["$","$L4",null,{"variant":"caption","sx":{"color":"text.disabled","letterSpacing":"0.04em","fontVariantNumeric":"tabular-nums","display":"block","mb":1.5},"children":"14 November 2024"}],["$","$L4",null,{"variant":"h4","sx":{"fontWeight":600,"letterSpacing":"-0.02em","lineHeight":1.3,"mb":2},"children":"JavaScript for Beginner"}],["$","$L3",null,{"sx":{"display":"flex","gap":0.75,"flexWrap":"wrap","mb":3},"children":[["$","$L5","programming",{"label":"programming","size":"small","variant":"filled","sx":{"bgcolor":"action.hover","color":"text.secondary","fontSize":"0.7rem","height":22,"fontWeight":500,"& .MuiChip-label":{"px":1}}}],["$","$L5","programming in javascript",{"label":"programming in javascript","size":"small","variant":"filled","sx":{"bgcolor":"action.hover","color":"text.secondary","fontSize":"0.7rem","height":22,"fontWeight":500,"& .MuiChip-label":{"px":1}}}],["$","$L5","basics of programming",{"label":"basics of programming","size":"small","variant":"filled","sx":{"bgcolor":"action.hover","color":"text.secondary","fontSize":"0.7rem","height":22,"fontWeight":500,"& .MuiChip-label":{"px":1}}}]]}],["$","$L6",null,{"sx":{"mx":-3,"mb":2.5}}],["$","$L3",null,{"sx":{"display":"flex","alignItems":"center","justifyContent":"space-between"},"children":[["$","$L3",null,{"sx":{"display":"flex","alignItems":"center","gap":1},"children":[["$","$L7",null,{"sx":{"width":28,"height":28,"fontSize":"0.7rem","fontWeight":700,"bgcolor":"primary.main"},"children":"T"}],["$","$L3",null,{"children":[["$","$L4",null,{"variant":"caption","sx":{"color":"text.disabled","display":"block","lineHeight":1},"children":"Written by"}],["$","$L4",null,{"variant":"body2","sx":{"fontWeight":600,"lineHeight":1.4},"children":"thatonevikash"}]]}]]}],["$","$L3",null,{"sx":{"display":"flex","gap":0.25},"children":[["$","$L8",null,{"title":"GitHub","arrow":true,"children":["$","$L9",null,{"size":"small","component":"a","href":"https://github.com/thatonevikash","target":"_blank","rel":"noopener noreferrer","aria-label":"GitHub profile","sx":{"color":"text.secondary","transition":"color 0.15s ease, transform 0.15s ease","&:hover":{"color":"text.primary","bgcolor":"transparent"}},"children":["$","$La",null,{"sx":{"fontSize":18}}]}]}],["$","$L8",null,{"title":"LinkedIn","arrow":true,"children":["$","$L9",null,{"size":"small","component":"a","href":"https://www.linkedin.com/in/thatonevikash/","target":"_blank","rel":"noopener noreferrer","aria-label":"LinkedIn profile","sx":{"color":"text.secondary","transition":"color 0.15s ease, transform 0.15s ease","&:hover":{"color":"#0A66C2","bgcolor":"transparent"}},"children":["$","$Lb",null,{"sx":{"fontSize":18}}]}]}],["$","$L8",null,{"title":"X (Twitter)","arrow":true,"children":["$","$L9",null,{"size":"small","component":"a","href":"https://x.com/thatonevikash","target":"_blank","rel":"noopener noreferrer","aria-label":"X profile","sx":{"color":"text.secondary","transition":"color 0.15s ease, transform 0.15s ease","&:hover":{"color":"text.primary","bgcolor":"transparent"}},"children":["$","$Lc",null,{"sx":{"fontSize":18}}]}]}]]}]]}]]}],["$","$L3",null,{"className":"markdown-body","dangerouslySetInnerHTML":{"__html":"$d"},"sx":{"& pre":{"borderRadius":1,"overflow":"auto"},"& code":{"fontSize":"0.875rem"},"& img":{"maxWidth":"100%"},"& .alert":{"borderRadius":1.5,"border":"1px solid","p":2,"my":2.5,"& .alert-header":{"display":"flex","alignItems":"center","gap":0.75},"& .alert-icon":{"fontSize":"1rem","lineHeight":1},"& .alert-label":{"fontSize":"0.8rem","fontWeight":700,"letterSpacing":"0.03em","textTransform":"uppercase"},"& p":{"mb":0,"fontSize":"0.9rem","lineHeight":1.7}},"& .alert-note":{"bgcolor":"rgba(9, 105, 218, 0.06)","borderColor":"rgba(9, 105, 218, 0.35)","& .alert-label":{"color":"#0969da"}},"& .alert-tip":{"bgcolor":"rgba(26, 127, 55, 0.06)","borderColor":"rgba(26, 127, 55, 0.35)","& .alert-label":{"color":"#1a7f37"}},"& .alert-important":{"bgcolor":"rgba(130, 80, 223, 0.06)","borderColor":"rgba(130, 80, 223, 0.35)","& .alert-label":{"color":"#8250df"}},"& .alert-warning":{"bgcolor":"rgba(154, 103, 0, 0.06)","borderColor":"rgba(154, 103, 0, 0.35)","& .alert-label":{"color":"#9a6700"}},"& .alert-caution":{"bgcolor":"rgba(207, 34, 46, 0.06)","borderColor":"rgba(207, 34, 46, 0.35)","& .alert-label":{"color":"#cf222e"}}}}]]}],["$Le","$Lf","$L10"],"$L11"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"N6NVTkJCI0OxL6UYJKIJ9"}
+<h4>Written with 💖 by <em>thatonevikash</em>!</h4>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"maxWidth":"sm","sx":{"py":6},"children":[["$","$L3",null,{"sx":{"position":"relative","border":"1px solid","borderColor":"divider","borderRadius":2,"p":3,"mb":5,"overflow":"hidden","&::before":{"content":"\"\"","position":"absolute","left":0,"top":0,"bottom":0,"width":3,"bgcolor":"primary.main","borderRadius":"0 2px 2px 0"}},"children":[["$","$L4",null,{"variant":"caption","sx":{"color":"text.disabled","letterSpacing":"0.04em","fontVariantNumeric":"tabular-nums","display":"block","mb":1.5},"children":"14 November 2024"}],["$","$L4",null,{"variant":"h4","sx":{"fontWeight":600,"letterSpacing":"-0.02em","lineHeight":1.3,"mb":2},"children":"JavaScript for Beginner"}],["$","$L3",null,{"sx":{"display":"flex","gap":0.75,"flexWrap":"wrap","mb":3},"children":[["$","$L5","programming",{"label":"programming","size":"small","variant":"filled","sx":{"bgcolor":"action.hover","color":"text.secondary","fontSize":"0.7rem","height":22,"fontWeight":500,"& .MuiChip-label":{"px":1}}}],["$","$L5","programming in javascript",{"label":"programming in javascript","size":"small","variant":"filled","sx":{"bgcolor":"action.hover","color":"text.secondary","fontSize":"0.7rem","height":22,"fontWeight":500,"& .MuiChip-label":{"px":1}}}],["$","$L5","basics of programming",{"label":"basics of programming","size":"small","variant":"filled","sx":{"bgcolor":"action.hover","color":"text.secondary","fontSize":"0.7rem","height":22,"fontWeight":500,"& .MuiChip-label":{"px":1}}}]]}],["$","$L6",null,{"sx":{"mx":-3,"mb":2.5}}],["$","$L3",null,{"sx":{"display":"flex","alignItems":"center","justifyContent":"space-between"},"children":[["$","$L3",null,{"sx":{"display":"flex","alignItems":"center","gap":1},"children":[["$","$L7",null,{"sx":{"width":28,"height":28,"fontSize":"0.7rem","fontWeight":700,"bgcolor":"primary.main"},"children":"T"}],["$","$L3",null,{"children":[["$","$L4",null,{"variant":"caption","sx":{"color":"text.disabled","display":"block","lineHeight":1},"children":"Written by"}],["$","$L4",null,{"variant":"body2","sx":{"fontWeight":600,"lineHeight":1.4},"children":"thatonevikash"}]]}]]}],["$","$L3",null,{"sx":{"display":"flex","gap":0.25},"children":[["$","$L8",null,{"title":"GitHub","arrow":true,"children":["$","$L9",null,{"size":"small","component":"a","href":"https://github.com/thatonevikash","target":"_blank","rel":"noopener noreferrer","aria-label":"GitHub profile","sx":{"color":"text.secondary","transition":"color 0.15s ease, transform 0.15s ease","&:hover":{"color":"text.primary","bgcolor":"transparent"}},"children":["$","$La",null,{"sx":{"fontSize":18}}]}]}],["$","$L8",null,{"title":"LinkedIn","arrow":true,"children":["$","$L9",null,{"size":"small","component":"a","href":"https://www.linkedin.com/in/thatonevikash/","target":"_blank","rel":"noopener noreferrer","aria-label":"LinkedIn profile","sx":{"color":"text.secondary","transition":"color 0.15s ease, transform 0.15s ease","&:hover":{"color":"#0A66C2","bgcolor":"transparent"}},"children":["$","$Lb",null,{"sx":{"fontSize":18}}]}]}],["$","$L8",null,{"title":"X (Twitter)","arrow":true,"children":["$","$L9",null,{"size":"small","component":"a","href":"https://x.com/thatonevikash","target":"_blank","rel":"noopener noreferrer","aria-label":"X profile","sx":{"color":"text.secondary","transition":"color 0.15s ease, transform 0.15s ease","&:hover":{"color":"text.primary","bgcolor":"transparent"}},"children":["$","$Lc",null,{"sx":{"fontSize":18}}]}]}]]}]]}]]}],["$","$L3",null,{"className":"markdown-body","dangerouslySetInnerHTML":{"__html":"$d"},"sx":{"& pre":{"borderRadius":1,"overflow":"auto"},"& code":{"fontSize":"0.875rem"},"& img":{"maxWidth":"100%"},"& .alert":{"borderRadius":1.5,"border":"1px solid","p":2,"my":2.5,"& .alert-header":{"display":"flex","alignItems":"center","gap":0.75,"mb":1},"& .alert-icon":{"fontSize":"1rem","lineHeight":1},"& .alert-label":{"fontSize":"0.8rem","fontWeight":700,"letterSpacing":"0.03em","textTransform":"uppercase"},"& p":{"mb":0,"fontSize":"0.9rem","lineHeight":1.7}},"& .alert-note":{"bgcolor":"rgba(9, 105, 218, 0.06)","borderColor":"rgba(9, 105, 218, 0.35)","& .alert-label":{"color":"#0969da"},"& .alert-icon-svg":{"color":"#0969da"}},"& .alert-tip":{"bgcolor":"rgba(26, 127, 55, 0.06)","borderColor":"rgba(26, 127, 55, 0.35)","& .alert-label":{"color":"#1a7f37"},"& .alert-icon-svg":{"color":"#1a7f37"}},"& .alert-important":{"bgcolor":"rgba(130, 80, 223, 0.06)","borderColor":"rgba(130, 80, 223, 0.35)","& .alert-label":{"color":"#8250df"},"& .alert-icon-svg":{"color":"#8250df"}},"& .alert-warning":{"bgcolor":"rgba(154, 103, 0, 0.06)","borderColor":"rgba(154, 103, 0, 0.35)","& .alert-label":{"color":"#9a6700"},"& .alert-icon-svg":{"color":"#9a6700"}},"& .alert-caution":{"bgcolor":"rgba(207, 34, 46, 0.06)","borderColor":"rgba(207, 34, 46, 0.35)","& .alert-label":{"color":"#cf222e"},"& .alert-icon-svg":{"color":"#cf222e"}}}}]]}],["$Le","$Lf","$L10"],"$L11"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"SKRp_6_WwS_yhQXuyhckt"}
 e:["$","link","0",{"rel":"stylesheet","href":"/docs/_next/static/chunks/0apzrrrxeu37_.css","precedence":"next"}]
 f:["$","script","script-0",{"src":"/docs/_next/static/chunks/0109au5sf364x.js","async":true}]
 10:["$","script","script-1",{"src":"/docs/_next/static/chunks/0_u6~eqg.bm5h.js","async":true}]
