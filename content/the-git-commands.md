@@ -50,8 +50,8 @@ git config --global user.name "Your Name"
 git config --global user.email "you@example.com"
 ```
 
-> [!NOTE]\
-> Check your configuration with:\
+> [!NOTE]
+> Check your configuration with:
 >
 > ```bash
 > git config --list
@@ -60,7 +60,7 @@ git config --global user.email "you@example.com"
 **Finally, Git configured** 🤓<br/>
 Now you can use git commands to upload your code into GitHub codebase.
 
-> [!WARNING]\
+> [!WARNING]
 > Wait... Have you logged in at GitHub? No 😅<br/>
 > What are you waiting for, create an account on GitHub with the registered `email` and `username` as per Git config.
 >
@@ -97,7 +97,7 @@ Write the boiler plate code using `shift` + `!`
 
 Open it using live server.
 
-> [!NOTE]\
+> [!NOTE]
 > It is not necessary that you will have to initialize project before starting the project.
 
 Let's initialize now!<br/>
@@ -106,7 +106,7 @@ Let's initialize now!<br/>
 git init
 ```
 
-> [!IMPORTANT]\
+> [!IMPORTANT]
 > `.gitignore` file will help you to ignore any file or directory from tracking
 >
 > ```bash
@@ -168,7 +168,7 @@ There will not be any complication because —<br/> "_you have only one branch t
 git branch
 ```
 
-> [!IMPORTANT]\
+> [!IMPORTANT]
 > It will not preview all the branches that are on remote
 
 **Create a branch**
@@ -239,7 +239,7 @@ git commit -m"change"
 git push -u origin new-feature
 ```
 
-> [!WARNING]\
+> [!WARNING]
 > Default upstream is set to `main`
 >
 > `-u` flag is used change the upstream so that next time when you push the code from `new-feature` branch\
@@ -277,7 +277,7 @@ You will have to say the remote — my branch is done with changes, you please m
 
 Kidding, Just open up your repo in GitHub and raise a `pull request`. Once it merged to `main` branch your changes will reflect on `main`.
 
-> [!IMPORTANT]\
+> [!IMPORTANT]
 > Once your branch is merged to `main`\
 > You will have to update your `main` branch
 >

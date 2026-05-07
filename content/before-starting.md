@@ -30,7 +30,7 @@ Open notepad then create a file and save it with extension `.js`
 console.log("Hello World!")
 ```
 
-> [!important]\
+> [!IMPORTANT]
 > **source file**, is the file which has an specific extension type.\
 > And when we exexute the file using a compiler, it produces some output.
 
