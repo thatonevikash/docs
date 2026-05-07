@@ -44,7 +44,7 @@ Where to see the previews?
 
 Install live server extension. 🤓
 
-![live-server](live-server.png)
+![live-server](/internals/before-starting/live-server.png)
 
 ### Comments in HTML
 
