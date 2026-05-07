@@ -106,7 +106,7 @@ While JavaScript initially designed for the client-side, its versatility and pop
 
 - **Continued evolution**<br/>JavaScript and Node.js are constantly evolving, with new features and improvements enhancing their capablities.
 
-# You have to know!
+## You have to know!
 
 ### What is the difference between a normal text file and a source code file ?
 

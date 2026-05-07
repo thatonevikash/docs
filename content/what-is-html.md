@@ -86,7 +86,7 @@ HTML is the backbone of every website you visit? It's the magic code that struct
 </html>
 ```
 
-> [!NOTE]\
+> [!NOTE]
 > The above lines of code are commonly known as **BOILERPLATE**.\
 > We can write it with the help of the emmet abbreviation- `! + enter` | `html5 + enter`
 
@@ -96,14 +96,14 @@ HTML is the backbone of every website you visit? It's the magic code that struct
 <!DOCTYPE html>
 ```
 
-> [!NOTE]\
+> [!NOTE]
 > `<!DOCTYPE html>` tells to the browser this document is an HTML document.
 
 ```html
 <html lang="en"></html>
 ```
 
-> [!NOTE]\
+> [!NOTE]
 > `<html lang="en">` defining the code is written in English language.
 
 ```html
@@ -114,7 +114,7 @@ HTML is the backbone of every website you visit? It's the magic code that struct
 </head>
 ```
 
-> [!IMPORTANT]\
+> [!IMPORTANT]
 > `<head>` contains meta-information about the HTML document itself.\
 > `<meta>` metadata about the HTML document, such as character set, viewport settings, and description.\
 > `<title>` Sets the title of the HTML document, which appears in the browser's title bar or tab.
@@ -149,11 +149,8 @@ HTML is the backbone of every website you visit? It's the magic code that struct
 <body></body>
 ```
 
-> [!IMPORTANT]\
+> [!IMPORTANT]
 > `<body>` whatever we write inside it, will reflect on the browser's main screen.
-
-> [!NOTE]\
-> `<html>` is the main wrapper of the html document.
 
 ---
 

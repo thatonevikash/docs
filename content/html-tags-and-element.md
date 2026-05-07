@@ -38,7 +38,7 @@ _`"In HTML every thing starts and ends with Tags"`_
 
 Alike `<head>` is a tag, `<body>` is a tag, `<h1>` is also a tag.
 
-> [!NOTE]\
+> [!NOTE]
 > HTML is all about dealing with various tags to build layout of any website.
 
 A tag can only be written using `<tag>` angle brackets.

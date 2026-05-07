@@ -238,7 +238,7 @@ export default async function Page({ params }: PageProps) {
               display: "flex",
               alignItems: "center",
               gap: 0.75,
-              // mb: 1,
+              mb: 1,
             },
             "& .alert-icon": { fontSize: "1rem", lineHeight: 1 },
             "& .alert-label": {
@@ -254,26 +254,31 @@ export default async function Page({ params }: PageProps) {
             bgcolor: "rgba(9, 105, 218, 0.06)",
             borderColor: "rgba(9, 105, 218, 0.35)",
             "& .alert-label": { color: "#0969da" },
+            "& .alert-icon-svg": { color: "#0969da" },
           },
           "& .alert-tip": {
             bgcolor: "rgba(26, 127, 55, 0.06)",
             borderColor: "rgba(26, 127, 55, 0.35)",
             "& .alert-label": { color: "#1a7f37" },
+            "& .alert-icon-svg": { color: "#1a7f37" },
           },
           "& .alert-important": {
             bgcolor: "rgba(130, 80, 223, 0.06)",
             borderColor: "rgba(130, 80, 223, 0.35)",
             "& .alert-label": { color: "#8250df" },
+            "& .alert-icon-svg": { color: "#8250df" },
           },
           "& .alert-warning": {
             bgcolor: "rgba(154, 103, 0, 0.06)",
             borderColor: "rgba(154, 103, 0, 0.35)",
             "& .alert-label": { color: "#9a6700" },
+            "& .alert-icon-svg": { color: "#9a6700" },
           },
           "& .alert-caution": {
             bgcolor: "rgba(207, 34, 46, 0.06)",
             borderColor: "rgba(207, 34, 46, 0.35)",
             "& .alert-label": { color: "#cf222e" },
+            "& .alert-icon-svg": { color: "#cf222e" },
           },
         }}
       />

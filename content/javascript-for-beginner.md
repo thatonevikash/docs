@@ -33,7 +33,7 @@ const userId = 198;
 
 Constants are unchangable variables, so that by mistaken your variable should not change by you or others.
 
-> [!NOTE]\
+> [!NOTE]
 > We can write variable name in different manners.\
 > `userId` is very common style of writing name of the variable, we can write it in another style as well like `user_id`, `user_Id`
 >
@@ -54,7 +54,7 @@ var userEmail = "vikash@google.com";
 Prefer not to use `var`<br/>
 `var` has issues with block scope and functional scope.
 
-> [!IMPORTANT]\
+> [!IMPORTANT]
 > A block means
 >
 > ```js
@@ -93,7 +93,7 @@ comments
 */
 ```
 
-> [!NOTE]\
+> [!NOTE]
 > If you are using a code editor like VS Code.\
 > Then you can comment lines very efficiently\
 > Select the lines and `ctrl` + `/` ( `cmd` + `/` )
@@ -110,7 +110,7 @@ For the browser how they will treat the code
 // above statement ensures that your source code will be treated as newer version of javascript
 ```
 
-> [!WARNING]\
+> [!WARNING]
 > `alert("Hello")` statement won't work when we execute our script file using `node.js`\
 > It only works when you are on the broswer's console or running your script on the browser.
 
@@ -219,7 +219,7 @@ console.log(typeof scoreInNumber); // number
 | `Number`({ }) | NaN |
 | `Number`([ ]) | 0 |
 
-> [!IMPORTANT]\
+> [!IMPORTANT]
 > JavaScript converts data type, but values may not certain.
 >
 > When JavaScript unable to convert the values into number, it returns a `NaN` ( Not a Number ).
@@ -317,7 +317,7 @@ console.log(2 / 2); // 1
 console.log(2 % 2); // 0
 ```
 
-> [!NOTE]\
+> [!NOTE]
 > Modulas ( `%` ) operator calculates the remainder after division.\
 > eg. `5 % 2 => 1`.
 >
@@ -335,7 +335,7 @@ let str3 = str1 + str2;
 console.log(str3); // hello vikash
 ```
 
-> [!NOTE]\
+> [!NOTE]
 > `str1 - str2` not possible 😅
 
 We have already talked about **explicit** conversion.<br/>
@@ -360,7 +360,7 @@ console.log(1 + "2" + 2); // 122
 console.log(1 + 2 + "2"); // 32
 ```
 
-> [!IMPORTANT]\
+> [!IMPORTANT]
 > Until a `string` datatype appears all the numbers are treated as `number`.\
 > But once the expression get any `string` value all the rest numbers will be treated as `string`.
 
@@ -430,7 +430,7 @@ console.log("2" > 1); // true
 console.log("02" > 2); // true
 ```
 
-> [!WARNING]\
+> [!WARNING]
 > Makesure you are comparing similar datatype variable so that your result may not be unexpected.
 
 Have a look on an special type of comparison with `null` 👀
@@ -443,7 +443,7 @@ console.log(null >= 0); // true
 
 An unexpected result will occur if we compare value with `null`.
 
-> [!IMPORTANT]\
+> [!IMPORTANT]
 > The reason is that an equality check `==` and comparisons `>` , `<` , `>=` , `<=` work differently
 >
 > Comparisons convert null to a number, treating it as 0 that's why\
@@ -475,7 +475,7 @@ To prevent this type of comparison we use strict checking.
 console.log("3" === 3); // false
 ```
 
-> [!NOTE]\
+> [!NOTE]
 > Strict checking compare between not only values but also data type of the variables.
 
 #### Written with 💖 by _thatonevikash_!

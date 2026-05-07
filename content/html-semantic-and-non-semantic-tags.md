@@ -47,7 +47,7 @@ This organized tags are giving a clear understanding that the website contains t
 
 You may create layout using semantic or non-semantic tags.
 
-> [!IMPORTANT]\
+> [!IMPORTANT]
 > Semantic tags are self explanatory tags and great for browser to identify.
 >
 > Non-semantic tags are less explanatory tags and poor for browser to identify.

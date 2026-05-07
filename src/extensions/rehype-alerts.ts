@@ -16,7 +16,12 @@ const ALERT_META: Record<AlertType, { icon: LucideNode; label: string }> = {
   },
   TIP: {
     icon: [
-      ["path", { d: "M15 14c.2-1 .7-1.7 1.5-2.5A6 6 0 1 0 7.5 11.5c.8.8 1.3 1.5 1.5 2.5" }],
+      [
+        "path",
+        {
+          d: "M15 14c.2-1 .7-1.7 1.5-2.5A6 6 0 1 0 7.5 11.5c.8.8 1.3 1.5 1.5 2.5",
+        },
+      ],
       ["path", { d: "M9 18h6" }],
       ["path", { d: "M10 22h4" }],
     ],
@@ -24,18 +29,25 @@ const ALERT_META: Record<AlertType, { icon: LucideNode; label: string }> = {
   },
   IMPORTANT: {
     icon: [
-      ["path", { d: "M12 17v-5" }],
-      ["path", { d: "M5 3h14" }],
-      ["path", { d: "M5 21h14" }],
-      ["path", { d: "M19 3v4c0 1.1-.9 2-2 2H7c-1.1 0-2-.9-2-2V3" }],
-      ["path", { d: "M19 21v-4c0-1.1-.9-2-2-2H7c-1.1 0-2 .9-2 2v4" }],
-      ["path", { d: "M12 7h.01" }],
+      ["path", { d: "M12 16h.01" }],
+      ["path", { d: "M12 8v4" }],
+      [
+        "path",
+        {
+          d: "M15.312 2a2 2 0 0 1 1.414.586l4.688 4.688A2 2 0 0 1 22 8.688v6.624a2 2 0 0 1-.586 1.414l-4.688 4.688a2 2 0 0 1-1.414.586H8.688a2 2 0 0 1-1.414-.586l-4.688-4.688A2 2 0 0 1 2 15.312V8.688a2 2 0 0 1 .586-1.414l4.688-4.688A2 2 0 0 1 8.688 2z",
+        },
+      ],
     ],
     label: "Important",
   },
   WARNING: {
     icon: [
-      ["path", { d: "m21.73 18-8-14a2 2 0 0 0-3.46 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3" }],
+      [
+        "path",
+        {
+          d: "m21.73 18-8-14a2 2 0 0 0-3.46 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3",
+        },
+      ],
       ["path", { d: "M12 9v4" }],
       ["path", { d: "M12 17h.01" }],
     ],
@@ -97,7 +109,7 @@ export function rehypeAlerts() {
       if (!firstText) return;
 
       const match = firstText.value.match(
-        /^\[!(NOTE|TIP|IMPORTANT|WARNING|CAUTION)\]\n?/
+        /^\[!(NOTE|TIP|IMPORTANT|WARNING|CAUTION)\]\n?/,
       );
       if (!match) return;
 
