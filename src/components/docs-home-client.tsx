@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { Box, Grid, InputBase, Typography, styled } from "@mui/material";
 import SearchIcon from "@mui/icons-material/Search";
 
@@ -19,16 +19,41 @@ const SearchWrapper = styled(Box)(({ theme }) => ({
   borderRadius: 999,
   border: `1px solid ${theme.palette.divider}`,
   minWidth: 280,
-  maxWidth: 420,
+  maxWidth: 460,
   width: "100%",
   overflow: "hidden",
   backgroundColor: theme.palette.background.paper,
+  transition: "all 0.2s ease",
+  boxShadow: "0 1px 2px rgba(0,0,0,0.02)",
+  "&:hover": {
+    borderColor: theme.palette.action.active,
+    boxShadow: "0 4px 14px rgba(0,0,0,0.06)",
+  },
+  "&:focus-within": {
+    borderColor: theme.palette.primary.main,
+    boxShadow: `0 0 0 3px ${theme.palette.primary.main}22`,
+  },
 }));
 
 const SearchInput = styled(InputBase)(({ theme }) => ({
   flex: 1,
-  padding: theme.spacing(1.1, 1.8),
+  padding: theme.spacing(1.15, 1.9),
   fontSize: "0.92rem",
+  "& input::placeholder": {
+    color: theme.palette.text.secondary,
+    opacity: 0.9,
+  },
+}));
+
+const SearchHint = styled(Box)(({ theme }) => ({
+  marginRight: theme.spacing(1),
+  padding: theme.spacing(0.35, 0.7),
+  borderRadius: 8,
+  border: `1px solid ${theme.palette.divider}`,
+  color: theme.palette.text.secondary,
+  fontSize: "0.72rem",
+  lineHeight: 1,
+  fontWeight: 600,
 }));
 
 const SearchIconBox = styled(Box)(({ theme }) => ({
@@ -43,6 +68,31 @@ const SearchIconBox = styled(Box)(({ theme }) => ({
 
 export function DocsHomeClient({ posts }: DocsHomeClientProps) {
   const [query, setQuery] = useState("");
+  const inputRef = useRef<HTMLInputElement | null>(null);
+
+  useEffect(() => {
+    const onKeyDown = (event: KeyboardEvent) => {
+      if (event.key !== "/") {
+        return;
+      }
+
+      const target = event.target as HTMLElement | null;
+      const isTypingTarget =
+        target?.tagName === "INPUT" ||
+        target?.tagName === "TEXTAREA" ||
+        target?.isContentEditable;
+
+      if (isTypingTarget) {
+        return;
+      }
+
+      event.preventDefault();
+      inputRef.current?.focus();
+    };
+
+    window.addEventListener("keydown", onKeyDown);
+    return () => window.removeEventListener("keydown", onKeyDown);
+  }, []);
 
   const filteredPosts = useMemo(() => {
     const searchTerm = query.trim().toLowerCase();
@@ -88,11 +138,13 @@ export function DocsHomeClient({ posts }: DocsHomeClientProps) {
 
         <SearchWrapper>
           <SearchInput
+            inputRef={inputRef}
             placeholder="Search docs by title, tags, or description"
             value={query}
             onChange={(event) => setQuery(event.target.value)}
             inputProps={{ "aria-label": "search docs" }}
           />
+          <SearchHint>/</SearchHint>
           <SearchIconBox>
             <SearchIcon fontSize="small" />
           </SearchIconBox>
