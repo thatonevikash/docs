@@ -11,7 +11,7 @@ e:I[68027,["/docs/_next/static/chunks/17acz49rbz4-t.js","/docs/_next/static/chun
 :HL["/docs/_next/static/media/797e433ab948586e-s.p.0.q-h669a_dqa.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/docs/_next/static/media/caa3a2e1cccd8315-s.p.16t1db8_9y2o~.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/docs/_next/static/chunks/0apzrrrxeu37_.css","style"]
-0:{"P":null,"c":["","javascript-for-beginner",""],"q":"","i":false,"f":[[["",{"children":[["slug","javascript-for-beginner","d",null],{"children":["__PAGE__",{}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/docs/_next/static/chunks/0jsqcxe3.fnop.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/docs/_next/static/chunks/17acz49rbz4-t.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/docs/_next/static/chunks/09ae5h3n-0_u3.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/docs/_next/static/chunks/0d3shmwh5_nmn.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable","suppressHydrationWarning":true,"children":["$","body",null,{"children":["$","$L2",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","link","0",{"rel":"stylesheet","href":"/docs/_next/static/chunks/0apzrrrxeu37_.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/docs/_next/static/chunks/12suywcz38wus.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/docs/_next/static/chunks/0bl0kzv2czq.-.js","async":true,"nonce":"$undefined"}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,null]},null,false,"$@9"]},null,false,null],["$","$1","h",{"children":[null,["$","$La",null,{"children":"$Lb"}],["$","div",null,{"hidden":true,"children":["$","$Lc",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$Ld"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$e",[["$","link","0",{"rel":"stylesheet","href":"/docs/_next/static/chunks/0jsqcxe3.fnop.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"VLLWWHVkrcJ8wLaUo-bfi"}
+0:{"P":null,"c":["","javascript-for-beginner",""],"q":"","i":false,"f":[[["",{"children":[["slug","javascript-for-beginner","d",null],{"children":["__PAGE__",{}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/docs/_next/static/chunks/0jsqcxe3.fnop.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/docs/_next/static/chunks/17acz49rbz4-t.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/docs/_next/static/chunks/09ae5h3n-0_u3.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/docs/_next/static/chunks/0d3shmwh5_nmn.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable","suppressHydrationWarning":true,"children":["$","body",null,{"children":["$","$L2",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","link","0",{"rel":"stylesheet","href":"/docs/_next/static/chunks/0apzrrrxeu37_.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/docs/_next/static/chunks/12suywcz38wus.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/docs/_next/static/chunks/0bl0kzv2czq.-.js","async":true,"nonce":"$undefined"}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,null]},null,false,"$@9"]},null,false,null],["$","$1","h",{"children":[null,["$","$La",null,{"children":"$Lb"}],["$","div",null,{"hidden":true,"children":["$","$Lc",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$Ld"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$e",[["$","link","0",{"rel":"stylesheet","href":"/docs/_next/static/chunks/0jsqcxe3.fnop.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"jVTvhdW4EPnsGFEk_emJD"}
 f:[]
 9:"$Wf"
 10:I[66919,["/docs/_next/static/chunks/17acz49rbz4-t.js","/docs/_next/static/chunks/09ae5h3n-0_u3.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js","/docs/_next/static/chunks/12suywcz38wus.js","/docs/_next/static/chunks/0bl0kzv2czq.-.js"],"default"]
@@ -25,13 +25,13 @@ f:[]
 18:I[29086,["/docs/_next/static/chunks/17acz49rbz4-t.js","/docs/_next/static/chunks/09ae5h3n-0_u3.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js","/docs/_next/static/chunks/12suywcz38wus.js","/docs/_next/static/chunks/0bl0kzv2czq.-.js"],"default"]
 19:I[75611,["/docs/_next/static/chunks/17acz49rbz4-t.js","/docs/_next/static/chunks/09ae5h3n-0_u3.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js","/docs/_next/static/chunks/12suywcz38wus.js","/docs/_next/static/chunks/0bl0kzv2czq.-.js"],"default"]
 1a:I[80874,["/docs/_next/static/chunks/17acz49rbz4-t.js","/docs/_next/static/chunks/09ae5h3n-0_u3.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js","/docs/_next/static/chunks/12suywcz38wus.js","/docs/_next/static/chunks/0bl0kzv2czq.-.js"],"default"]
-1b:T8884,<h2>JavaScript</h2>
+1b:T8db4,<h2>JavaScript</h2>
 <p>In JavaScript, We print values using <code>console</code></p>
 <pre><code class="hljs language-js"><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">"Hello World!"</span>);
 </code></pre>
 <h3>Variables</h3>
 <p>In JavaScript, We create variables to hold data. Variables are like containers in which we store some data.</p>
-<p><strong>Const</strong>
+<p><strong>Const</strong><br/>
 For creating a constant we have only one keyword that is <code>const</code></p>
 <pre><code class="hljs language-js"><span class="hljs-keyword">const</span> userId = <span class="hljs-number">198</span>;
 </code></pre>
@@ -43,13 +43,13 @@ For creating a constant we have only one keyword that is <code>const</code></p>
 But make sure you are using an readable variable name<br>
 eg. <code>a = 198</code> is not comes under the good pratice instead you can write <code>myNumber = 198</code></p>
 </div>
-<p><strong>Let and Var</strong>
+<p><strong>Let and Var</strong><br/>
 For creating a changeable variable we have two keywords <code>let</code> and <code>var</code>.</p>
 <p>In modern JavaScript, We only use <code>let</code> keyword for defining changeable variable not <code>var</code>.</p>
 <pre><code class="hljs language-js"><span class="hljs-keyword">let</span> userName = <span class="hljs-string">"vikash"</span>;
 <span class="hljs-keyword">var</span> userEmail = <span class="hljs-string">"vikash@google.com"</span>;
 </code></pre>
-<p>Prefer not to use <code>var</code>
+<p>Prefer not to use <code>var</code><br/>
 <code>var</code> has issues with block scope and functional scope.</p>
 <div class="alert alert-important"><div class="alert-header"><span class="alert-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="alert-icon-svg"><path d="M12 16h.01"></path><path d="M12 8v4"></path><path d="M15.312 2a2 2 0 0 1 1.414.586l4.688 4.688A2 2 0 0 1 22 8.688v6.624a2 2 0 0 1-.586 1.414l-4.688 4.688a2 2 0 0 1-1.414.586H8.688a2 2 0 0 1-1.414-.586l-4.688-4.688A2 2 0 0 1 2 15.312V8.688a2 2 0 0 1 .586-1.414l4.688-4.688A2 2 0 0 1 8.688 2z"></path></svg></span><span class="alert-label">Important</span></div>
 <p>A block means</p>
@@ -71,8 +71,8 @@ For creating a changeable variable we have two keywords <code>let</code> and <co
 }
 </code></pre>
 </div>
-<p><strong>Comments</strong>
-Unlike another languages, In JavaScript we can also write comments.
+<p><strong>Comments</strong><br/>
+Unlike another languages, In JavaScript we can also write comments.<br/>
 Comments are ignored by the compiler.</p>
 <pre><code class="hljs language-js"><span class="hljs-comment">// Single line comment</span>
 
@@ -88,7 +88,7 @@ Then you can comment lines very efficiently<br>
 Select the lines and <code>ctrl</code> + <code>/</code> ( <code>cmd</code> + <code>/</code> )</p>
 </div>
 <h3>Standard code and Importance of code readablity</h3>
-<p>As we discussed to standardize the JavaScript code ECMAScript International writes standards.
+<p>As we discussed to standardize the JavaScript code ECMAScript International writes standards.<br/>
 For the browser how they will treat the code
 <code>"use strict"</code></p>
 <pre><code class="hljs language-js"><span class="hljs-meta">"use strict"</span>;
@@ -105,7 +105,7 @@ It only works when you are on the broswer's console or running your script on th
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">"javascript"</span>);
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">"Vikash"</span>);
 </code></pre>
-<p>The above examples are not comes under the good practice.</p>
+<p>The above examples are not comes under the good practice.<br/></p>
 <div class="alert alert-important"><div class="alert-header"><span class="alert-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="alert-icon-svg"><path d="M12 16h.01"></path><path d="M12 8v4"></path><path d="M15.312 2a2 2 0 0 1 1.414.586l4.688 4.688A2 2 0 0 1 22 8.688v6.624a2 2 0 0 1-.586 1.414l-4.688 4.688a2 2 0 0 1-1.414.586H8.688a2 2 0 0 1-1.414-.586l-4.688-4.688A2 2 0 0 1 2 15.312V8.688a2 2 0 0 1 .586-1.414l4.688-4.688A2 2 0 0 1 8.688 2z"></path></svg></span><span class="alert-label">Important</span></div>
 <p><br>
 Our main goal to write the code readable, Code readablity should be high.</p>
@@ -114,7 +114,7 @@ Our main goal to write the code readable, Code readablity should be high.</p>
 <p>In other programming languages like <code>C#</code> and <code>C++</code>, there is a most important concept of <strong>Call by Value</strong> and <strong>Call by Reference</strong>.</p>
 <p>In the very top level data types are categorized based on how a data value will be stored in memory, and how they can be accessed by the user.</p>
 <p>Here we have two category - <code>Primitive</code> ( Call by value ) and <code>Reference</code> | Non-primitive ( Call by reference )</p>
-<p><strong>Call by value</strong>: A copy of original value to be passed.
+<p><strong>Call by value</strong>: A copy of original value to be passed.<br/>
 <strong>Call by reference</strong>: Original value to be passed.</p>
 <p><strong>Primitive data types</strong></p>
 <ul>
@@ -126,7 +126,7 @@ Our main goal to write the code readable, Code readablity should be high.</p>
 <li><code>undefined</code> ( dataType )</li>
 <li><code>symbol</code> ( unique )</li>
 </ul>
-<p>We have a <code>typeof</code> method for investigation, what kind of data type we are storing in a variable.
+<p>We have a <code>typeof</code> method for investigation, what kind of data type we are storing in a variable.<br/>
 There are two ways to write typeof method as</p>
 <pre><code class="hljs language-js"><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-keyword">typeof</span> <span class="hljs-number">198</span>);
 
@@ -145,7 +145,7 @@ There are two ways to write typeof method as</p>
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-keyword">typeof</span> <span class="hljs-title class_">String</span>()); <span class="hljs-comment">// string</span>
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-keyword">typeof</span> <span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) {}); <span class="hljs-comment">// functional object</span>
 </code></pre>
-<p><strong>Symbol data type</strong>
+<p><strong>Symbol data type</strong><br/>
 A symbol in JavaScript is a unique, immutable data type that is often used to create unique identifiers for properties on objects. Unlike strings, symbols are not comparable by value, meaning two symbols created with the same description are not considered equal.</p>
 <pre><code class="hljs language-js"><span class="hljs-keyword">const</span> id = <span class="hljs-title class_">Symbol</span>(<span class="hljs-number">12</span>);
 
@@ -154,10 +154,10 @@ A symbol in JavaScript is a unique, immutable data type that is often used to cr
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(id === anotherId); <span class="hljs-comment">// false</span>
 </code></pre>
 <h3>Conversions</h3>
-<p>It is possible to convert data types in JavaScript.
+<p>It is possible to convert data types in JavaScript.<br/>
 eg. <code>number</code> -> <code>string</code> | <code>string</code> -> <code>number</code> | <code>number</code> -> <code>boolean</code> | <code>string</code> -> <code>boolean</code> | <code>boolean</code> -> <code>string</code> | <code>boolean</code> -> <code>number</code></p>
-<p><strong>Why we need conversion</strong>?
-Most of the time browser returns a string value to user.
+<p><strong>Why we need conversion</strong>?<br/>
+Most of the time browser returns a string value to user.<br/>
 Whenever we fetch some data from an API. ( eg. Weather API )</p>
 <p>Conversion will not become a problem if you know what will be the expected result after conversion.</p>
 <p>We have <code>Number()</code> for converting values in number.</p>
@@ -168,17 +168,8 @@ Whenever we fetch some data from an API. ( eg. Weather API )</p>
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(scoreInNumber); <span class="hljs-comment">// 21</span>
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-keyword">typeof</span> scoreInNumber); <span class="hljs-comment">// number</span>
 </code></pre>
-<p><strong>Conversion List of Number</strong>
-| Value | Converted Value |
-| :--- | :--- |
-| <code>Number</code>("21") | 21 |
-| <code>Number</code>("21xyz") | NaN |
-| <code>Number</code>(null) | 0 |
-| <code>Number</code>(undefined) | NaN |
-| <code>Number</code>(true) | 1 |
-| <code>Number</code>(false) | 0 |
-| <code>Number</code>({ }) | NaN |
-| <code>Number</code>([ ]) | 0 |</p>
+<p><strong>Conversion List of Number</strong></p>
+<table><thead><tr><th align="left">Value</th><th align="left">Converted Value</th></tr></thead><tbody><tr><td align="left">`Number`("21")</td><td align="left">21</td></tr><tr><td align="left">`Number`("21xyz")</td><td align="left">NaN</td></tr><tr><td align="left">`Number`(null)</td><td align="left">0</td></tr><tr><td align="left">`Number`(undefined)</td><td align="left">NaN</td></tr><tr><td align="left">`Number`(true)</td><td align="left">1</td></tr><tr><td align="left">`Number`(false)</td><td align="left">0</td></tr><tr><td align="left">`Number`({ })</td><td align="left">NaN</td></tr><tr><td align="left">`Number`([ ])</td><td align="left">0</td></tr></tbody></table>
 <div class="alert alert-important"><div class="alert-header"><span class="alert-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="alert-icon-svg"><path d="M12 16h.01"></path><path d="M12 8v4"></path><path d="M15.312 2a2 2 0 0 1 1.414.586l4.688 4.688A2 2 0 0 1 22 8.688v6.624a2 2 0 0 1-.586 1.414l-4.688 4.688a2 2 0 0 1-1.414.586H8.688a2 2 0 0 1-1.414-.586l-4.688-4.688A2 2 0 0 1 2 15.312V8.688a2 2 0 0 1 .586-1.414l4.688-4.688A2 2 0 0 1 8.688 2z"></path></svg></span><span class="alert-label">Important</span></div>
 <p>JavaScript converts data type, but values may not certain.</p>
 <p>When JavaScript unable to convert the values into number, it returns a <code>NaN</code> ( Not a Number ).</p>
@@ -191,18 +182,8 @@ Whenever we fetch some data from an API. ( eg. Weather API )</p>
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(booleanIsLoggedIn); <span class="hljs-comment">// false</span>
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-keyword">typeof</span> booleanIsLoggedIn); <span class="hljs-comment">// boolean</span>
 </code></pre>
-<p><strong>Conversion List of Boolean</strong>
-| Value | Converted Value |
-| :--- | :--- |
-| <code>Boolean</code>(" ") | false |
-| <code>Boolean</code>("vikash") | true |
-| <code>Boolean</code>(1) | true |
-| <code>Boolean</code>(0) | false |
-| <code>Boolean</code>(null) | false |
-| <code>Boolean</code>(undefined) | false |
-| <code>Boolean</code>({ }) | true |
-| <code>Boolean</code>([ ]) | true |
-| <code>Boolean</code>(function (){}) | true |</p>
+<p><strong>Conversion List of Boolean</strong></p>
+<table><thead><tr><th align="left">Value</th><th align="left">Converted Value</th></tr></thead><tbody><tr><td align="left">`Boolean`(" ")</td><td align="left">false</td></tr><tr><td align="left">`Boolean`("vikash")</td><td align="left">true</td></tr><tr><td align="left">`Boolean`(1)</td><td align="left">true</td></tr><tr><td align="left">`Boolean`(0)</td><td align="left">false</td></tr><tr><td align="left">`Boolean`(null)</td><td align="left">false</td></tr><tr><td align="left">`Boolean`(undefined)</td><td align="left">false</td></tr><tr><td align="left">`Boolean`({ })</td><td align="left">true</td></tr><tr><td align="left">`Boolean`([ ])</td><td align="left">true</td></tr><tr><td align="left">`Boolean`(function (){})</td><td align="left">true</td></tr></tbody></table>
 <p>Similarly, We have <code>String()</code> for converting values in string.</p>
 <pre><code class="hljs language-js"><span class="hljs-keyword">let</span> myString = <span class="hljs-number">2</span>;
 
@@ -211,15 +192,9 @@ Whenever we fetch some data from an API. ( eg. Weather API )</p>
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(myStringValue); <span class="hljs-comment">// "2"</span>
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-keyword">typeof</span> myStringValue); <span class="hljs-comment">// string</span>
 </code></pre>
-<p><strong>Conversion List of string</strong>
-| Value | Converted Value |
-| :--- | :--- |
-| <code>String</code>(2) | "2" |
-| <code>String</code>(null) | "null" |
-| <code>String</code>(undefined) | "undefined" |
-| <code>String</code>(true) | "true" |
-| <code>String</code>(false) | "false" |</p>
-<p><strong>Here are some special cases</strong>.
+<p><strong>Conversion List of string</strong></p>
+<table><thead><tr><th align="left">Value</th><th align="left">Converted Value</th></tr></thead><tbody><tr><td align="left">`String`(2)</td><td align="left">"2"</td></tr><tr><td align="left">`String`(null)</td><td align="left">"null"</td></tr><tr><td align="left">`String`(undefined)</td><td align="left">"undefined"</td></tr><tr><td align="left">`String`(true)</td><td align="left">"true"</td></tr><tr><td align="left">`String`(false)</td><td align="left">"false"</td></tr></tbody></table>
+<p><strong>Here are some special cases</strong>.<br/>
 When we try to convert datatype of an object</p>
 <pre><code class="hljs language-js"><span class="hljs-keyword">let</span> myString = {};
 
@@ -247,7 +222,7 @@ When we try to convert datatype of an object</p>
 
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(negValue); <span class="hljs-comment">// -3</span>
 </code></pre>
-<p>We have many types of mathematical operations to perform on the variables.</p>
+<p>We have many types of mathematical operations to perform on the variables.<br/></p>
 <pre><code class="hljs language-js"><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-number">2</span> + <span class="hljs-number">2</span>); <span class="hljs-comment">// 4</span>
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-number">2</span> - <span class="hljs-number">2</span>); <span class="hljs-comment">// 0</span>
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-number">2</span> * <span class="hljs-number">2</span>); <span class="hljs-comment">// 4</span>
@@ -272,14 +247,14 @@ eg. <code>3 ** 2 => 9</code></p>
 <div class="alert alert-note"><div class="alert-header"><span class="alert-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="alert-icon-svg"><circle cx="12" cy="12" r="10"></circle><path d="M12 16v-4"></path><path d="M12 8h.01"></path></svg></span><span class="alert-label">Note</span></div>
 <p><code>str1 - str2</code> not possible 😅</p>
 </div>
-<p>We have already talked about <strong>explicit</strong> conversion.</p>
+<p>We have already talked about <strong>explicit</strong> conversion.<br/></p>
 <pre><code class="hljs language-js"><span class="hljs-keyword">let</span> userId = <span class="hljs-string">"198"</span>;
 <span class="hljs-keyword">let</span> userIdInNumber = <span class="hljs-title class_">Number</span>(userId);
 
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(userIdInNumber); <span class="hljs-comment">// 198</span>
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-keyword">typeof</span> userIdInNumber); <span class="hljs-comment">// number</span>
 </code></pre>
-<p><strong>Problems with implicit conversion</strong>
+<p><strong>Problems with implicit conversion</strong><br/>
 In implicit conversion <code>string</code>s are very powerful.</p>
 <pre><code class="hljs language-js"><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">"1"</span> + <span class="hljs-number">2</span>); <span class="hljs-comment">// 12</span>
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-number">1</span> + <span class="hljs-string">"2"</span>); <span class="hljs-comment">// 12</span>
@@ -292,15 +267,15 @@ In implicit conversion <code>string</code>s are very powerful.</p>
 <p>Until a <code>string</code> datatype appears all the numbers are treated as <code>number</code>.<br>
 But once the expression get any <code>string</code> value all the rest numbers will be treated as <code>string</code>.</p>
 </div>
-<p><strong>Writing mathematical expressions</strong>
+<p><strong>Writing mathematical expressions</strong><br/>
 In JavaScript it is complicated to predict the result of a messy expression.
-eg. <code>( 3 + 4 * 5 % 3 )</code>
+eg. <code>( 3 + 4 * 5 % 3 )</code><br/>
 There is no any certainity in the above expression. Instead we can use more parenthesis for a more certain result.</p>
 <pre><code class="hljs language-js"><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-number">3</span> + ((<span class="hljs-number">4</span> * <span class="hljs-number">5</span>) % <span class="hljs-number">3</span>)); <span class="hljs-comment">// Wrong approach to write expressions</span>
 
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>((<span class="hljs-number">3</span> + <span class="hljs-number">4</span> * <span class="hljs-number">5</span>) % <span class="hljs-number">3</span>); <span class="hljs-comment">// More reliable approach to write expressions</span>
 </code></pre>
-<p>Some more expressions are written as
+<p>Some more expressions are written as<br/>
 <code>+true</code> and <code>+""</code></p>
 <pre><code class="hljs language-js"><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(+<span class="hljs-literal">true</span>); <span class="hljs-comment">// 1  ( Prefer not to use in programming )</span>
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(+<span class="hljs-string">""</span>); <span class="hljs-comment">// 0  ( Prefer not to use in programming )</span>
@@ -313,19 +288,12 @@ There is no any certainity in the above expression. Instead we can use more pare
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(gameCounter++); <span class="hljs-comment">// 11</span>
 </code></pre>
 <p>Here you are thinking that both the operators did the same work but they works differently.</p>
-<p>| Value: gameCounter = 10 | Current value | Passed value |
-| :---------------------- | :------------ | :----------- |
-| gameCounter             | 10            | 10           |
-| ++gameCounter           | 11            | 11           |
-| gameCounter++           | 11            | 12           |
-| ++gameCounter           | 13            | 13           |
-| gameCounter--           | 13            | 12           |
-| --gameCounter           | 11            | 11           |</p>
+<table><thead><tr><th align="left">Value: gameCounter = 10</th><th align="left">Current value</th><th align="left">Passed value</th></tr></thead><tbody><tr><td align="left">gameCounter</td><td align="left">10</td><td align="left">10</td></tr><tr><td align="left">++gameCounter</td><td align="left">11</td><td align="left">11</td></tr><tr><td align="left">gameCounter++</td><td align="left">11</td><td align="left">12</td></tr><tr><td align="left">++gameCounter</td><td align="left">13</td><td align="left">13</td></tr><tr><td align="left">gameCounter--</td><td align="left">13</td><td align="left">12</td></tr><tr><td align="left">--gameCounter</td><td align="left">11</td><td align="left">11</td></tr></tbody></table>
 <blockquote>
 <p>We print only current values in the console</p>
 </blockquote>
 <h3>Comparisons</h3>
-<p>Comparisons are used to compare between two values or expressions.
+<p>Comparisons are used to compare between two values or expressions.<br/>
 Comparison operators return a <strong>boolean</strong> value ( <code>true</code>/<code>false</code>). Most of the logic of the programming based on comparison. In conditionals ( <code>if-else</code> ) and <code>loop</code>s.</p>
 <p>List of comparisons</p>
 <pre><code class="hljs language-js"><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-number">2</span> > <span class="hljs-number">4</span>); <span class="hljs-comment">// false</span>
@@ -354,13 +322,13 @@ Comparison operators return a <strong>boolean</strong> value ( <code>true</code>
 ( <code>null >= 0</code> ) is <code>true</code><br>
 ( <code>null > 0</code> ) is <code>false</code></p>
 </div>
-<p>Don't worry!
+<p>Don't worry!<br/>
 Let's look the Comparison with <code>undefined</code></p>
 <pre><code class="hljs language-js"><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-literal">undefined</span> == <span class="hljs-number">0</span>); <span class="hljs-comment">// false</span>
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-literal">undefined</span> > <span class="hljs-number">0</span>); <span class="hljs-comment">// false</span>
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-literal">undefined</span> &#x3C; <span class="hljs-number">0</span>); <span class="hljs-comment">// false</span>
 </code></pre>
-<p><strong>Strict checking</strong>
+<p><strong>Strict checking</strong><br/>
 JavaScript can compare between two different data type variable. Due to this functionality of JavaScript, we may face unexpected error.</p>
 <pre><code class="hljs language-js"><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">"3"</span> == <span class="hljs-number">3</span>); <span class="hljs-comment">// true</span>
 </code></pre>
@@ -372,7 +340,7 @@ To prevent this type of comparison we use strict checking.</p>
 <div class="alert alert-note"><div class="alert-header"><span class="alert-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="alert-icon-svg"><circle cx="12" cy="12" r="10"></circle><path d="M12 16v-4"></path><path d="M12 8h.01"></path></svg></span><span class="alert-label">Note</span></div>
 <p>Strict checking compare between not only values but also data type of the variables.</p>
 </div>
-<h4>Written with 💖 by <em>thatonevikash</em>!</h4>5:["$","$L10",null,{"maxWidth":"sm","sx":{"py":6},"children":[["$","$L11",null,{"sx":{"position":"relative","border":"1px solid","borderColor":"divider","borderRadius":2,"p":3,"mb":5,"overflow":"hidden","&::before":{"content":"\"\"","position":"absolute","left":0,"top":0,"bottom":0,"width":3,"bgcolor":"primary.main","borderRadius":"0 2px 2px 0"}},"children":[["$","$L12",null,{"variant":"caption","sx":{"color":"text.disabled","letterSpacing":"0.04em","fontVariantNumeric":"tabular-nums","display":"block","mb":1.5},"children":"14 November 2024"}],["$","$L12",null,{"variant":"h4","sx":{"fontWeight":600,"letterSpacing":"-0.02em","lineHeight":1.3,"mb":2},"children":"JavaScript for Beginner"}],["$","$L11",null,{"sx":{"display":"flex","gap":0.75,"flexWrap":"wrap","mb":3},"children":[["$","$L13","programming",{"label":"programming","size":"small","variant":"filled","sx":{"bgcolor":"action.hover","color":"text.secondary","fontSize":"0.7rem","height":22,"fontWeight":500,"& .MuiChip-label":{"px":1}}}],["$","$L13","programming in javascript",{"label":"programming in javascript","size":"small","variant":"filled","sx":{"bgcolor":"action.hover","color":"text.secondary","fontSize":"0.7rem","height":22,"fontWeight":500,"& .MuiChip-label":{"px":1}}}],["$","$L13","basics of programming",{"label":"basics of programming","size":"small","variant":"filled","sx":{"bgcolor":"action.hover","color":"text.secondary","fontSize":"0.7rem","height":22,"fontWeight":500,"& .MuiChip-label":{"px":1}}}]]}],["$","$L14",null,{"sx":{"mx":-3,"mb":2.5}}],["$","$L11",null,{"sx":{"display":"flex","alignItems":"center","justifyContent":"space-between"},"children":[["$","$L11",null,{"sx":{"display":"flex","alignItems":"center","gap":1},"children":[["$","$L15",null,{"sx":{"width":28,"height":28,"fontSize":"0.7rem","fontWeight":700,"bgcolor":"primary.main"},"children":"T"}],["$","$L11",null,{"children":[["$","$L12",null,{"variant":"caption","sx":{"color":"text.disabled","display":"block","lineHeight":1},"children":"Written by"}],["$","$L12",null,{"variant":"body2","sx":{"fontWeight":600,"lineHeight":1.4},"children":"thatonevikash"}]]}]]}],["$","$L11",null,{"sx":{"display":"flex","gap":0.25},"children":[["$","$L16",null,{"title":"GitHub","arrow":true,"children":["$","$L17",null,{"size":"small","component":"a","href":"https://github.com/thatonevikash","target":"_blank","rel":"noopener noreferrer","aria-label":"GitHub profile","sx":{"color":"text.secondary","transition":"color 0.15s ease, transform 0.15s ease","&:hover":{"color":"text.primary","bgcolor":"transparent"}},"children":["$","$L18",null,{"sx":{"fontSize":18}}]}]}],["$","$L16",null,{"title":"LinkedIn","arrow":true,"children":["$","$L17",null,{"size":"small","component":"a","href":"https://www.linkedin.com/in/thatonevikash/","target":"_blank","rel":"noopener noreferrer","aria-label":"LinkedIn profile","sx":{"color":"text.secondary","transition":"color 0.15s ease, transform 0.15s ease","&:hover":{"color":"#0A66C2","bgcolor":"transparent"}},"children":["$","$L19",null,{"sx":{"fontSize":18}}]}]}],["$","$L16",null,{"title":"X (Twitter)","arrow":true,"children":["$","$L17",null,{"size":"small","component":"a","href":"https://x.com/thatonevikash","target":"_blank","rel":"noopener noreferrer","aria-label":"X profile","sx":{"color":"text.secondary","transition":"color 0.15s ease, transform 0.15s ease","&:hover":{"color":"text.primary","bgcolor":"transparent"}},"children":["$","$L1a",null,{"sx":{"fontSize":18}}]}]}]]}]]}]]}],["$","$L11",null,{"className":"markdown-body","dangerouslySetInnerHTML":{"__html":"$1b"},"sx":{"& pre":{"borderRadius":1,"overflow":"auto"},"& code":{"fontSize":"0.875rem"},"& img":{"maxWidth":"100%"},"& .alert":{"borderRadius":1.5,"border":"1px solid","p":2,"my":2.5,"& .alert-header":{"display":"flex","alignItems":"center","gap":0.75,"mb":1},"& .alert-icon":{"fontSize":"1rem","lineHeight":1},"& .alert-label":{"fontSize":"0.8rem","fontWeight":700,"letterSpacing":"0.03em","textTransform":"uppercase"},"& p":{"mb":0,"fontSize":"0.9rem","lineHeight":1.7}},"& .alert-note":{"bgcolor":"rgba(9, 105, 218, 0.06)","borderColor":"rgba(9, 105, 218, 0.35)","& .alert-label":{"color":"#0969da"},"& .alert-icon-svg":{"color":"#0969da"}},"& .alert-tip":{"bgcolor":"rgba(26, 127, 55, 0.06)","borderColor":"rgba(26, 127, 55, 0.35)","& .alert-label":{"color":"#1a7f37"},"& .alert-icon-svg":{"color":"#1a7f37"}},"& .alert-important":{"bgcolor":"rgba(130, 80, 223, 0.06)","borderColor":"rgba(130, 80, 223, 0.35)","& .alert-label":{"color":"#8250df"},"& .alert-icon-svg":{"color":"#8250df"}},"& .alert-warning":{"bgcolor":"rgba(154, 103, 0, 0.06)","borderColor":"rgba(154, 103, 0, 0.35)","& .alert-label":{"color":"#9a6700"},"& .alert-icon-svg":{"color":"#9a6700"}},"& .alert-caution":{"bgcolor":"rgba(207, 34, 46, 0.06)","borderColor":"rgba(207, 34, 46, 0.35)","& .alert-label":{"color":"#cf222e"},"& .alert-icon-svg":{"color":"#cf222e"}}}}]]}]
+<h4>Written with 💖 by <em>thatonevikash</em>!</h4>5:["$","$L10",null,{"maxWidth":"sm","sx":{"py":6},"children":[["$","$L11",null,{"sx":{"position":"relative","border":"1px solid","borderColor":"divider","borderRadius":2,"p":3,"mb":5,"overflow":"hidden","&::before":{"content":"\"\"","position":"absolute","left":0,"top":0,"bottom":0,"width":3,"bgcolor":"primary.main","borderRadius":"0 2px 2px 0"}},"children":[["$","$L12",null,{"variant":"caption","sx":{"color":"text.disabled","letterSpacing":"0.04em","fontVariantNumeric":"tabular-nums","display":"block","mb":1.5},"children":"14 November 2024"}],["$","$L12",null,{"variant":"h4","sx":{"fontWeight":600,"letterSpacing":"-0.02em","lineHeight":1.3,"mb":2},"children":"JavaScript for Beginner"}],["$","$L11",null,{"sx":{"display":"flex","gap":0.75,"flexWrap":"wrap","mb":3},"children":[["$","$L13","programming",{"label":"programming","size":"small","variant":"filled","sx":{"bgcolor":"action.hover","color":"text.secondary","fontSize":"0.7rem","height":22,"fontWeight":500,"& .MuiChip-label":{"px":1}}}],["$","$L13","programming in javascript",{"label":"programming in javascript","size":"small","variant":"filled","sx":{"bgcolor":"action.hover","color":"text.secondary","fontSize":"0.7rem","height":22,"fontWeight":500,"& .MuiChip-label":{"px":1}}}],["$","$L13","basics of programming",{"label":"basics of programming","size":"small","variant":"filled","sx":{"bgcolor":"action.hover","color":"text.secondary","fontSize":"0.7rem","height":22,"fontWeight":500,"& .MuiChip-label":{"px":1}}}]]}],["$","$L14",null,{"sx":{"mx":-3,"mb":2.5}}],["$","$L11",null,{"sx":{"display":"flex","alignItems":"center","justifyContent":"space-between"},"children":[["$","$L11",null,{"sx":{"display":"flex","alignItems":"center","gap":1},"children":[["$","$L15",null,{"sx":{"width":28,"height":28,"fontSize":"0.7rem","fontWeight":700,"bgcolor":"primary.main"},"children":"T"}],["$","$L11",null,{"children":[["$","$L12",null,{"variant":"caption","sx":{"color":"text.disabled","display":"block","lineHeight":1},"children":"Written by"}],["$","$L12",null,{"variant":"body2","sx":{"fontWeight":600,"lineHeight":1.4},"children":"thatonevikash"}]]}]]}],["$","$L11",null,{"sx":{"display":"flex","gap":0.25},"children":[["$","$L16",null,{"title":"GitHub","arrow":true,"children":["$","$L17",null,{"size":"small","component":"a","href":"https://github.com/thatonevikash","target":"_blank","rel":"noopener noreferrer","aria-label":"GitHub profile","sx":{"color":"text.secondary","transition":"color 0.15s ease, transform 0.15s ease","&:hover":{"color":"text.primary","bgcolor":"transparent"}},"children":["$","$L18",null,{"sx":{"fontSize":18}}]}]}],["$","$L16",null,{"title":"LinkedIn","arrow":true,"children":["$","$L17",null,{"size":"small","component":"a","href":"https://www.linkedin.com/in/thatonevikash/","target":"_blank","rel":"noopener noreferrer","aria-label":"LinkedIn profile","sx":{"color":"text.secondary","transition":"color 0.15s ease, transform 0.15s ease","&:hover":{"color":"#0A66C2","bgcolor":"transparent"}},"children":["$","$L19",null,{"sx":{"fontSize":18}}]}]}],["$","$L16",null,{"title":"X (Twitter)","arrow":true,"children":["$","$L17",null,{"size":"small","component":"a","href":"https://x.com/thatonevikash","target":"_blank","rel":"noopener noreferrer","aria-label":"X profile","sx":{"color":"text.secondary","transition":"color 0.15s ease, transform 0.15s ease","&:hover":{"color":"text.primary","bgcolor":"transparent"}},"children":["$","$L1a",null,{"sx":{"fontSize":18}}]}]}]]}]]}]]}],["$","$L11",null,{"className":"markdown-body","dangerouslySetInnerHTML":{"__html":"$1b"},"sx":{"& pre":{"borderRadius":1,"overflow":"auto"},"& code":{"fontSize":"0.875rem"},"& img":{"maxWidth":"100%"},"& table":{"width":"100%","borderCollapse":"collapse","my":2},"& th, & td":{"border":"none","py":0.75,"px":1},"& th":{"fontWeight":600},"& .alert":{"borderRadius":1.5,"border":"1px solid","p":2,"my":2.5,"& .alert-header":{"display":"flex","alignItems":"center","gap":0.75,"mb":1},"& .alert-icon":{"fontSize":"1rem","lineHeight":1},"& .alert-label":{"fontSize":"0.8rem","fontWeight":700,"letterSpacing":"0.03em","textTransform":"uppercase"},"& p":{"mb":0,"fontSize":"0.9rem","lineHeight":1.7}},"& .alert-note":{"bgcolor":"rgba(9, 105, 218, 0.06)","borderColor":"rgba(9, 105, 218, 0.35)","& .alert-label":{"color":"#0969da"},"& .alert-icon-svg":{"color":"#0969da"}},"& .alert-tip":{"bgcolor":"rgba(26, 127, 55, 0.06)","borderColor":"rgba(26, 127, 55, 0.35)","& .alert-label":{"color":"#1a7f37"},"& .alert-icon-svg":{"color":"#1a7f37"}},"& .alert-important":{"bgcolor":"rgba(130, 80, 223, 0.06)","borderColor":"rgba(130, 80, 223, 0.35)","& .alert-label":{"color":"#8250df"},"& .alert-icon-svg":{"color":"#8250df"}},"& .alert-warning":{"bgcolor":"rgba(154, 103, 0, 0.06)","borderColor":"rgba(154, 103, 0, 0.35)","& .alert-label":{"color":"#9a6700"},"& .alert-icon-svg":{"color":"#9a6700"}},"& .alert-caution":{"bgcolor":"rgba(207, 34, 46, 0.06)","borderColor":"rgba(207, 34, 46, 0.35)","& .alert-label":{"color":"#cf222e"},"& .alert-icon-svg":{"color":"#cf222e"}}}}]]}]
 b:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
 1c:I[27201,["/docs/_next/static/chunks/17acz49rbz4-t.js","/docs/_next/static/chunks/09ae5h3n-0_u3.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js"],"IconMark"]
 8:null
