@@ -154,11 +154,11 @@ export async function getPostBySlug(slug: string): Promise<Post> {
   const normalizedContent = normalizeMarkdownTables(content);
 
   const processed = await remark()
-    .use(remarkRehype)
+    .use(remarkRehype, { allowDangerousHtml: true })
     .use(rehypeAlerts)
     .use(rehypeNormalizeLocalImageSrc)
     .use(rehypeHighlight)
-    .use(rehypeStringify)
+    .use(rehypeStringify, { allowDangerousHtml: true })
     .process(normalizedContent);
 
   return {
