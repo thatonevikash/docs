@@ -227,6 +227,19 @@ export default async function Page({ params }: PageProps) {
           "& pre": { borderRadius: 1, overflow: "auto" },
           "& code": { fontSize: "0.875rem" },
           "& img": { maxWidth: "100%" },
+          "& table": {
+            width: "100%",
+            borderCollapse: "collapse",
+            my: 2,
+          },
+          "& th, & td": {
+            border: "none",
+            py: 0.75,
+            px: 1,
+          },
+          "& th": {
+            fontWeight: 600,
+          },
 
           // ── Alerts ──────────────────────────────────────────
           "& .alert": {
