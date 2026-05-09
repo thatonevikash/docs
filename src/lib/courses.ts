@@ -23,6 +23,12 @@ export interface CourseChapter {
   title: string;
 }
 
+export interface CourseChapterContent {
+  slug: string;
+  title: string;
+  content: string;
+}
+
 export function getAllCourses(): Omit<CourseMetadata, "banner" | "content">[] {
   const courses = fs.readdirSync(paths.courses);
 
@@ -86,4 +92,22 @@ export function getCourseChapters(slug: string): CourseChapter[] {
         title: data.title || fileName.replace(/\.md$/i, ""),
       };
     });
+}
+
+export async function getCourseChapterContentBySlug(
+  courseSlug: string,
+  chapterSlug: string,
+): Promise<CourseChapterContent | null> {
+  const chapterPath = path.join(paths.courses, courseSlug, `${chapterSlug}.md`);
+
+  if (!fs.existsSync(chapterPath)) return null;
+
+  const raw = fs.readFileSync(chapterPath, "utf-8");
+  const { data, content } = await markdownParser(raw);
+
+  return {
+    slug: chapterSlug,
+    title: data.title || chapterSlug,
+    content,
+  };
 }

@@ -1,7 +1,13 @@
+"use client";
+
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+
 import Box from "@mui/material/Box";
 import List from "@mui/material/List";
 import Paper from "@mui/material/Paper";
 import ListItem from "@mui/material/ListItem";
+import ListItemButton from "@mui/material/ListItemButton";
 import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
 import ListItemText from "@mui/material/ListItemText";
@@ -11,10 +17,14 @@ import { CourseChapter } from "@/lib/courses";
 export function CourseLayout({
   children,
   chapters,
+  courseSlug,
 }: {
   children: React.ReactNode;
   chapters: CourseChapter[];
+  courseSlug: string;
 }) {
+  const pathname = usePathname();
+
   return (
     <Container maxWidth="lg" sx={{ py: 6 }}>
       <Box
@@ -33,19 +43,25 @@ export function CourseLayout({
             {chapters.map((chapter) => (
               <ListItem
                 key={chapter.slug}
+                disablePadding
                 sx={{
-                  px: 0,
-                  py: 1,
                   borderBottom: "1px solid",
                   borderColor: "divider",
                 }}
               >
-                <ListItemText
-                  primary={chapter.title}
-                  slotProps={{
-                    primary: { sx: { fontWeight: 500 } },
-                  }}
-                />
+                <ListItemButton
+                  component={Link}
+                  href={`/courses/${courseSlug}/${chapter.slug}`}
+                  selected={pathname === `/courses/${courseSlug}/${chapter.slug}`}
+                  sx={{ borderRadius: 1, "&.Mui-selected": { bgcolor: "action.focused" }, "&.Mui-selected:hover": { bgcolor: "action.focused" } }}
+                >
+                  <ListItemText
+                    primary={chapter.title}
+                    slotProps={{
+                      primary: { sx: { fontWeight: 500 } },
+                    }}
+                  />
+                </ListItemButton>
               </ListItem>
             ))}
           </List>

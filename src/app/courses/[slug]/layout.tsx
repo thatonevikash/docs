@@ -15,5 +15,9 @@ export default async function Layout({
   const { slug } = await params;
   const chapters = getCourseChapters(slug);
 
-  return <CourseLayout chapters={chapters}>{children}</CourseLayout>;
+  return (
+    <CourseLayout chapters={chapters} courseSlug={slug}>
+      {children}
+    </CourseLayout>
+  );
 }
