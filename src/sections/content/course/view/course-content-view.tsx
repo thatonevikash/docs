@@ -1,7 +1,31 @@
+import Image from "next/image";
+
+import Box from "@mui/material/Box";
+
 import { CourseMetadata } from "@/lib/courses";
 
 import { MarkdownRenderer } from "@/components/markdown-renderer";
 
 export function CourseContentView({ metadata }: { metadata: CourseMetadata }) {
-  return <MarkdownRenderer content={metadata.content} />;
+  const bannerSrc = metadata.banner || "/social/banner.png";
+
+  return (
+    <>
+      <Box
+        sx={{
+          position: "relative",
+          overflow: "hidden",
+          borderRadius: 2,
+          border: "1px solid",
+          borderColor: "divider",
+          mb: 3,
+          aspectRatio: "1200 / 630",
+        }}
+      >
+        <Image src={bannerSrc} alt={`${metadata.title} banner`} fill priority />
+      </Box>
+
+      <MarkdownRenderer content={metadata.content} />
+    </>
+  );
 }
