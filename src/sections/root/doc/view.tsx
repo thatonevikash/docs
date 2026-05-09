@@ -1,15 +1,21 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
-import { Box, Grid, InputBase, Typography, styled } from "@mui/material";
+
+import Box from "@mui/material/Box";
+import Grid from "@mui/material/Grid";
+import { styled } from "@mui/material/styles";
+import Container from "@mui/material/Container";
+import InputBase from "@mui/material/InputBase";
+import Typography from "@mui/material/Typography";
 import SearchIcon from "@mui/icons-material/Search";
 
-import { PostCard } from "@/components/post-card";
 import type { Post } from "@/lib/posts";
+import { PostCard } from "@/components/post-card";
 
 type PostPreview = Omit<Post, "content" | "social">;
 
-interface DocsHomeClientProps {
+interface DocRootViewProps {
   posts: PostPreview[];
 }
 
@@ -66,7 +72,7 @@ const SearchIconBox = styled(Box)(({ theme }) => ({
   color: theme.palette.text.secondary,
 }));
 
-export function DocsHomeClient({ posts }: DocsHomeClientProps) {
+export function DocRootView({ posts }: DocRootViewProps) {
   const [query, setQuery] = useState("");
   const inputRef = useRef<HTMLInputElement | null>(null);
 
@@ -106,14 +112,16 @@ export function DocsHomeClient({ posts }: DocsHomeClientProps) {
       const inDescription = post.description
         ?.toLowerCase()
         .includes(searchTerm);
-      const inTags = post.tags.some((tag) => tag.toLowerCase().includes(searchTerm));
+      const inTags = post.tags.some((tag) =>
+        tag.toLowerCase().includes(searchTerm),
+      );
 
       return inTitle || inDescription || inTags;
     });
   }, [posts, query]);
 
   return (
-    <>
+    <Container maxWidth="lg" sx={{ py: 6 }}>
       <Box
         sx={{
           mb: 5,
@@ -158,6 +166,6 @@ export function DocsHomeClient({ posts }: DocsHomeClientProps) {
           </Grid>
         ))}
       </Grid>
-    </>
+    </Container>
   );
 }
