@@ -1,8 +1,10 @@
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
 import Card from "@mui/material/Card";
+import Link from "@mui/material/Link";
 import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
+import CardActionArea from "@mui/material/CardActionArea";
 
 import { CourseMetadata } from "@/lib/courses";
 
@@ -41,12 +43,40 @@ export function CourseRootView({
           <Card
             component={Grid}
             size={{ xs: 6, md: 4 }}
-            key={course.title}
-            sx={{ p: 2, borderRadius: 3 }}
+            key={course.slug}
+            sx={{ borderRadius: 3, overflow: "hidden" }}
           >
-            <Typography variant="h5" sx={{ fontWeight: 600 }}>
-              {course.title}
-            </Typography>
+            <CardActionArea
+              component={Link}
+              href={`/courses/${course.slug}`}
+              underline="none"
+              sx={{ p: 2.5 }}
+            >
+              <Box
+                sx={{
+                  minHeight: 160,
+                  borderRadius: 2,
+                  p: 2,
+                  color: "common.white",
+                  background: `linear-gradient(135deg, ${course.rootColor || "#1f2937"} 0%, #0f172a 100%)`,
+                  display: "flex",
+                  flexDirection: "column",
+                  justifyContent: "space-between",
+                }}
+              >
+                <Typography variant="subtitle2" sx={{ opacity: 0.9 }}>
+                  {course.logo || "📘"}
+                </Typography>
+                <Box>
+                  <Typography variant="h5" sx={{ fontWeight: 700 }}>
+                    {course.title}
+                  </Typography>
+                  <Typography variant="body2" sx={{ opacity: 0.8, mt: 0.5 }}>
+                    {course.description}
+                  </Typography>
+                </Box>
+              </Box>
+            </CardActionArea>
           </Card>
         ))}
       </Grid>

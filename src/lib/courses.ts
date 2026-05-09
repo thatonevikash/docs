@@ -5,10 +5,12 @@ import matter from "gray-matter";
 import { paths } from "@/paths";
 
 export interface CourseMetadata {
+  slug: string;
   title: string;
   description: string;
   logo: string | undefined;
   banner: string | undefined;
+  rootColor: string | undefined;
 }
 
 export function getAllCourses(): Omit<CourseMetadata, "banner">[] {
@@ -24,9 +26,29 @@ export function getAllCourses(): Omit<CourseMetadata, "banner">[] {
       const { data } = matter(raw);
 
       return {
+        slug: dirname,
         title: data.title,
         description: data.description,
         logo: data.logo,
+        rootColor: data.rootColor,
       };
     });
+}
+
+export function getCourseBySlug(slug: string): CourseMetadata | null {
+  const metadataPath = path.join(paths.courses, slug, "metadata.md");
+
+  if (!fs.existsSync(metadataPath)) return null;
+
+  const raw = fs.readFileSync(metadataPath, "utf-8");
+  const { data } = matter(raw);
+
+  return {
+    slug,
+    title: data.title,
+    description: data.description,
+    logo: data.logo,
+    banner: data.banner,
+    rootColor: data.rootColor,
+  };
 }
