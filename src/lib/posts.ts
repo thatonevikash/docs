@@ -1,114 +1,10 @@
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
-import { remark } from "remark";
-import remarkRehype from "remark-rehype";
-import rehypeHighlight from "rehype-highlight";
-import rehypeStringify from "rehype-stringify";
 
-import { rehypeAlerts } from "@/extensions/rehype-alerts";
-import { rehypeNormalizeLocalImageSrc } from "@/extensions/rehype-normalize-local-image-src";
+import { paths } from "@/paths";
 
-const contentDir = path.join(process.cwd(), "content");
-
-type TableAlign = "left" | "center" | "right";
-
-function splitTableRow(line: string): string[] {
-  const cleaned = line.trim().replace(/^\|/, "").replace(/\|$/, "");
-  return cleaned.split("|").map((cell) => cell.trim());
-}
-
-function parseTableAlignments(separatorLine: string): TableAlign[] | null {
-  const columns = splitTableRow(separatorLine);
-  const alignments: TableAlign[] = [];
-
-  for (const col of columns) {
-    if (!/^:?-{3,}:?$/.test(col)) {
-      return null;
-    }
-
-    const startsWithColon = col.startsWith(":");
-    const endsWithColon = col.endsWith(":");
-
-    if (startsWithColon && endsWithColon) {
-      alignments.push("center");
-    } else if (endsWithColon) {
-      alignments.push("right");
-    } else {
-      alignments.push("left");
-    }
-  }
-
-  return alignments;
-}
-
-function renderTableAsHtml(lines: string[]): string | null {
-  if (lines.length < 2) return null;
-
-  const headers = splitTableRow(lines[0]);
-  const alignments = parseTableAlignments(lines[1]);
-  if (!alignments || headers.length !== alignments.length) return null;
-
-  const rows = lines.slice(2).map(splitTableRow).filter((r) => r.length > 0);
-
-  const thead = `<thead><tr>${headers
-    .map((header, i) => `<th align="${alignments[i]}">${header}</th>`)
-    .join("")}</tr></thead>`;
-
-  const tbody = rows.length
-    ? `<tbody>${rows
-        .map((row) => {
-          const padded = [...row];
-          while (padded.length < headers.length) padded.push("");
-          return `<tr>${padded
-            .slice(0, headers.length)
-            .map((cell, i) => `<td align="${alignments[i]}">${cell}</td>`)
-            .join("")}</tr>`;
-        })
-        .join("")}</tbody>`
-    : "";
-
-  return `<table>${thead}${tbody}</table>`;
-}
-
-function normalizeMarkdownTables(markdown: string): string {
-  const lines = markdown.split("\n");
-  const output: string[] = [];
-
-  let i = 0;
-  while (i < lines.length) {
-    const maybeHeader = lines[i];
-    const maybeSeparator = lines[i + 1];
-
-    if (
-      maybeHeader?.includes("|") &&
-      maybeSeparator?.includes("|") &&
-      parseTableAlignments(maybeSeparator)
-    ) {
-      const tableBlock: string[] = [maybeHeader, maybeSeparator];
-      i += 2;
-
-      while (i < lines.length && lines[i].includes("|")) {
-        tableBlock.push(lines[i]);
-        i += 1;
-      }
-
-      const tableHtml = renderTableAsHtml(tableBlock);
-      if (tableHtml) {
-        output.push(tableHtml);
-        continue;
-      }
-
-      output.push(...tableBlock);
-      continue;
-    }
-
-    output.push(lines[i]);
-    i += 1;
-  }
-
-  return output.join("\n");
-}
+import { markdownParser } from "./markdown-parser";
 
 export interface Post {
   slug: string;
@@ -127,12 +23,12 @@ export interface Post {
 
 // Used on the home page — no content needed
 export function getAllPosts(): Omit<Post, "content" | "social">[] {
-  const files = fs.readdirSync(contentDir);
+  const files = fs.readdirSync(paths.content);
   return files
     .filter((f) => f.endsWith(".md"))
     .map((filename) => {
       const slug = filename.replace(".md", "");
-      const raw = fs.readFileSync(path.join(contentDir, filename), "utf-8");
+      const raw = fs.readFileSync(path.join(paths.content, filename), "utf-8");
       const { data } = matter(raw);
       return {
         slug,
@@ -148,18 +44,10 @@ export function getAllPosts(): Omit<Post, "content" | "social">[] {
 
 // Used on the individual post page — parses markdown to HTML
 export async function getPostBySlug(slug: string): Promise<Post> {
-  const fullPath = path.join(contentDir, `${slug}.md`);
+  const fullPath = path.join(paths.content, `${slug}.md`);
   const raw = fs.readFileSync(fullPath, "utf-8");
-  const { data, content } = matter(raw);
-  const normalizedContent = normalizeMarkdownTables(content);
 
-  const processed = await remark()
-    .use(remarkRehype, { allowDangerousHtml: true })
-    .use(rehypeAlerts)
-    .use(rehypeNormalizeLocalImageSrc)
-    .use(rehypeHighlight)
-    .use(rehypeStringify, { allowDangerousHtml: true })
-    .process(normalizedContent);
+  const { data, content } = await markdownParser(raw);
 
   return {
     slug,
@@ -173,14 +61,14 @@ export async function getPostBySlug(slug: string): Promise<Post> {
     },
     date: data.date ?? "",
     tags: data.tags ?? [],
-    content: processed.toString(),
+    content,
   };
 }
 
 // Needed for generateStaticParams in [slug]/page.tsx
 export function getAllSlugs(): string[] {
   return fs
-    .readdirSync(contentDir)
+    .readdirSync(paths.content)
     .filter((f) => f.endsWith(".md"))
     .map((f) => f.replace(".md", ""));
 }
