@@ -12,7 +12,7 @@ import { CourseMetadata } from "@/lib/courses";
 export function CourseRootView({
   courses,
 }: {
-  courses: Omit<CourseMetadata, "banner">[];
+  courses: Omit<CourseMetadata, "banner" | "content">[];
 }) {
   return (
     <Container maxWidth="lg" sx={{ py: 6 }}>
