@@ -4,6 +4,7 @@ import matter from "gray-matter";
 
 import { paths } from "@/paths";
 
+import { markdownParser } from "./markdown-parser";
 import { normalizeLocalAssetSrc } from "./normalize-local-asset-src";
 
 export interface CourseMetadata {
@@ -13,6 +14,7 @@ export interface CourseMetadata {
   logo: string | undefined;
   banner: string | undefined;
   rootColor: string | undefined;
+  content: string;
 }
 
 export interface CourseChapter {
@@ -21,7 +23,7 @@ export interface CourseChapter {
   title: string;
 }
 
-export function getAllCourses(): Omit<CourseMetadata, "banner">[] {
+export function getAllCourses(): Omit<CourseMetadata, "banner" | "content">[] {
   const courses = fs.readdirSync(paths.courses);
 
   return courses
@@ -43,13 +45,15 @@ export function getAllCourses(): Omit<CourseMetadata, "banner">[] {
     });
 }
 
-export function getCourseBySlug(slug: string): CourseMetadata | null {
+export async function getCourseMetadataBySlug(
+  slug: string,
+): Promise<CourseMetadata | null> {
   const metadataPath = path.join(paths.courses, slug, "metadata.md");
 
   if (!fs.existsSync(metadataPath)) return null;
 
   const raw = fs.readFileSync(metadataPath, "utf-8");
-  const { data } = matter(raw);
+  const { data, content } = await markdownParser(raw);
 
   return {
     slug,
@@ -58,6 +62,7 @@ export function getCourseBySlug(slug: string): CourseMetadata | null {
     logo: normalizeLocalAssetSrc(data.logo),
     banner: data.banner,
     rootColor: data.rootColor,
+    content,
   };
 }
 
