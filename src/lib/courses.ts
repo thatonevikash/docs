@@ -15,6 +15,12 @@ export interface CourseMetadata {
   rootColor: string | undefined;
 }
 
+export interface CourseChapter {
+  slug: string;
+  fileName: string;
+  title: string;
+}
+
 export function getAllCourses(): Omit<CourseMetadata, "banner">[] {
   const courses = fs.readdirSync(paths.courses);
 
@@ -53,4 +59,26 @@ export function getCourseBySlug(slug: string): CourseMetadata | null {
     banner: data.banner,
     rootColor: data.rootColor,
   };
+}
+
+export function getCourseChapters(slug: string): CourseChapter[] {
+  const coursePath = path.join(paths.courses, slug);
+
+  if (!fs.existsSync(coursePath)) return [];
+
+  return fs
+    .readdirSync(coursePath)
+    .filter((fileName) => /^\d+_.+\.md$/i.test(fileName))
+    .sort((a, b) => a.localeCompare(b, undefined, { numeric: true }))
+    .map((fileName) => {
+      const chapterPath = path.join(coursePath, fileName);
+      const raw = fs.readFileSync(chapterPath, "utf-8");
+      const { data } = matter(raw);
+
+      return {
+        slug: fileName.replace(/\.md$/i, ""),
+        fileName,
+        title: data.title || fileName.replace(/\.md$/i, ""),
+      };
+    });
 }
