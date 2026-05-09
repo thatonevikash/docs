@@ -4,6 +4,8 @@ import matter from "gray-matter";
 
 import { paths } from "@/paths";
 
+import { normalizeLocalAssetSrc } from "./normalize-local-asset-src";
+
 export interface CourseMetadata {
   slug: string;
   title: string;
@@ -29,7 +31,7 @@ export function getAllCourses(): Omit<CourseMetadata, "banner">[] {
         slug: dirname,
         title: data.title,
         description: data.description,
-        logo: data.logo,
+        logo: normalizeLocalAssetSrc(data.logo),
         rootColor: data.rootColor,
       };
     });
@@ -47,7 +49,7 @@ export function getCourseBySlug(slug: string): CourseMetadata | null {
     slug,
     title: data.title,
     description: data.description,
-    logo: data.logo,
+    logo: normalizeLocalAssetSrc(data.logo),
     banner: data.banner,
     rootColor: data.rootColor,
   };
