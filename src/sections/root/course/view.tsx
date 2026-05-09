@@ -49,7 +49,7 @@ export function CourseRootView({
           >
             <CardActionArea
               component={Link}
-              href={`/courses/${course.slug}`}
+              href={`/docs/courses/${course.slug}`}
               underline="none"
               sx={{ p: 0 }}
             >
@@ -58,7 +58,7 @@ export function CourseRootView({
                   minHeight: 160,
                   p: 2.5,
                   color: "common.white",
-                  background: `linear-gradient(135deg, ${course.rootColor || "#1f2937"} 0%, #0f172a 100%)`,
+                  background: `linear-gradient(135deg, ${course.rootColor || "#1f2937"} 5%, #0f172a 200%)`,
                   display: "flex",
                   flexDirection: "column",
                   justifyContent: "space-between",
@@ -68,8 +68,8 @@ export function CourseRootView({
                   <Image
                     src={course.logo}
                     alt={`${course.title} logo`}
-                    width={32}
-                    height={32}
+                    width={56}
+                    height={56}
                   />
                 ) : (
                   <Typography variant="subtitle2" sx={{ opacity: 0.9 }}>
