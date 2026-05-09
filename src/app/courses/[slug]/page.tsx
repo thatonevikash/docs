@@ -8,7 +8,11 @@ import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
 import ListItemText from "@mui/material/ListItemText";
 
-import { getCourseBySlug, getCourseChapters } from "@/lib/courses";
+import { getAllCourses, getCourseBySlug, getCourseChapters } from "@/lib/courses";
+
+export async function generateStaticParams() {
+  return getAllCourses().map((course) => ({ slug: course.slug }));
+}
 
 export default async function Page({
   params,
