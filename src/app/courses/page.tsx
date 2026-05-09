@@ -9,7 +9,5 @@ export const metadata: Metadata = { title: "Courses | thatonevikash" };
 export default function Page() {
   const courses = getAllCourses();
 
-  console.log(courses);
-
   return <CourseRootView courses={courses} />;
 }

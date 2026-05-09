@@ -1,6 +1,7 @@
 ---
 title: "HTML"
 description: "Learn HTML - Basics to Advanced"
-logo: ""
+logo: "/icons/skills/ic-html.svg"
 banner: ""
+rootColor: "#e34f26"
 ---

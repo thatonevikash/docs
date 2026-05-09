@@ -1,6 +1,7 @@
 ---
 title: "JavaScript"
 description: "Learn JavaScript - Basics to Advanced"
-logo: ""
+logo: "/icons/skills/ic-javascript.svg"
 banner: ""
+rootColor: "#f7df1e"
 ---
