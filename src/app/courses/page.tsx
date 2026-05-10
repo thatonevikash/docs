@@ -4,6 +4,8 @@ import { getAllCourses } from "@/lib/courses";
 
 import { CourseRootView } from "@/sections/root/course/view";
 
+// -----------------------------------------------------------
+
 export const metadata: Metadata = { title: "courses | thatonevikash" };
 
 export default function Page() {

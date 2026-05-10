@@ -1,12 +1,14 @@
 import { notFound } from "next/navigation";
 
-import { CourseChapterContentView } from "@/sections/content/course/view";
-
 import {
   getAllCourses,
-  getCourseChapterContentBySlug,
   getCourseChapters,
+  getCourseChapterContentBySlug,
 } from "@/lib/courses";
+
+import { CourseChapterContentView } from "@/sections/content/course/view";
+
+// -----------------------------------------------------------
 
 export async function generateStaticParams() {
   return getAllCourses().flatMap((course) =>

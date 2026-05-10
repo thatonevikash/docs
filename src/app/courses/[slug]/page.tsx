@@ -1,10 +1,12 @@
-import { CourseContentView } from "@/sections/content/course/view";
-
 import {
   getAllCourses,
   CourseMetadata,
   getCourseMetadataBySlug,
 } from "@/lib/courses";
+
+import { CourseContentView } from "@/sections/content/course/view";
+
+// -----------------------------------------------------------
 
 export async function generateStaticParams() {
   return getAllCourses().map((course) => ({ slug: course.slug }));

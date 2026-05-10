@@ -6,6 +6,8 @@ import { CourseMetadata } from "@/lib/courses";
 
 import { MarkdownRenderer } from "@/components/markdown-renderer";
 
+// -----------------------------------------------------------
+
 export function CourseContentView({ metadata }: { metadata: CourseMetadata }) {
   const bannerSrc = metadata.banner || "/docs/socials/preview.png";
 

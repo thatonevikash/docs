@@ -1,5 +1,8 @@
 import { getAllCourses, getCourseChapters } from "@/lib/courses";
+
 import { CourseLayout } from "@/sections/content/course/layout";
+
+// -----------------------------------------------------------
 
 export async function generateStaticParams() {
   return getAllCourses().map((course) => ({ slug: course.slug }));
