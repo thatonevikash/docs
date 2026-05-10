@@ -7,6 +7,8 @@ import { paths } from "@/paths";
 import { markdownParser } from "./markdown-parser";
 import { normalizeLocalAssetSrc } from "./normalize-local-asset-src";
 
+// -----------------------------------------------------------
+
 export interface CourseMetadata {
   slug: string;
   title: string;
@@ -28,6 +30,8 @@ export interface CourseChapterContent {
   title: string;
   content: string;
 }
+
+// -----------------------------------------------------------
 
 export function getAllCourses(): Omit<CourseMetadata, "banner" | "content">[] {
   const courses = fs.readdirSync(paths.courses);
@@ -51,6 +55,8 @@ export function getAllCourses(): Omit<CourseMetadata, "banner" | "content">[] {
     });
 }
 
+// -----------------------------------------------------------
+
 export async function getCourseMetadataBySlug(
   slug: string,
 ): Promise<CourseMetadata | null> {
@@ -71,6 +77,8 @@ export async function getCourseMetadataBySlug(
     content,
   };
 }
+
+// -----------------------------------------------------------
 
 export function getCourseChapters(slug: string): CourseChapter[] {
   const coursePath = path.join(paths.courses, slug);
@@ -93,6 +101,8 @@ export function getCourseChapters(slug: string): CourseChapter[] {
       };
     });
 }
+
+// -----------------------------------------------------------
 
 export async function getCourseChapterContentBySlug(
   courseSlug: string,

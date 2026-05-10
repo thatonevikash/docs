@@ -7,12 +7,14 @@ import Box from "@mui/material/Box";
 import List from "@mui/material/List";
 import Paper from "@mui/material/Paper";
 import ListItem from "@mui/material/ListItem";
-import ListItemButton from "@mui/material/ListItemButton";
 import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
 import ListItemText from "@mui/material/ListItemText";
+import ListItemButton from "@mui/material/ListItemButton";
 
 import { CourseChapter } from "@/lib/courses";
+
+// -----------------------------------------------------------
 
 export function CourseLayout({
   children,
@@ -52,8 +54,14 @@ export function CourseLayout({
                 <ListItemButton
                   component={Link}
                   href={`/courses/${courseSlug}/${chapter.slug}`}
-                  selected={pathname === `/courses/${courseSlug}/${chapter.slug}`}
-                  sx={{ borderRadius: 1, "&.Mui-selected": { bgcolor: "action.focused" }, "&.Mui-selected:hover": { bgcolor: "action.focused" } }}
+                  selected={
+                    pathname === `/courses/${courseSlug}/${chapter.slug}`
+                  }
+                  sx={{
+                    borderRadius: 1,
+                    "&.Mui-selected": { bgcolor: "action.focused" },
+                    "&.Mui-selected:hover": { bgcolor: "action.focused" },
+                  }}
                 >
                   <ListItemText
                     primary={chapter.title}

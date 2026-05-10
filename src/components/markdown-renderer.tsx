@@ -1,5 +1,7 @@
 import Box from "@mui/material/Box";
 
+// -----------------------------------------------------------
+
 export function MarkdownRenderer({ content }: { content: string }) {
   return (
     <Box

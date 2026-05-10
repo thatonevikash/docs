@@ -1,4 +1,8 @@
+// -----------------------------------------------------------
+
 type TableAlign = "left" | "center" | "right";
+
+// -----------------------------------------------------------
 
 function splitTableRow(line: string): string[] {
   const cleaned = line.trim().replace(/^\|/, "").replace(/\|$/, "");
@@ -60,6 +64,8 @@ function renderTableAsHtml(lines: string[]): string | null {
 
   return `<table>${thead}${tbody}</table>`;
 }
+
+// -----------------------------------------------------------
 
 export function normalizeMarkdownTables(markdown: string): string {
   const lines = markdown.split("\n");

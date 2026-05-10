@@ -1,11 +1,18 @@
-import type { Root } from "hast";
 import { visit } from "unist-util-visit";
+
+import type { Root } from "hast";
+
+// -----------------------------------------------------------
 
 const docsBasePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "/docs";
 
+// -----------------------------------------------------------
+
 function normalizeBasePath(basePath: string): string {
   if (!basePath || basePath === "/") return "";
-  return basePath.startsWith("/") ? basePath.replace(/\/$/, "") : `/${basePath.replace(/\/$/, "")}`;
+  return basePath.startsWith("/")
+    ? basePath.replace(/\/$/, "")
+    : `/${basePath.replace(/\/$/, "")}`;
 }
 
 function isExternalOrFragment(src: string): boolean {
@@ -32,6 +39,8 @@ function withBasePath(src: string): string {
 
   return `${basePath}/${src.replace(/^\.\//, "")}`;
 }
+
+// -----------------------------------------------------------
 
 export function rehypeNormalizeLocalImageSrc() {
   return (tree: Root) => {

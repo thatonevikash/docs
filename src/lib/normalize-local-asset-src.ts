@@ -1,4 +1,8 @@
-const docsBasePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "/docs";
+// -----------------------------------------------------------
+
+const rootPath = process.env.NEXT_PUBLIC_BASE_PATH ?? "/docs";
+
+// -----------------------------------------------------------
 
 function normalizeBasePath(basePath: string): string {
   if (!basePath || basePath === "/") return "";
@@ -17,11 +21,13 @@ function isExternalOrFragment(src: string): boolean {
   );
 }
 
+// -----------------------------------------------------------
+
 export function normalizeLocalAssetSrc(src?: string): string | undefined {
   if (!src) return undefined;
   if (isExternalOrFragment(src)) return src;
 
-  const basePath = normalizeBasePath(docsBasePath);
+  const basePath = normalizeBasePath(rootPath);
   if (!basePath) return src;
 
   if (src === basePath || src.startsWith(`${basePath}/`)) {

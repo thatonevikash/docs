@@ -6,6 +6,8 @@ import { paths } from "@/paths";
 
 import { markdownParser } from "./markdown-parser";
 
+// -----------------------------------------------------------
+
 export interface Post {
   slug: string;
   title: string;
@@ -20,6 +22,8 @@ export interface Post {
   };
   content: string;
 }
+
+// -----------------------------------------------------------
 
 // Used on the home page — no content needed
 export function getAllPosts(): Omit<Post, "content" | "social">[] {
@@ -41,6 +45,8 @@ export function getAllPosts(): Omit<Post, "content" | "social">[] {
     })
     .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 }
+
+// -----------------------------------------------------------
 
 // Used on the individual post page — parses markdown to HTML
 export async function getPostBySlug(slug: string): Promise<Post> {
@@ -64,6 +70,8 @@ export async function getPostBySlug(slug: string): Promise<Post> {
     content,
   };
 }
+
+// -----------------------------------------------------------
 
 // Needed for generateStaticParams in [slug]/page.tsx
 export function getAllSlugs(): string[] {

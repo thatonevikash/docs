@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useRef, useMemo, useState, useEffect } from "react";
 
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
@@ -11,7 +11,10 @@ import Typography from "@mui/material/Typography";
 import SearchIcon from "@mui/icons-material/Search";
 
 import type { Post } from "@/lib/posts";
+
 import { PostCard } from "@/components/post-card";
+
+// -----------------------------------------------------------
 
 type PostPreview = Omit<Post, "content" | "social">;
 
@@ -71,6 +74,8 @@ const SearchIconBox = styled(Box)(({ theme }) => ({
   borderLeft: `1px solid ${theme.palette.divider}`,
   color: theme.palette.text.secondary,
 }));
+
+// -----------------------------------------------------------
 
 export function DocRootView({ posts }: DocRootViewProps) {
   const [query, setQuery] = useState("");

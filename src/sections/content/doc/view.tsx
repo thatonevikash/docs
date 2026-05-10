@@ -1,17 +1,20 @@
 import Box from "@mui/material/Box";
-import Container from "@mui/material/Container";
-import Typography from "@mui/material/Typography";
 import Chip from "@mui/material/Chip";
-import IconButton from "@mui/material/IconButton";
+import Avatar from "@mui/material/Avatar";
+import XIcon from "@mui/icons-material/X";
 import Tooltip from "@mui/material/Tooltip";
 import Divider from "@mui/material/Divider";
-import Avatar from "@mui/material/Avatar";
+import Container from "@mui/material/Container";
+import Typography from "@mui/material/Typography";
+import IconButton from "@mui/material/IconButton";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import XIcon from "@mui/icons-material/X";
 
 import { Post } from "@/lib/posts";
+
 import { MarkdownRenderer } from "@/components/markdown-renderer";
+
+// -----------------------------------------------------------
 
 export function DocContentView({ post }: { post: Post }) {
   return (

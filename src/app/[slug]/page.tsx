@@ -1,6 +1,8 @@
-import { getPostBySlug, getAllSlugs } from "@/lib/posts";
+import { getAllSlugs, getPostBySlug } from "@/lib/posts";
 
 import { DocContentView } from "@/sections/content/doc/view";
+
+// -----------------------------------------------------------
 
 interface PageProps {
   params: Promise<{ slug: string }>;

@@ -1,8 +1,12 @@
-import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
-import { MuiProvider } from "@/components/mui-provider";
+import { Geist, Geist_Mono } from "next/font/google";
+
+import type { Metadata } from "next";
+
+import { ThemeProvider } from "@/components/theme-provider";
+
+// -----------------------------------------------------------
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -27,11 +31,11 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable}`}
       suppressHydrationWarning
+      className={`${geistSans.variable} ${geistMono.variable}`}
     >
       <body>
-        <MuiProvider>{children}</MuiProvider>
+        <ThemeProvider> {children} </ThemeProvider>
       </body>
     </html>
   );

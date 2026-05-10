@@ -1,5 +1,5 @@
 {
-  "Markdown Frontmatter": {
+  "header boiler plate": {
     "scope": "markdown",
     "prefix": "!!",
     "body": [
@@ -18,6 +18,22 @@
       "",
       "$0",
     ],
-    "description": "Add boilerplate for markdown files",
+    "description": "insert data fields for content",
+  },
+  "metadata boiler plate": {
+    "scope": "markdown",
+    "prefix": "!@",
+    "body": [
+      "---",
+      "title: \"${1}\"",
+      "description: \"${2}\"",
+      "logo: \"${3}\"",
+      "banner: \"${4}\"",
+      "rootColor: \"#121212\"",
+      "---",
+      "",
+      "$0",
+    ],
+    "description": "insert metadata fields for courses",
   },
 }

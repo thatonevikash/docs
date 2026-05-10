@@ -3,16 +3,17 @@
 import Link from "next/link";
 
 import Box from "@mui/material/Box";
-import Card from "@mui/material/Card";
 import Chip from "@mui/material/Chip";
+import Card from "@mui/material/Card";
 import Avatar from "@mui/material/Avatar";
 import Typography from "@mui/material/Typography";
 import CardContent from "@mui/material/CardContent";
 import CardActionArea from "@mui/material/CardActionArea";
-
 import ArrowOutwardIcon from "@mui/icons-material/ArrowOutward";
 
 import type { Post } from "@/lib/posts";
+
+// -----------------------------------------------------------
 
 interface PostCardProps {
   post: Omit<Post, "content" | "social">;

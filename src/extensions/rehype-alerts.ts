@@ -1,9 +1,14 @@
 import { visit } from "unist-util-visit";
-import type { Root, Element, Text, ElementContent } from "hast";
+
+import type { Root, Text, Element, ElementContent } from "hast";
+
+// -----------------------------------------------------------
 
 type AlertType = "NOTE" | "TIP" | "IMPORTANT" | "WARNING" | "CAUTION";
 
 type LucideNode = [tagName: string, attrs: Record<string, string>][];
+
+// -----------------------------------------------------------
 
 const ALERT_META: Record<AlertType, { icon: LucideNode; label: string }> = {
   NOTE: {
@@ -63,6 +68,8 @@ const ALERT_META: Record<AlertType, { icon: LucideNode; label: string }> = {
   },
 };
 
+// -----------------------------------------------------------
+
 const baseSvgProps = {
   xmlns: "http://www.w3.org/2000/svg",
   width: "18",
@@ -92,6 +99,8 @@ function buildLucideIcon(iconNodes: LucideNode): Element {
     })),
   };
 }
+
+// -----------------------------------------------------------
 
 export function rehypeAlerts() {
   return (tree: Root) => {

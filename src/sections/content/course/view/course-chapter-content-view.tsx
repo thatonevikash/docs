@@ -2,6 +2,8 @@ import { CourseChapterContent } from "@/lib/courses";
 
 import { MarkdownRenderer } from "@/components/markdown-renderer";
 
+// -----------------------------------------------------------
+
 export function CourseChapterContentView({
   chapter,
 }: {
