@@ -1,6 +1,6 @@
 {
   "divider": {
-    "scope": "typescript,typescriptreact",
+    "scope": "javascript,typescript,typescriptreact",
     "prefix": "---",
     "body": ["// -----------------------------------------------------------"],
     "description": "insert a divider",
