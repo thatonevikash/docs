@@ -1,5 +1,5 @@
 ---
-title: "Chapter 01 - Introduction"
+title: "Introduction"
 description: "Introduction of html, learn about basic of web"
 date: "2026-05-09"
 tags: ["html", "introduction"]
