@@ -2,17 +2,26 @@
 
 import { useRef, useMemo, useState, useEffect } from "react";
 
+import Link from "next/link";
+
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
-import { styled } from "@mui/material/styles";
+import { ButtonBase } from "@mui/material";
 import Container from "@mui/material/Container";
-import InputBase from "@mui/material/InputBase";
 import Typography from "@mui/material/Typography";
 import SearchIcon from "@mui/icons-material/Search";
+import ArrowOutwardIcon from "@mui/icons-material/ArrowOutward";
 
 import type { Post } from "@/lib/posts";
 
 import { PostCard } from "@/components/post-card";
+
+import {
+  SearchHint,
+  SearchInput,
+  SearchIconBox,
+  SearchWrapper,
+} from "./styled";
 
 // -----------------------------------------------------------
 
@@ -21,59 +30,6 @@ type PostPreview = Omit<Post, "content" | "social">;
 interface DocRootViewProps {
   posts: PostPreview[];
 }
-
-const SearchWrapper = styled(Box)(({ theme }) => ({
-  display: "flex",
-  alignItems: "center",
-  borderRadius: 999,
-  border: `1px solid ${theme.palette.divider}`,
-  minWidth: 280,
-  maxWidth: 460,
-  width: "100%",
-  overflow: "hidden",
-  backgroundColor: theme.palette.background.paper,
-  transition: "all 0.2s ease",
-  boxShadow: "0 1px 2px rgba(0,0,0,0.02)",
-  "&:hover": {
-    borderColor: theme.palette.action.active,
-    boxShadow: "0 4px 14px rgba(0,0,0,0.06)",
-  },
-  "&:focus-within": {
-    borderColor: theme.palette.primary.main,
-    boxShadow: `0 0 0 3px ${theme.palette.primary.main}22`,
-  },
-}));
-
-const SearchInput = styled(InputBase)(({ theme }) => ({
-  flex: 1,
-  padding: theme.spacing(1.15, 1.9),
-  fontSize: "0.92rem",
-  "& input::placeholder": {
-    color: theme.palette.text.secondary,
-    opacity: 0.9,
-  },
-}));
-
-const SearchHint = styled(Box)(({ theme }) => ({
-  marginRight: theme.spacing(1),
-  padding: theme.spacing(0.35, 0.7),
-  borderRadius: 8,
-  border: `1px solid ${theme.palette.divider}`,
-  color: theme.palette.text.secondary,
-  fontSize: "0.72rem",
-  lineHeight: 1,
-  fontWeight: 600,
-}));
-
-const SearchIconBox = styled(Box)(({ theme }) => ({
-  display: "flex",
-  alignItems: "center",
-  justifyContent: "center",
-  width: 42,
-  height: 42,
-  borderLeft: `1px solid ${theme.palette.divider}`,
-  color: theme.palette.text.secondary,
-}));
 
 // -----------------------------------------------------------
 
@@ -149,19 +105,42 @@ export function DocRootView({ posts }: DocRootViewProps) {
           </Typography>
         </Box>
 
-        <SearchWrapper>
-          <SearchInput
-            inputRef={inputRef}
-            placeholder="Search docs by title, tags, or description"
-            value={query}
-            onChange={(event) => setQuery(event.target.value)}
-            inputProps={{ "aria-label": "search docs" }}
-          />
-          <SearchHint>/</SearchHint>
-          <SearchIconBox>
-            <SearchIcon fontSize="small" />
-          </SearchIconBox>
-        </SearchWrapper>
+        <Box sx={{ display: "flex", alignItems: "center", gap: 3 }}>
+          <SearchWrapper>
+            <SearchInput
+              inputRef={inputRef}
+              placeholder="what is reactjs..."
+              value={query}
+              onChange={(event) => setQuery(event.target.value)}
+              inputProps={{ "aria-label": "search docs" }}
+            />
+            <SearchHint>/</SearchHint>
+            <SearchIconBox>
+              <SearchIcon fontSize="small" />
+            </SearchIconBox>
+          </SearchWrapper>
+
+          <ButtonBase
+            component={Link}
+            href="/courses"
+            sx={{
+              fontSize: "0.9rem",
+              borderRadius: 8,
+              px: 3,
+              py: 1.5,
+              bgcolor: "common.black",
+              color: "common.white",
+              display: "flex",
+              alignItems: "center",
+              gap: 1.5,
+            }}
+          >
+            <Typography component="span" sx={{ fontSize: "inherit" }}>
+              Courses
+            </Typography>
+            <ArrowOutwardIcon sx={{ fontSize: "18px" }} />
+          </ButtonBase>
+        </Box>
       </Box>
 
       <Grid container spacing={3}>

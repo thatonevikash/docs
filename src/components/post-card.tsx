@@ -40,14 +40,14 @@ export function PostCard({ post }: PostCardProps) {
           top: 0,
           bottom: 0,
           width: 3,
-          bgcolor: "primary.main",
+          bgcolor: "common.black",
           transform: "scaleY(0)",
           transformOrigin: "bottom",
           transition: "transform 0.25s ease",
           borderRadius: "0 2px 2px 0",
         },
         "&:hover": {
-          borderColor: "primary.light",
+          borderColor: "common.black",
           boxShadow: "0 4px 20px rgba(0,0,0,0.08)",
           transform: "translateY(-2px)",
           "&::before": {
@@ -111,7 +111,7 @@ export function PostCard({ post }: PostCardProps) {
               className="arrow-icon"
               sx={{
                 fontSize: 16,
-                color: "primary.main",
+                color: "common.black",
                 opacity: 0,
                 transform: "translate(-4px, 4px)",
                 transition: "all 0.2s ease",
@@ -202,7 +202,7 @@ export function PostCard({ post }: PostCardProps) {
                     height: 22,
                     fontSize: "0.65rem",
                     fontWeight: 600,
-                    bgcolor: "primary.main",
+                    bgcolor: "common.black",
                   }}
                 >
                   {post.author.charAt(0).toUpperCase()}

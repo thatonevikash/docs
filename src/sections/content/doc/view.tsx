@@ -36,8 +36,8 @@ export function DocContentView({ post }: { post: Post }) {
             left: 0,
             top: 0,
             bottom: 0,
-            width: 3,
-            bgcolor: "primary.main",
+            width: 4,
+            bgcolor: "common.black",
             borderRadius: "0 2px 2px 0",
           },
         }}
@@ -114,7 +114,7 @@ export function DocContentView({ post }: { post: Post }) {
                 height: 28,
                 fontSize: "0.7rem",
                 fontWeight: 700,
-                bgcolor: "primary.main",
+                bgcolor: "common.black",
               }}
             >
               {post.author.charAt(0).toUpperCase()}
@@ -173,7 +173,7 @@ export function DocContentView({ post }: { post: Post }) {
                     color: "text.secondary",
                     transition: "color 0.15s ease, transform 0.15s ease",
                     "&:hover": {
-                      color: "#0A66C2",
+                      color: "text.primary",
                       bgcolor: "transparent",
                     },
                   }}

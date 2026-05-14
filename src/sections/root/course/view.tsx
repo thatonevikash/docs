@@ -1,9 +1,11 @@
+"use client";
+
+import Link from "next/link";
 import Image from "next/image";
 
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
 import Card from "@mui/material/Card";
-import Link from "@mui/material/Link";
 import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
 import CardActionArea from "@mui/material/CardActionArea";
@@ -52,8 +54,7 @@ export function CourseRootView({
           >
             <CardActionArea
               component={Link}
-              href={`/docs/courses/${course.slug}`}
-              underline="none"
+              href={`/courses/${course.slug}`}
               sx={{ p: 0 }}
             >
               <Box
