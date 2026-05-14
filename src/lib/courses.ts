@@ -29,6 +29,7 @@ export interface CourseChapterContent {
   slug: string;
   title: string;
   content: string;
+  description: string;
 }
 
 // -----------------------------------------------------------
@@ -117,7 +118,8 @@ export async function getCourseChapterContentBySlug(
 
   return {
     slug: chapterSlug,
-    title: data.title || chapterSlug,
+    title: data.title,
+    description: data.description,
     content,
   };
 }

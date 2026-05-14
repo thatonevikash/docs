@@ -6,9 +6,14 @@ import {
   getCourseChapterContentBySlug,
 } from "@/lib/courses";
 
+import { fParam } from "@/utils/format-case";
 import { CourseChapterContentView } from "@/sections/content/course/view";
 
 // -----------------------------------------------------------
+
+interface PageProps {
+  params: Promise<{ slug: string; chapter: string }>;
+}
 
 export async function generateStaticParams() {
   return getAllCourses().flatMap((course) =>
@@ -19,12 +24,20 @@ export async function generateStaticParams() {
   );
 }
 
-export default async function Page({
-  params,
-}: {
-  params: Promise<{ slug: string; chapter: string }>;
-}) {
+export async function generateMetadata({ params }: PageProps) {
   const { slug, chapter } = await params;
+
+  const content = await getCourseChapterContentBySlug(slug, chapter);
+
+  return {
+    title: `${fParam(content?.title ?? "")} - ${fParam(slug)} | thatonevikash`,
+    description: content?.description ?? "",
+  };
+}
+
+export default async function Page({ params }: PageProps) {
+  const { slug, chapter } = await params;
+
   const chapterContent = await getCourseChapterContentBySlug(slug, chapter);
 
   if (!chapterContent) {
