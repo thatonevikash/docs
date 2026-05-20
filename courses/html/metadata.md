@@ -4,6 +4,7 @@ description: "Learn HTML - Basics to Advanced"
 logo: "/icons/skills/ic-html.svg"
 banner: ""
 rootColor: "#e34f26"
+upcoming: true
 ---
 
 **HTML** - The core web vital of website.

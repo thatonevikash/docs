@@ -17,6 +17,7 @@ export interface CourseMetadata {
   banner: string | undefined;
   rootColor: string | undefined;
   content: string;
+  upcoming?: boolean;
 }
 
 export interface CourseChapter {
@@ -52,6 +53,7 @@ export function getAllCourses(): Omit<CourseMetadata, "banner" | "content">[] {
         description: data.description,
         logo: normalizeLocalAssetSrc(data.logo),
         rootColor: data.rootColor,
+        upcoming: data?.upcoming || false,
       };
     });
 }

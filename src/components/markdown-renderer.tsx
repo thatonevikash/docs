@@ -1,4 +1,7 @@
+"use client";
+
 import Box from "@mui/material/Box";
+import { alpha } from "@mui/material/styles";
 
 // -----------------------------------------------------------
 
@@ -7,7 +10,7 @@ export function MarkdownRenderer({ content }: { content: string }) {
     <Box
       className="markdown-body"
       dangerouslySetInnerHTML={{ __html: content }}
-      sx={{
+      sx={(theme) => ({
         "& pre": { borderRadius: 1, overflow: "auto" },
         "& code": { fontSize: "0.875rem" },
         "& img": { maxWidth: "100%" },
@@ -27,15 +30,15 @@ export function MarkdownRenderer({ content }: { content: string }) {
 
         // ── Alerts ──────────────────────────────────────────
         "& .alert": {
-          borderRadius: 1.5,
-          border: "1px solid",
           p: 2,
           my: 2.5,
+          borderRadius: 4,
+          border: "1px solid",
           "& .alert-header": {
+            mb: 1,
             display: "flex",
             alignItems: "center",
             gap: 0.75,
-            mb: 1,
           },
           "& .alert-icon": { fontSize: "1rem", lineHeight: 1 },
           "& .alert-label": {
@@ -48,36 +51,36 @@ export function MarkdownRenderer({ content }: { content: string }) {
         },
 
         "& .alert-note": {
-          bgcolor: "rgba(9, 105, 218, 0.06)",
-          borderColor: "rgba(9, 105, 218, 0.35)",
-          "& .alert-label": { color: "#0969da" },
-          "& .alert-icon-svg": { color: "#0969da" },
+          bgcolor: alpha(theme.palette.info.main, 0.12),
+          borderColor: alpha(theme.palette.info.main, 0.36),
+          "& .alert-label": { color: theme.palette.info.main },
+          "& .alert-icon-svg": { color: theme.palette.info.main },
         },
         "& .alert-tip": {
-          bgcolor: "rgba(26, 127, 55, 0.06)",
-          borderColor: "rgba(26, 127, 55, 0.35)",
-          "& .alert-label": { color: "#1a7f37" },
-          "& .alert-icon-svg": { color: "#1a7f37" },
+          bgcolor: alpha(theme.palette.success.main, 0.12),
+          borderColor: alpha(theme.palette.success.main, 0.36),
+          "& .alert-label": { color: theme.palette.success.main },
+          "& .alert-icon-svg": { color: theme.palette.success.main },
         },
         "& .alert-important": {
-          bgcolor: "rgba(130, 80, 223, 0.06)",
-          borderColor: "rgba(130, 80, 223, 0.35)",
-          "& .alert-label": { color: "#8250df" },
-          "& .alert-icon-svg": { color: "#8250df" },
+          bgcolor: alpha(theme.palette.purple.main, 0.12),
+          borderColor: alpha(theme.palette.purple.main, 0.36),
+          "& .alert-label": { color: theme.palette.purple.main },
+          "& .alert-icon-svg": { color: theme.palette.purple.main },
         },
         "& .alert-warning": {
-          bgcolor: "rgba(154, 103, 0, 0.06)",
-          borderColor: "rgba(154, 103, 0, 0.35)",
-          "& .alert-label": { color: "#9a6700" },
-          "& .alert-icon-svg": { color: "#9a6700" },
+          bgcolor: alpha(theme.palette.warning.main, 0.12),
+          borderColor: alpha(theme.palette.warning.main, 0.36),
+          "& .alert-label": { color: theme.palette.warning.main },
+          "& .alert-icon-svg": { color: theme.palette.warning.main },
         },
         "& .alert-caution": {
-          bgcolor: "rgba(207, 34, 46, 0.06)",
-          borderColor: "rgba(207, 34, 46, 0.35)",
-          "& .alert-label": { color: "#cf222e" },
-          "& .alert-icon-svg": { color: "#cf222e" },
+          bgcolor: alpha(theme.palette.error.main, 0.12),
+          borderColor: alpha(theme.palette.error.main, 0.36),
+          "& .alert-label": { color: theme.palette.error.main },
+          "& .alert-icon-svg": { color: theme.palette.error.main },
         },
-      }}
+      })}
     />
   );
 }

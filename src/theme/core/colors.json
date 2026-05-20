@@ -1,0 +1,46 @@
+{
+  "error": {
+    "light": "#FF6183",
+    "main": "#DC103C",
+    "dark": "#AD1032",
+    "contrastText": "#FFFFFF"
+  },
+  "info": {
+    "light": "#4FB0E1",
+    "main": "#008BD1",
+    "dark": "#005D8B",
+    "contrastText": "#FFFFFF"
+  },
+  "success": {
+    "light": "#34FA91",
+    "main": "#0CC663",
+    "dark": "#0A974C",
+    "contrastText": "#FFFFFF"
+  },
+  "warning": {
+    "light": "#E4A942",
+    "main": "#E79200",
+    "dark": "#AC7312",
+    "contrastText": "#FFFFFF"
+  },
+  "purple": {
+    "light": "#A463E5",
+    "main": "#9437F1",
+    "dark": "#6C0CCB",
+    "contrastText": "#FFFFFF"
+  },
+
+  "grey": {
+    "50": "#FFFFFF",
+    "100": "#FFF5F5",
+    "200": "#F4F4F4",
+    "300": "#F2F2F2",
+    "400": "#D8D3D3",
+    "500": "#D2D2D2",
+    "600": "#C2C2C2",
+    "700": "#959595",
+    "800": "#3E3E3E",
+    "900": "#141615",
+    "950": "#000000"
+  }
+}
