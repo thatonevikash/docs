@@ -121,4 +121,6 @@ watcher.on("addDir", (dirPath) => {
 
 // -----------------------------------------------------------
 
-console.log("👀 Watcher active. Ready for new files and folders...");
+console.log(
+  "\n[activated] 👀 Watcher - Start uploading new content and courses...",
+);
