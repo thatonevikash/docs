@@ -20,79 +20,93 @@ export function CourseRootView({
   courses: Omit<CourseMetadata, "banner" | "content">[];
 }) {
   return (
-    <Container maxWidth="lg" sx={{ py: 6 }}>
-      <Box
-        sx={{
-          mb: 5,
-          display: "flex",
-          flexDirection: { xs: "column", md: "row" },
-          gap: 2,
-          justifyContent: "space-between",
-          alignItems: { xs: "stretch", md: "flex-start" },
-        }}
-      >
-        <Box>
-          <Typography variant="h4" sx={{ fontWeight: 600 }} gutterBottom>
-            /docs
-            <Box component="span" sx={{ color: "text.secondary" }}>
-              /courses
-            </Box>
-          </Typography>
-          <Typography variant="body1" color="text.secondary">
-            Built for Developers 😼 - Web Development Stuff and much more!
-          </Typography>
-        </Box>
-      </Box>
-
-      <Grid container spacing={3}>
-        {courses.map((course) => (
-          <Card
-            component={Grid}
-            size={{ xs: 6, md: 4 }}
-            key={course.slug}
-            sx={{ borderRadius: 3, overflow: "hidden" }}
-          >
-            <CardActionArea
-              component={Link}
-              href={`/courses/${course.slug}`}
-              sx={{ p: 0 }}
-            >
-              <Box
-                sx={{
-                  minHeight: 160,
-                  p: 2.5,
-                  color: "common.white",
-                  background: `linear-gradient(135deg, ${course.rootColor || "#1f2937"} 5%, #0f172a 200%)`,
-                  display: "flex",
-                  flexDirection: "column",
-                  justifyContent: "space-between",
-                }}
-              >
-                {course.logo ? (
-                  <Image
-                    src={course.logo}
-                    alt={`${course.title} logo`}
-                    width={56}
-                    height={56}
-                  />
-                ) : (
-                  <Typography variant="subtitle2" sx={{ opacity: 0.9 }}>
-                    📘
-                  </Typography>
-                )}
-                <Box>
-                  <Typography variant="h5" sx={{ fontWeight: 700 }}>
-                    {course.title}
-                  </Typography>
-                  <Typography variant="body2" sx={{ opacity: 0.8, mt: 0.5 }}>
-                    {course.description}
-                  </Typography>
-                </Box>
+    <Box sx={{ minHeight: "100dvh", bgcolor: "grey.200" }}>
+      <Container maxWidth="lg" sx={{ py: 4 }}>
+        <Box
+          sx={{
+            mb: 4,
+            display: "flex",
+            flexDirection: { xs: "column", md: "row" },
+            gap: 2,
+            justifyContent: "space-between",
+            alignItems: { xs: "stretch", md: "flex-start" },
+          }}
+        >
+          <>
+            <Typography sx={{ typography: "h4" }}>
+              /docs
+              <Box component="span" sx={{ color: "text.secondary" }}>
+                /courses
               </Box>
-            </CardActionArea>
-          </Card>
-        ))}
-      </Grid>
-    </Container>
+            </Typography>
+          </>
+        </Box>
+
+        <Grid container spacing={3}>
+          {courses.map((course) => (
+            <Card
+              key={course.slug}
+              component={Grid}
+              size={{ xs: 6, md: 4 }}
+              sx={{ borderRadius: 6, overflow: "hidden" }}
+            >
+              <CardActionArea
+                sx={{ p: 0 }}
+                component={Link}
+                href={`/courses/${course.slug}`}
+                disabled={course.upcoming}
+              >
+                <Box
+                  sx={[
+                    {
+                      p: 2.5,
+                      minHeight: 160,
+                      color: "common.white",
+                      background: (theme) =>
+                        `linear-gradient(135deg, ${course.rootColor || "#1f2937"} 5%, ${theme.vars.palette.grey[900]} 175%)`,
+                      display: "flex",
+                      flexDirection: "column",
+                      justifyContent: "space-between",
+                    },
+                    course.upcoming
+                      ? {
+                          background: (theme) =>
+                            `linear-gradient(135deg, ${theme.palette.grey[400]} 5%, ${theme.vars.palette.grey[700]} 175%)`,
+                          "& .course-logo": {
+                            filter: "grayscale(100%)",
+                          },
+                        }
+                      : {},
+                  ]}
+                >
+                  {course.logo ? (
+                    <Image
+                      src={course.logo}
+                      className="course-logo"
+                      alt={`${course.title} logo`}
+                      width={56}
+                      height={56}
+                    />
+                  ) : (
+                    <Typography variant="subtitle2" sx={{ opacity: 0.9 }}>
+                      📘
+                    </Typography>
+                  )}
+                  <Box>
+                    <Typography variant="h5">{course.title}</Typography>
+                    <Typography
+                      variant="body2"
+                      sx={{ mt: 0.8, color: "grey.300" }}
+                    >
+                      {course.description}
+                    </Typography>
+                  </Box>
+                </Box>
+              </CardActionArea>
+            </Card>
+          ))}
+        </Grid>
+      </Container>
+    </Box>
   );
 }

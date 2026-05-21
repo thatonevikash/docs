@@ -5,13 +5,14 @@ import InputBase from "@mui/material/InputBase";
 // -----------------------------------------------------------
 
 export const SearchWrapper = styled(Box)(({ theme }) => ({
+  padding: theme.spacing(0.5),
   display: "flex",
+  gap: theme.spacing(0.5),
   alignItems: "center",
   borderRadius: 999,
-  border: `1px solid ${theme.palette.divider}`,
-  minWidth: 280,
-  maxWidth: 200,
-  width: "100%",
+  border: `2px solid ${theme.palette.divider}`,
+  minWidth: 200,
+  maxWidth: 240,
   overflow: "hidden",
   backgroundColor: theme.palette.background.paper,
   transition: "all 0.2s ease",
@@ -30,11 +31,10 @@ export const SearchWrapper = styled(Box)(({ theme }) => ({
 
 export const SearchInput = styled(InputBase)(({ theme }) => ({
   flex: 1,
-  padding: theme.spacing(1.15, 1.9),
-  fontSize: "0.92rem",
+  fontSize: "0.8rem",
   "& input::placeholder": {
     color: theme.palette.text.secondary,
-    opacity: 0.9,
+    opacity: 0.8,
   },
 }));
 
@@ -42,10 +42,11 @@ export const SearchInput = styled(InputBase)(({ theme }) => ({
 
 export const SearchHint = styled(Box)(({ theme }) => ({
   marginRight: theme.spacing(1),
-  padding: theme.spacing(0.35, 0.7),
-  borderRadius: 8,
+  padding: theme.spacing(0.44, 0.8),
+  borderRadius: theme.spacing(1),
   border: `1px solid ${theme.palette.divider}`,
-  color: theme.palette.text.secondary,
+  color: theme.palette.text.primary,
+  backgroundColor: theme.palette.grey[200],
   fontSize: "0.72rem",
   lineHeight: 1,
   fontWeight: 600,
@@ -57,8 +58,8 @@ export const SearchIconBox = styled(Box)(({ theme }) => ({
   display: "flex",
   alignItems: "center",
   justifyContent: "center",
-  width: 42,
-  height: 42,
-  borderLeft: `1px solid ${theme.palette.divider}`,
+  width: 28,
+  height: 28,
+  // borderLeft: `1px solid ${theme.palette.divider}`,
   color: theme.palette.text.secondary,
 }));

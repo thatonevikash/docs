@@ -5,7 +5,6 @@ import Link from "next/link";
 import Box from "@mui/material/Box";
 import Chip from "@mui/material/Chip";
 import Card from "@mui/material/Card";
-import Avatar from "@mui/material/Avatar";
 import Typography from "@mui/material/Typography";
 import CardContent from "@mui/material/CardContent";
 import CardActionArea from "@mui/material/CardActionArea";
@@ -27,7 +26,7 @@ export function PostCard({ post }: PostCardProps) {
         height: "100%",
         display: "flex",
         flexDirection: "column",
-        borderRadius: 2,
+
         borderColor: "divider",
         transition: "all 0.2s ease",
         position: "relative",
@@ -39,7 +38,7 @@ export function PostCard({ post }: PostCardProps) {
           left: 0,
           top: 0,
           bottom: 0,
-          width: 3,
+          width: 5,
           bgcolor: "common.black",
           transform: "scaleY(0)",
           transformOrigin: "bottom",
@@ -47,9 +46,7 @@ export function PostCard({ post }: PostCardProps) {
           borderRadius: "0 2px 2px 0",
         },
         "&:hover": {
-          borderColor: "common.black",
-          boxShadow: "0 4px 20px rgba(0,0,0,0.08)",
-          transform: "translateY(-2px)",
+          transform: "translateY(-4px)",
           "&::before": {
             transform: "scaleY(1)",
           },
@@ -79,7 +76,7 @@ export function PostCard({ post }: PostCardProps) {
             "&:last-child": { pb: 0 },
             display: "flex",
             flexDirection: "column",
-            gap: 1.5,
+            gap: 1,
           }}
         >
           {/* Top row — date + arrow icon */}
@@ -122,13 +119,9 @@ export function PostCard({ post }: PostCardProps) {
 
           {/* Title */}
           <Typography
-            variant="h6"
+            variant="h5"
             sx={{
-              fontWeight: 600,
-              fontSize: "1rem",
-              lineHeight: 1.4,
-              color: "text.primary",
-              letterSpacing: "-0.01em",
+              typography: "h5",
             }}
           >
             {post.title}
@@ -140,7 +133,6 @@ export function PostCard({ post }: PostCardProps) {
               variant="body2"
               color="text.secondary"
               sx={{
-                lineHeight: 1.6,
                 display: "-webkit-box",
                 WebkitLineClamp: 2,
                 WebkitBoxOrient: "vertical",
@@ -151,12 +143,10 @@ export function PostCard({ post }: PostCardProps) {
             </Typography>
           )}
 
-          {/* Spacer pushes tags + author to bottom */}
-          {/* <Box sx={{ flexGrow: 1 }} /> */}
-
           {/* Tags */}
+
           {post.tags.length > 0 && (
-            <Box sx={{ display: "flex", flexWrap: "wrap", gap: 0.75 }}>
+            <Box sx={{ mt: 1.25, display: "flex", flexWrap: "wrap", gap: 1 }}>
               {post.tags.map((tag) => (
                 <Chip
                   key={tag}
@@ -164,57 +154,16 @@ export function PostCard({ post }: PostCardProps) {
                   size="small"
                   variant="filled"
                   sx={{
-                    bgcolor: "action.hover",
-                    color: "text.secondary",
+                    bgcolor: "grey.300",
+                    color: "grey.800",
                     fontSize: "0.7rem",
-                    height: 22,
-                    fontWeight: 500,
+                    fontWeight: 600,
                     border: "none",
                     "& .MuiChip-label": { px: 1 },
                   }}
                 />
               ))}
             </Box>
-          )}
-
-          <Box sx={{ flexGrow: 1 }} />
-
-          {/* Author row */}
-          {post.author && (
-            <>
-              <Box
-                sx={{
-                  height: "1px",
-                  bgcolor: "divider",
-                  mx: -3,
-                }}
-              />
-              <Box
-                sx={{
-                  display: "flex",
-                  alignItems: "center",
-                  gap: 1,
-                }}
-              >
-                <Avatar
-                  sx={{
-                    width: 22,
-                    height: 22,
-                    fontSize: "0.65rem",
-                    fontWeight: 600,
-                    bgcolor: "common.black",
-                  }}
-                >
-                  {post.author.charAt(0).toUpperCase()}
-                </Avatar>
-                <Typography
-                  variant="caption"
-                  sx={{ color: "text.secondary", fontWeight: 500 }}
-                >
-                  {post.author}
-                </Typography>
-              </Box>
-            </>
           )}
         </CardContent>
       </CardActionArea>
