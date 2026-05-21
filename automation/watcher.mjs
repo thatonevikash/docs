@@ -122,5 +122,5 @@ watcher.on("addDir", (dirPath) => {
 // -----------------------------------------------------------
 
 console.log(
-  "\n[activated] 👀 Watcher - Start uploading new content and courses...",
+  "\n[activated] 👀 Watcher - Start uploading new content and courses...\n",
 );
