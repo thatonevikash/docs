@@ -71,7 +71,7 @@ Which provides all _the facilities you will use to build any project_.
 
 ### Let's go with `vscode` 😎
 
-\*A powerful `IDE` built by **Microsoft\***.
+_A powerful `IDE` built by **Microsoft**_.
 
 Download vscode from the official site:
 [install](https://code.visualstudio.com/download)
@@ -100,4 +100,4 @@ Download vscode from the official site:
 
 ![auto rename tag](internals/before-starting/auto-rename-tag.png)
 
-#### Written with 💖 by _thatonevikash_!
+**Thanks for reading! 💖**

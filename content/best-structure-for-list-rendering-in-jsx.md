@@ -212,3 +212,5 @@ function Page() {
 
 > [!TIP]
 > follow the top down approach to make it well maintainable code.
+
+**Thanks for reading! 💖**

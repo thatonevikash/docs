@@ -12,7 +12,9 @@ social:
   }
 ---
 
-## Need of snippets
+## How to setup vscode snippet for a project?
+
+### Need of snippets
 
 Working within a project, your main goal to make the entire setup clean and consist.
 
@@ -133,4 +135,4 @@ Copy and Pasting it across the entire codebase is not also an optimal solution.
 }
 ```
 
-**Happy coding 💖**
+**Thanks for reading! 💖**

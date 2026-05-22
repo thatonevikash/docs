@@ -14,8 +14,6 @@ social:
 
 ## Git
 
-<img src="icons/ic-git.svg" alt="image" height="95px" align="left">
-
 **Git** is a distributed version control system that allows developers to track changes in source code during software development.<br/>
 Created by _Linus Torvalds_ in 2005, it helps manage project history, collaborate with others, and roll back to previous versions if needed.<br/>
 Git stores data as snapshots of the entire project, unlike traditional systems that track file-by-file changes.
@@ -145,10 +143,10 @@ git add .
 
 ```bash
 # take a snapshot of tracked files with a message
-git commit -m"message"
+git commit -m "message"
 ```
 
-> [!NOTE]\
+> [!NOTE]
 > `-m` flag is used to add commit message
 
 ```bash
@@ -316,7 +314,7 @@ git status
 git add .
 
 # take snapshot
-git commit -m"message"
+git commit -m "message"
 
 # push changes
 git push
@@ -333,29 +331,41 @@ git checkout new-feature
 # create and switch branch
 git checkout -b new-feature
 
-# push on branch ( without modifying upstream )
+# push to remote branch
 git push origin new-feature
 
-# push on branch ( with modifying upstram )
+# push to remote branch ( set upstream )
 git push -u origin new-feature
 
-# pull changes
+# pull changes of remote
 git pull
 
-# pull from branch
+# pull changes from a remote branch
 git pull origin new-feature
+
+# pull changes with rebasing
+git pull --rebase
 
 # check commits history
 git log
 
-# check commits name
+# check commits history in short form
 git log --oneline
+
+# fetching a remote branch
+git fetch
+
+# fetching a specific remote branch
+git fetch origin <branch-name>
 
 # delete a branch ( safe, ensures no unmerged changes )
 git branch -d <branch-name>
 
 # delete a branch ( forcefully )
 git branch -D <branch-name>
+
+# revert changes of a commit ( most recent commit )
+git revert <commit-id>
 
 # pluck all changes from any branch
 git stash
@@ -367,4 +377,4 @@ git stash apply
 git reset --hard
 ```
 
-#### Written with 💖 by _thatonevikash_
+**Thanks for reading! 💖**

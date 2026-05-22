@@ -16,8 +16,6 @@ social:
 
 **JavaScript: The dynamic language of the web.**
 
-<img src="icons/skills/ic-javascript.svg" height="95px" align="left">
-
 JavaScript is a programming language that brings web pages to life.<br/>
 It's the core technology of the web, working alongside HTML and CSS.<br/>
 While HTML structures the content and CSS styles it.<br/>
@@ -192,4 +190,4 @@ Now look on the top of the vs code you will find Terminal, create a new terminal
 node test.js
 ```
 
-#### Written with 💖 by _thatonevikash_!
+**Thanks for reading! 💖**

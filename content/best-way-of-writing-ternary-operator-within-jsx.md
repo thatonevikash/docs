@@ -84,4 +84,4 @@ return (
 );
 ```
 
-#### Written with 💖 by _thatonevikash_!
+**Thanks for reading! 💖**
