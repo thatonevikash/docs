@@ -11,18 +11,31 @@ export function MarkdownRenderer({ content }: { content: string }) {
       className="markdown-body"
       dangerouslySetInnerHTML={{ __html: content }}
       sx={(theme) => ({
-        "& pre": { borderRadius: 1, overflow: "auto" },
-        "& code": { fontSize: "0.875rem" },
         "& img": { maxWidth: "100%" },
+        "& code": { fontSize: "0.875rem" },
+
+        // ── Pre Block ──────────────────────────────────────────
+        "& pre": {
+          borderRadius: 3,
+          overflow: "auto",
+          bgcolor: theme.palette.background.defaultChannel,
+          border: `1px solid ${alpha(theme.palette.grey[700], 0.12)}`,
+
+          "& code.hljs": {
+            // color: "text.primary",
+          },
+        },
+
+        // ── Table ──────────────────────────────────────────
         "& table": {
+          my: 2,
           width: "100%",
           borderCollapse: "collapse",
-          my: 2,
         },
         "& th, & td": {
-          border: "none",
-          py: 0.75,
           px: 1,
+          py: 0.75,
+          border: "none",
         },
         "& th": {
           fontWeight: 600,

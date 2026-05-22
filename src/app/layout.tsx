@@ -20,7 +20,9 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "docs | thatonevikash",
-  description: "welcome to the docs of thatonevikash",
+  description: `Explore docs and learn things you've never learnt yet.
+    Whether you're an absolute beginner or an experienced developer,
+    thatonevikash/docs have something for everyone.`,
 };
 
 export default function RootLayout({
