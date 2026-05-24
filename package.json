@@ -7,7 +7,7 @@
   },
   "scripts": {
     "dev": "concurrently \"npm run watch\" \"next dev\"",
-    "watch": "node ./automation/watcher.mjs",
+    "watch": "node ./automation/scaffold-watcher.mjs",
     "build": "next build",
     "start": "next start",
     "lint": "eslint ./src --fix "
