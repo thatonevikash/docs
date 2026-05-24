@@ -1,0 +1,79 @@
+1:"$Sreact.fragment"
+2:I[36729,["/docs/_next/static/chunks/112ag9kh2ezjv.js","/docs/_next/static/chunks/0d9jj-5zzyuhf.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js","/docs/_next/static/chunks/0~7p8migmus42.js","/docs/_next/static/chunks/0dp-pbei00pod.js","/docs/_next/static/chunks/00hotlyl1uwsn.js"],"default"]
+3:I[66919,["/docs/_next/static/chunks/112ag9kh2ezjv.js","/docs/_next/static/chunks/0d9jj-5zzyuhf.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js","/docs/_next/static/chunks/0~7p8migmus42.js","/docs/_next/static/chunks/0dp-pbei00pod.js","/docs/_next/static/chunks/00hotlyl1uwsn.js"],"default"]
+4:I[21435,["/docs/_next/static/chunks/112ag9kh2ezjv.js","/docs/_next/static/chunks/0d9jj-5zzyuhf.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js","/docs/_next/static/chunks/0~7p8migmus42.js","/docs/_next/static/chunks/0dp-pbei00pod.js","/docs/_next/static/chunks/00hotlyl1uwsn.js"],"default"]
+5:I[53488,["/docs/_next/static/chunks/112ag9kh2ezjv.js","/docs/_next/static/chunks/0d9jj-5zzyuhf.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js","/docs/_next/static/chunks/0~7p8migmus42.js","/docs/_next/static/chunks/0dp-pbei00pod.js","/docs/_next/static/chunks/00hotlyl1uwsn.js"],"default"]
+6:I[5573,["/docs/_next/static/chunks/112ag9kh2ezjv.js","/docs/_next/static/chunks/0d9jj-5zzyuhf.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js","/docs/_next/static/chunks/0~7p8migmus42.js","/docs/_next/static/chunks/0dp-pbei00pod.js","/docs/_next/static/chunks/00hotlyl1uwsn.js"],"default"]
+7:I[23262,["/docs/_next/static/chunks/112ag9kh2ezjv.js","/docs/_next/static/chunks/0d9jj-5zzyuhf.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js","/docs/_next/static/chunks/0~7p8migmus42.js","/docs/_next/static/chunks/0dp-pbei00pod.js","/docs/_next/static/chunks/00hotlyl1uwsn.js"],"default"]
+8:I[32073,["/docs/_next/static/chunks/112ag9kh2ezjv.js","/docs/_next/static/chunks/0d9jj-5zzyuhf.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js","/docs/_next/static/chunks/0~7p8migmus42.js","/docs/_next/static/chunks/0dp-pbei00pod.js","/docs/_next/static/chunks/00hotlyl1uwsn.js"],"default"]
+9:I[55534,["/docs/_next/static/chunks/112ag9kh2ezjv.js","/docs/_next/static/chunks/0d9jj-5zzyuhf.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js","/docs/_next/static/chunks/0~7p8migmus42.js","/docs/_next/static/chunks/0dp-pbei00pod.js","/docs/_next/static/chunks/00hotlyl1uwsn.js"],"default"]
+a:I[84244,["/docs/_next/static/chunks/112ag9kh2ezjv.js","/docs/_next/static/chunks/0d9jj-5zzyuhf.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js","/docs/_next/static/chunks/0~7p8migmus42.js","/docs/_next/static/chunks/0dp-pbei00pod.js","/docs/_next/static/chunks/00hotlyl1uwsn.js"],"default"]
+b:I[29086,["/docs/_next/static/chunks/112ag9kh2ezjv.js","/docs/_next/static/chunks/0d9jj-5zzyuhf.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js","/docs/_next/static/chunks/0~7p8migmus42.js","/docs/_next/static/chunks/0dp-pbei00pod.js","/docs/_next/static/chunks/00hotlyl1uwsn.js"],"default"]
+c:I[75611,["/docs/_next/static/chunks/112ag9kh2ezjv.js","/docs/_next/static/chunks/0d9jj-5zzyuhf.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js","/docs/_next/static/chunks/0~7p8migmus42.js","/docs/_next/static/chunks/0dp-pbei00pod.js","/docs/_next/static/chunks/00hotlyl1uwsn.js"],"default"]
+d:I[80874,["/docs/_next/static/chunks/112ag9kh2ezjv.js","/docs/_next/static/chunks/0d9jj-5zzyuhf.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js","/docs/_next/static/chunks/0~7p8migmus42.js","/docs/_next/static/chunks/0dp-pbei00pod.js","/docs/_next/static/chunks/00hotlyl1uwsn.js"],"default"]
+e:I[11445,["/docs/_next/static/chunks/112ag9kh2ezjv.js","/docs/_next/static/chunks/0d9jj-5zzyuhf.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js","/docs/_next/static/chunks/0~7p8migmus42.js","/docs/_next/static/chunks/0dp-pbei00pod.js","/docs/_next/static/chunks/00hotlyl1uwsn.js"],"MarkdownRenderer"]
+14:I[97367,["/docs/_next/static/chunks/112ag9kh2ezjv.js","/docs/_next/static/chunks/0d9jj-5zzyuhf.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
+15:"$Sreact.suspense"
+f:T1159,<h2>Use of a barrel file (<code>index.js</code> or <code>index.ts</code>) with in modern react codebases.</h2>
+<blockquote>
+<p><strong>A barrel file is nothing just a <code>index.js</code> or <code>index.ts</code> file within a folder.</strong></p>
+</blockquote>
+<p>It is useful to make <code>import</code> statements shorter and beautiful.</p>
+<pre><code class="hljs language-js"><span class="hljs-comment">// src/components/avatar/index.js</span>
+
+<span class="hljs-keyword">export</span> * <span class="hljs-keyword">from</span> <span class="hljs-string">"./avatar.jsx"</span>;
+
+<span class="hljs-keyword">export</span> { classes <span class="hljs-keyword">as</span> avatarClasses } <span class="hljs-keyword">from</span> <span class="hljs-string">"./classes.js"</span>;
+</code></pre>
+<pre><code class="hljs language-js"><span class="hljs-comment">// src/components/avatar/avatar.jsx</span>
+
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">function</span> <span class="hljs-title function_">Avatar</span>(<span class="hljs-params"></span>) {
+  <span class="hljs-keyword">return</span> (
+    <span class="hljs-comment">// Your component</span>
+  )
+}
+
+<span class="hljs-comment">// src/components/avatar/classes.js</span>
+
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">const</span> classes = {
+  <span class="hljs-attr">root</span>: <span class="hljs-string">'avatar__root'</span>,
+}
+</code></pre>
+<pre><code class="hljs language-jsx"><span class="hljs-comment">// with barrel file</span>
+<span class="hljs-keyword">import</span> { <span class="hljs-title class_">Avatar</span> } <span class="hljs-keyword">from</span> <span class="hljs-string">"@components/avatar"</span>;
+
+<span class="hljs-comment">// without barrel file</span>
+<span class="hljs-keyword">import</span> { <span class="hljs-title class_">Avatar</span> } <span class="hljs-keyword">from</span> <span class="hljs-string">"@components/avatar/avatar"</span>;
+
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-keyword">function</span> <span class="hljs-title function_">Page</span>(<span class="hljs-params"></span>) {
+  <span class="hljs-keyword">return</span> (
+    <span class="xml"><span class="hljs-tag">&#x3C;></span>
+      <span class="hljs-tag">&#x3C;<span class="hljs-name">Avatar</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"/assets/user.png"</span> /></span>
+    <span class="hljs-tag">&#x3C;/></span></span>
+  );
+}
+</code></pre>
+<div class="alert alert-warning"><div class="alert-header"><span class="alert-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="alert-icon-svg"><path d="m21.73 18-8-14a2 2 0 0 0-3.46 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"></path><path d="M12 9v4"></path><path d="M12 17h.01"></path></svg></span><span class="alert-label">Warning</span></div>
+<p>named <code>export</code> and <code>default export</code> behaves differently in modules.</p>
+</div>
+<p><strong>If your component looks like this</strong></p>
+<pre><code class="hljs language-jsx"><span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-keyword">function</span> <span class="hljs-title function_">Avatar</span>(<span class="hljs-params"></span>) {
+  <span class="hljs-keyword">return</span> (
+    <span class="hljs-comment">// Your component</span>
+  )
+}
+</code></pre>
+<div class="alert alert-tip"><div class="alert-header"><span class="alert-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="alert-icon-svg"><path d="M15 14c.2-1 .7-1.7 1.5-2.5A6 6 0 1 0 7.5 11.5c.8.8 1.3 1.5 1.5 2.5"></path><path d="M9 18h6"></path><path d="M10 22h4"></path></svg></span><span class="alert-label">Tip</span></div>
+
+<pre><code class="hljs language-js"><span class="hljs-keyword">export</span> { <span class="hljs-keyword">default</span> } <span class="hljs-keyword">from</span> <span class="hljs-string">"./avatar"</span>;
+</code></pre>
+<p>Will fix the barrel file exporting.</p>
+</div>
+<blockquote>
+<p><strong>Modern react codebases prefers named export for component.</strong></p>
+</blockquote>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"sx":{"minHeight":"100dvh","bgcolor":"grey.200"},"children":["$","$L3",null,{"maxWidth":"sm","sx":{"py":3},"children":[["$","$L4",null,{"sx":{"p":3,"mb":5,"position":"relative","overflow":"hidden","&::before":{"content":"\"\"","position":"absolute","left":0,"top":0,"bottom":0,"width":8,"bgcolor":"common.black","borderRadius":"0 2px 2px 0"}},"children":[["$","$L5",null,{"variant":"caption","sx":{"color":"text.disabled","letterSpacing":"0.04em","fontVariantNumeric":"tabular-nums","display":"block","mb":1.5},"children":"24 May 2026"}],["$","$L5",null,{"variant":"h4","sx":{"mb":2},"children":"Use of a barrel file in react js"}],["$","$L2",null,{"sx":{"display":"flex","gap":1,"flexWrap":"wrap","mb":3},"children":[["$","$L6","reactjs",{"label":"reactjs","size":"small","variant":"filled","sx":{"bgcolor":"grey.300","color":"grey.800","fontSize":"0.8rem","& .MuiChip-label":{"px":1}}}],["$","$L6","export",{"label":"export","size":"small","variant":"filled","sx":{"bgcolor":"grey.300","color":"grey.800","fontSize":"0.8rem","& .MuiChip-label":{"px":1}}}],["$","$L6","barrel file",{"label":"barrel file","size":"small","variant":"filled","sx":{"bgcolor":"grey.300","color":"grey.800","fontSize":"0.8rem","& .MuiChip-label":{"px":1}}}],["$","$L6","modern pattern",{"label":"modern pattern","size":"small","variant":"filled","sx":{"bgcolor":"grey.300","color":"grey.800","fontSize":"0.8rem","& .MuiChip-label":{"px":1}}}]]}],["$","$L7",null,{"sx":{"mx":-3,"mb":2.5}}],["$","$L2",null,{"sx":{"display":"flex","alignItems":"center","justifyContent":"space-between"},"children":[["$","$L2",null,{"sx":{"display":"flex","alignItems":"center","gap":1},"children":[["$","$L8",null,{"sx":{"width":28,"height":28,"fontSize":"0.8rem","fontWeight":700,"bgcolor":"common.black"},"children":"T"}],["$","$L2",null,{"children":[["$","$L5",null,{"variant":"caption","sx":{"color":"text.disabled","display":"block","lineHeight":1},"children":"Published by"}],["$","$L5",null,{"variant":"body2","sx":{"fontWeight":600,"lineHeight":1.4},"children":"thatonevikash"}]]}]]}],["$","$L2",null,{"sx":{"display":"flex","gap":0.25},"children":[["$","$L9",null,{"title":"GitHub","arrow":true,"children":["$","$La",null,{"size":"small","component":"a","href":"https://github.com/thatonevikash","target":"_blank","rel":"noopener noreferrer","aria-label":"GitHub profile","sx":{"color":"text.secondary","transition":"color 0.15s ease, transform 0.15s ease","&:hover":{"color":"text.primary","bgcolor":"transparent"}},"children":["$","$Lb",null,{"sx":{"fontSize":18}}]}]}],["$","$L9",null,{"title":"LinkedIn","arrow":true,"children":["$","$La",null,{"size":"small","component":"a","href":"https://www.linkedin.com/in/thatonevikash/","target":"_blank","rel":"noopener noreferrer","aria-label":"LinkedIn profile","sx":{"color":"text.secondary","transition":"color 0.15s ease, transform 0.15s ease","&:hover":{"color":"text.primary","bgcolor":"transparent"}},"children":["$","$Lc",null,{"sx":{"fontSize":18}}]}]}],["$","$L9",null,{"title":"X (Twitter)","arrow":true,"children":["$","$La",null,{"size":"small","component":"a","href":"https://x.com/thatonevikash","target":"_blank","rel":"noopener noreferrer","aria-label":"X profile","sx":{"color":"text.secondary","transition":"color 0.15s ease, transform 0.15s ease","&:hover":{"color":"text.primary","bgcolor":"transparent"}},"children":["$","$Ld",null,{"sx":{"fontSize":18}}]}]}]]}]]}]]}],["$","$Le",null,{"content":"$f"}]]}]}],["$L10","$L11","$L12"],"$L13"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"A4nYU6mwGWlT1dvMXkpXw"}
+10:["$","script","script-0",{"src":"/docs/_next/static/chunks/0~7p8migmus42.js","async":true}]
+11:["$","script","script-1",{"src":"/docs/_next/static/chunks/0dp-pbei00pod.js","async":true}]
+12:["$","script","script-2",{"src":"/docs/_next/static/chunks/00hotlyl1uwsn.js","async":true}]
+13:["$","$L14",null,{"children":["$","$15",null,{"name":"Next.MetadataOutlet","children":"$@16"}]}]
+16:null
