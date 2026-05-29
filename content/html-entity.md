@@ -48,4 +48,4 @@ It starts with Ampersand (&) and should be closed with a semi-colon (;),
 > [!TIP]
 > There are so many symbols in HTML we can use them to add # after &
 
-#### Written with 💖 by _thatonevikash_!
+**Thanks for reading! 💖**

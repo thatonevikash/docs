@@ -1,5 +1,6 @@
 import fs from "fs";
 import path from "path";
+import chalk from "chalk";
 import chokidar from "chokidar";
 
 // -----------------------------------------------------------
@@ -12,12 +13,18 @@ const COURSES_DIR = "./courses";
 
 /**
  * Converts "what-is-xml" to "What is xml"
- * or "postman" to "Postman"
  */
 function formatTitle(slug) {
   if (!slug) return "";
   const spaced = slug.split("-").join(" ");
   return spaced.charAt(0).toUpperCase() + spaced.slice(1);
+}
+
+/**
+ * Converts "content\html" to "content/html"
+ */
+function slash(p) {
+  return p.replace(/\\/g, "/");
 }
 
 // -----------------------------------------------------------
@@ -78,7 +85,9 @@ watcher.on("add", (filePath) => {
     // Only write if the file is empty to avoid overwriting content
     if (fs.readFileSync(filePath).length === 0) {
       fs.writeFileSync(filePath, markdownTemplate(title));
-      console.log(`⚡ Initiated: ${filePath}`);
+      console.log(
+        `${chalk.bold.green("✓")} File: ${chalk.dim(slash(filePath))}`,
+      );
     }
   }
 });
@@ -94,7 +103,9 @@ watcher.on("add", (filePath) => {
     // Only write if the file is empty to avoid overwriting content
     if (fs.readFileSync(filePath).length === 0) {
       fs.writeFileSync(filePath, markdownTemplate(title, true));
-      console.log(`⚡ Initiated: ${filePath}`);
+      console.log(
+        `${chalk.bold.green("✓")} File: ${chalk.dim(slash(filePath))}`,
+      );
     }
   }
 });
@@ -113,7 +124,8 @@ watcher.on("addDir", (dirPath) => {
     setTimeout(() => {
       if (!fs.existsSync(metadataPath)) {
         fs.writeFileSync(metadataPath, metadataTemplate(title));
-        console.log(`⚙️  Initiated (metadata): ${dirPath}`);
+        console.log(`${chalk.bold.green("✓")} Directory: ${chalk.dim(slash(dirPath))}
+  - Metadata: ${chalk.dim(slash(metadataPath))}`);
       }
     }, 100);
   }
@@ -121,6 +133,6 @@ watcher.on("addDir", (dirPath) => {
 
 // -----------------------------------------------------------
 
-console.log(
-  "\n[activated] 👀 Watcher - Start uploading new content and courses...",
-);
+console.log(`\n${chalk.cyan("◆")} ${chalk.bold.cyan("Scaffold")} (Watcher)
+- Content:\t${chalk.dim(`${CONTENT_DIR}/`)}
+- Courses:\t${chalk.dim(`${COURSES_DIR}/`)}`);

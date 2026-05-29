@@ -12,7 +12,7 @@ social:
   }
 ---
 
-## Docs.dev - HTML Boilderplate
+## HTML Boilderplate
 
 _I am going to tell you a HACK!_ 😎
 
@@ -53,6 +53,6 @@ Install live server extension. 🤓
 ```
 
 > [!TIP]
-> use `ctrl` + `/` to comment in html
+> use `ctrl` + `/` to insert a comment block in html.
 
-#### Written with 💖 by _thatonevikash_!
+**Thanks for reading! 💖**

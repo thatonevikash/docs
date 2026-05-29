@@ -160,4 +160,4 @@ HTML is the backbone of every website you visit? It's the magic code that struct
 <!-- Write your comment here! -->
 ```
 
-#### Written with 💖 by _thatonevikash_!
+**Thanks for reading! 💖**

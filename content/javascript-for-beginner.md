@@ -125,7 +125,7 @@ console.log("Vikash");
 
 The above examples are not comes under the good practice.<br/>
 
-> [!IMPORTANT]\
+> [!IMPORTANT]
 > Our main goal to write the code readable, Code readablity should be high.
 
 ### Data Types
@@ -431,7 +431,7 @@ console.log("02" > 2); // true
 ```
 
 > [!WARNING]
-> Makesure you are comparing similar datatype variable so that your result may not be unexpected.
+> Make sure you are comparing similar datatype variable so that your result may not be unexpected.
 
 Have a look on an special type of comparison with `null` 👀
 
@@ -478,4 +478,4 @@ console.log("3" === 3); // false
 > [!NOTE]
 > Strict checking compare between not only values but also data type of the variables.
 
-#### Written with 💖 by _thatonevikash_!
+**Thanks for reading! 💖**

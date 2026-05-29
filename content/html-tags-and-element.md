@@ -59,7 +59,7 @@ Which contains some text value.
 Collectively, they are known as Element.<br />
 `One element = opening tag + content + closing tag`
 
-> [!NOTE]\
+> [!NOTE]
 > An element may or may not be pair of tags.
 >
 > ```html
@@ -74,6 +74,6 @@ Collectively, they are known as Element.<br />
 >
 > Is a self-closing tag.
 
-Finally — _"An element is nothing just a meaningful tag."_ 🤓
+> Finally — _"**An element is nothing just a meaningful tag**."_ 🤓
 
-#### Written with 💖 by _thatonevikash_!
+**Thanks for reading! 💖**

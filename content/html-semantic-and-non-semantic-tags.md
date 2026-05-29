@@ -110,4 +110,4 @@ You may create layout using semantic or non-semantic tags.
 >
 > _SEO will detect it._ 😎
 
-#### Written with 💖 by _thatonevikash_!
+**Thanks for reading! 💖**
