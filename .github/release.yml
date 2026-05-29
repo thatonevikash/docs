@@ -18,6 +18,9 @@ changelog:
       labels:
         - "documentation"
         - "docs"
+    - title: "🤖 Codex"
+      labels:
+        - "codex"
 
   # Clean up the noise by hiding things you don't need in the final notes
   exclude:
