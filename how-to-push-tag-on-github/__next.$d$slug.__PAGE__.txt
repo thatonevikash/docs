@@ -1,0 +1,58 @@
+1:"$Sreact.fragment"
+2:I[36729,["/docs/_next/static/chunks/112ag9kh2ezjv.js","/docs/_next/static/chunks/0d9jj-5zzyuhf.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js","/docs/_next/static/chunks/0~7p8migmus42.js","/docs/_next/static/chunks/0dp-pbei00pod.js","/docs/_next/static/chunks/00hotlyl1uwsn.js"],"default"]
+3:I[66919,["/docs/_next/static/chunks/112ag9kh2ezjv.js","/docs/_next/static/chunks/0d9jj-5zzyuhf.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js","/docs/_next/static/chunks/0~7p8migmus42.js","/docs/_next/static/chunks/0dp-pbei00pod.js","/docs/_next/static/chunks/00hotlyl1uwsn.js"],"default"]
+4:I[21435,["/docs/_next/static/chunks/112ag9kh2ezjv.js","/docs/_next/static/chunks/0d9jj-5zzyuhf.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js","/docs/_next/static/chunks/0~7p8migmus42.js","/docs/_next/static/chunks/0dp-pbei00pod.js","/docs/_next/static/chunks/00hotlyl1uwsn.js"],"default"]
+5:I[53488,["/docs/_next/static/chunks/112ag9kh2ezjv.js","/docs/_next/static/chunks/0d9jj-5zzyuhf.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js","/docs/_next/static/chunks/0~7p8migmus42.js","/docs/_next/static/chunks/0dp-pbei00pod.js","/docs/_next/static/chunks/00hotlyl1uwsn.js"],"default"]
+6:I[5573,["/docs/_next/static/chunks/112ag9kh2ezjv.js","/docs/_next/static/chunks/0d9jj-5zzyuhf.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js","/docs/_next/static/chunks/0~7p8migmus42.js","/docs/_next/static/chunks/0dp-pbei00pod.js","/docs/_next/static/chunks/00hotlyl1uwsn.js"],"default"]
+7:I[23262,["/docs/_next/static/chunks/112ag9kh2ezjv.js","/docs/_next/static/chunks/0d9jj-5zzyuhf.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js","/docs/_next/static/chunks/0~7p8migmus42.js","/docs/_next/static/chunks/0dp-pbei00pod.js","/docs/_next/static/chunks/00hotlyl1uwsn.js"],"default"]
+8:I[32073,["/docs/_next/static/chunks/112ag9kh2ezjv.js","/docs/_next/static/chunks/0d9jj-5zzyuhf.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js","/docs/_next/static/chunks/0~7p8migmus42.js","/docs/_next/static/chunks/0dp-pbei00pod.js","/docs/_next/static/chunks/00hotlyl1uwsn.js"],"default"]
+9:I[55534,["/docs/_next/static/chunks/112ag9kh2ezjv.js","/docs/_next/static/chunks/0d9jj-5zzyuhf.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js","/docs/_next/static/chunks/0~7p8migmus42.js","/docs/_next/static/chunks/0dp-pbei00pod.js","/docs/_next/static/chunks/00hotlyl1uwsn.js"],"default"]
+a:I[84244,["/docs/_next/static/chunks/112ag9kh2ezjv.js","/docs/_next/static/chunks/0d9jj-5zzyuhf.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js","/docs/_next/static/chunks/0~7p8migmus42.js","/docs/_next/static/chunks/0dp-pbei00pod.js","/docs/_next/static/chunks/00hotlyl1uwsn.js"],"default"]
+b:I[29086,["/docs/_next/static/chunks/112ag9kh2ezjv.js","/docs/_next/static/chunks/0d9jj-5zzyuhf.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js","/docs/_next/static/chunks/0~7p8migmus42.js","/docs/_next/static/chunks/0dp-pbei00pod.js","/docs/_next/static/chunks/00hotlyl1uwsn.js"],"default"]
+c:I[75611,["/docs/_next/static/chunks/112ag9kh2ezjv.js","/docs/_next/static/chunks/0d9jj-5zzyuhf.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js","/docs/_next/static/chunks/0~7p8migmus42.js","/docs/_next/static/chunks/0dp-pbei00pod.js","/docs/_next/static/chunks/00hotlyl1uwsn.js"],"default"]
+d:I[80874,["/docs/_next/static/chunks/112ag9kh2ezjv.js","/docs/_next/static/chunks/0d9jj-5zzyuhf.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js","/docs/_next/static/chunks/0~7p8migmus42.js","/docs/_next/static/chunks/0dp-pbei00pod.js","/docs/_next/static/chunks/00hotlyl1uwsn.js"],"default"]
+e:I[11445,["/docs/_next/static/chunks/112ag9kh2ezjv.js","/docs/_next/static/chunks/0d9jj-5zzyuhf.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js","/docs/_next/static/chunks/0~7p8migmus42.js","/docs/_next/static/chunks/0dp-pbei00pod.js","/docs/_next/static/chunks/00hotlyl1uwsn.js"],"MarkdownRenderer"]
+14:I[97367,["/docs/_next/static/chunks/112ag9kh2ezjv.js","/docs/_next/static/chunks/0d9jj-5zzyuhf.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
+15:"$Sreact.suspense"
+f:T957,<h2>Best way to push tag on <code>github</code></h2>
+<h3>Noob approach of pushing a tag</h3>
+<p>If you are using the command as</p>
+<pre><code class="hljs language-bash"><span class="hljs-comment"># lists all tags</span>
+git tag
+
+<span class="hljs-comment"># creates a new tag</span>
+git tag v0.1.1
+</code></pre>
+<p>Then you push on that tag</p>
+<pre><code class="hljs language-bash"><span class="hljs-comment"># push on github</span>
+git push origin v0.1.1
+</code></pre>
+<div class="alert alert-important"><div class="alert-header"><span class="alert-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="alert-icon-svg"><path d="M22 17a2 2 0 0 1-2 2H6.828a2 2 0 0 0-1.414.586l-2.202 2.202A.71.71 0 0 1 2 21.286V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2z"></path><path d="M12 15h.01"></path><path d="M12 7v4"></path></svg></span><span class="alert-label">Important</span></div>
+<p>It doesn't update your <code>package.json</code><br>
+It doesn't anchor your package version.</p>
+</div>
+<p>Now have to manually update the package version and push it separately.</p>
+<pre><code class="hljs language-bash"><span class="hljs-comment"># 1. update package version</span>
+npm version patch
+
+<span class="hljs-comment"># 2. push a separate commit</span>
+git push
+</code></pre>
+<div class="alert alert-note"><div class="alert-header"><span class="alert-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="alert-icon-svg"><circle cx="12" cy="12" r="10"></circle><path d="M12 16v-4"></path><path d="M12 8h.01"></path></svg></span><span class="alert-label">Note</span></div>
+<p>patch for <code>0.0.*</code><br>
+minor for <code>0.*.0</code><br>
+major for <code>*.0.0</code></p>
+</div>
+<h3>Pro approach of pushing a tag</h3>
+<pre><code class="hljs language-bash"><span class="hljs-comment"># 1. Bumps version, updates package.json, commits, and tags locally</span>
+npm version patch
+
+<span class="hljs-comment"># 2. Pushes the commit to main AND pushes the newly created tag simultaneously</span>
+git push origin main --follow-tags
+</code></pre>
+<p><strong>Thanks for reading 💖!</strong></p>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"sx":{"minHeight":"100dvh","bgcolor":"grey.200"},"children":["$","$L3",null,{"maxWidth":"sm","sx":{"py":3},"children":[["$","$L4",null,{"sx":{"p":3,"mb":5,"position":"relative","overflow":"hidden","&::before":{"content":"\"\"","position":"absolute","left":0,"top":0,"bottom":0,"width":8,"bgcolor":"common.black","borderRadius":"0 2px 2px 0"}},"children":[["$","$L5",null,{"variant":"caption","sx":{"color":"text.disabled","letterSpacing":"0.04em","fontVariantNumeric":"tabular-nums","display":"block","mb":1.5},"children":"29 May 2026"}],["$","$L5",null,{"variant":"h4","sx":{"mb":2},"children":"How to push tag on github"}],["$","$L2",null,{"sx":{"display":"flex","gap":1,"flexWrap":"wrap","mb":3},"children":[["$","$L6","docs",{"label":"docs","size":"small","variant":"filled","sx":{"bgcolor":"grey.300","color":"grey.800","fontSize":"0.8rem","& .MuiChip-label":{"px":1}}}],["$","$L6","tags",{"label":"tags","size":"small","variant":"filled","sx":{"bgcolor":"grey.300","color":"grey.800","fontSize":"0.8rem","& .MuiChip-label":{"px":1}}}],["$","$L6","github tags",{"label":"github tags","size":"small","variant":"filled","sx":{"bgcolor":"grey.300","color":"grey.800","fontSize":"0.8rem","& .MuiChip-label":{"px":1}}}],["$","$L6","package version",{"label":"package version","size":"small","variant":"filled","sx":{"bgcolor":"grey.300","color":"grey.800","fontSize":"0.8rem","& .MuiChip-label":{"px":1}}}]]}],["$","$L7",null,{"sx":{"mx":-3,"mb":2.5}}],["$","$L2",null,{"sx":{"display":"flex","alignItems":"center","justifyContent":"space-between"},"children":[["$","$L2",null,{"sx":{"display":"flex","alignItems":"center","gap":1},"children":[["$","$L8",null,{"sx":{"width":28,"height":28,"fontSize":"0.8rem","fontWeight":700,"bgcolor":"common.black"},"children":"T"}],["$","$L2",null,{"children":[["$","$L5",null,{"variant":"caption","sx":{"color":"text.disabled","display":"block","lineHeight":1},"children":"Published by"}],["$","$L5",null,{"variant":"body2","sx":{"fontWeight":600,"lineHeight":1.4},"children":"thatonevikash"}]]}]]}],["$","$L2",null,{"sx":{"display":"flex","gap":0.25},"children":[["$","$L9",null,{"title":"GitHub","arrow":true,"children":["$","$La",null,{"size":"small","component":"a","href":"https://github.com/thatonevikash","target":"_blank","rel":"noopener noreferrer","aria-label":"GitHub profile","sx":{"color":"text.secondary","transition":"color 0.15s ease, transform 0.15s ease","&:hover":{"color":"text.primary","bgcolor":"transparent"}},"children":["$","$Lb",null,{"sx":{"fontSize":18}}]}]}],["$","$L9",null,{"title":"LinkedIn","arrow":true,"children":["$","$La",null,{"size":"small","component":"a","href":"https://www.linkedin.com/in/thatonevikash/","target":"_blank","rel":"noopener noreferrer","aria-label":"LinkedIn profile","sx":{"color":"text.secondary","transition":"color 0.15s ease, transform 0.15s ease","&:hover":{"color":"text.primary","bgcolor":"transparent"}},"children":["$","$Lc",null,{"sx":{"fontSize":18}}]}]}],["$","$L9",null,{"title":"X (Twitter)","arrow":true,"children":["$","$La",null,{"size":"small","component":"a","href":"https://x.com/thatonevikash","target":"_blank","rel":"noopener noreferrer","aria-label":"X profile","sx":{"color":"text.secondary","transition":"color 0.15s ease, transform 0.15s ease","&:hover":{"color":"text.primary","bgcolor":"transparent"}},"children":["$","$Ld",null,{"sx":{"fontSize":18}}]}]}]]}]]}]]}],["$","$Le",null,{"content":"$f"}]]}]}],["$L10","$L11","$L12"],"$L13"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"s6hJLpWqp1KJg-aza53xf"}
+10:["$","script","script-0",{"src":"/docs/_next/static/chunks/0~7p8migmus42.js","async":true}]
+11:["$","script","script-1",{"src":"/docs/_next/static/chunks/0dp-pbei00pod.js","async":true}]
+12:["$","script","script-2",{"src":"/docs/_next/static/chunks/00hotlyl1uwsn.js","async":true}]
+13:["$","$L14",null,{"children":["$","$15",null,{"name":"Next.MetadataOutlet","children":"$@16"}]}]
+16:null
