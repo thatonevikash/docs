@@ -1,0 +1,26 @@
+name: Create Draft Release
+
+on:
+  push:
+    tags:
+      - "v*" # Triggers on v1.0.0, v0.2.2, etc.
+
+permissions:
+  contents: write # Crucial for allowing the runner to create a release
+
+jobs:
+  build-release:
+    name: Generate Draft
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Create GitHub Release Draft
+        uses: softprops/action-gh-release@v2
+        with:
+          draft: true
+          prerelease: false
+          generate_release_notes: true # Tells GitHub to inject your customized notes configuration
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

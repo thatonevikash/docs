@@ -1,0 +1,27 @@
+changelog:
+  categories:
+    - title: "🚀 Features"
+      labels:
+        - "enhancement"
+        - "feature"
+        - "feat"
+    - title: "🐛 Bug Fixes"
+      labels:
+        - "bug"
+        - "fix"
+    - title: "🧰 Maintenance & Refactoring"
+      labels:
+        - "chore"
+        - "refactor"
+        - "style"
+    - title: "📝 Documentation"
+      labels:
+        - "documentation"
+        - "docs"
+
+  # Clean up the noise by hiding things you don't need in the final notes
+  exclude:
+    labels:
+      - "ignore-changelog"
+    authors:
+      - "dependabot[bot]"
