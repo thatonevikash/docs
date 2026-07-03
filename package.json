@@ -6,8 +6,7 @@
     "name": "thatonevikash"
   },
   "scripts": {
-    "dev": "concurrently -n \"SCRIPT,SERVER\" -c \"green,magenta\" \"npm run watch\" \"next dev\"",
-    "watch": "node ./.scripts/scaffold-script.mjs",
+    "dev": "node .script.mjs",
     "build": "next build",
     "start": "next start",
     "lint": "eslint ./src --fix "

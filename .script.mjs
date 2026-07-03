@@ -2,6 +2,7 @@ import fs from "fs";
 import path from "path";
 import chalk from "chalk";
 import chokidar from "chokidar";
+import { spawn } from "child_process";
 
 // -----------------------------------------------------------
 
@@ -136,3 +137,12 @@ watcher.on("addDir", (dirPath) => {
 console.log(`\n${chalk.cyan("◆")} ${chalk.bold.cyan("Scaffold")} (Watcher)
 - Content:\t${chalk.dim(`${CONTENT_DIR}/`)}
 - Courses:\t${chalk.dim(`${COURSES_DIR}/`)}`);
+
+const nextProcess = spawn("npx", ["next", "dev"], {
+  stdio: "inherit",
+  shell: true,
+});
+
+nextProcess.on("close", (code) => {
+  process.exit(code);
+});
