@@ -1,0 +1,66 @@
+1:"$Sreact.fragment"
+2:I[36729,["/docs/_next/static/chunks/112ag9kh2ezjv.js","/docs/_next/static/chunks/0d9jj-5zzyuhf.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js","/docs/_next/static/chunks/0~7p8migmus42.js","/docs/_next/static/chunks/0dp-pbei00pod.js","/docs/_next/static/chunks/00hotlyl1uwsn.js"],"default"]
+3:I[66919,["/docs/_next/static/chunks/112ag9kh2ezjv.js","/docs/_next/static/chunks/0d9jj-5zzyuhf.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js","/docs/_next/static/chunks/0~7p8migmus42.js","/docs/_next/static/chunks/0dp-pbei00pod.js","/docs/_next/static/chunks/00hotlyl1uwsn.js"],"default"]
+4:I[21435,["/docs/_next/static/chunks/112ag9kh2ezjv.js","/docs/_next/static/chunks/0d9jj-5zzyuhf.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js","/docs/_next/static/chunks/0~7p8migmus42.js","/docs/_next/static/chunks/0dp-pbei00pod.js","/docs/_next/static/chunks/00hotlyl1uwsn.js"],"default"]
+5:I[53488,["/docs/_next/static/chunks/112ag9kh2ezjv.js","/docs/_next/static/chunks/0d9jj-5zzyuhf.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js","/docs/_next/static/chunks/0~7p8migmus42.js","/docs/_next/static/chunks/0dp-pbei00pod.js","/docs/_next/static/chunks/00hotlyl1uwsn.js"],"default"]
+6:I[5573,["/docs/_next/static/chunks/112ag9kh2ezjv.js","/docs/_next/static/chunks/0d9jj-5zzyuhf.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js","/docs/_next/static/chunks/0~7p8migmus42.js","/docs/_next/static/chunks/0dp-pbei00pod.js","/docs/_next/static/chunks/00hotlyl1uwsn.js"],"default"]
+7:I[23262,["/docs/_next/static/chunks/112ag9kh2ezjv.js","/docs/_next/static/chunks/0d9jj-5zzyuhf.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js","/docs/_next/static/chunks/0~7p8migmus42.js","/docs/_next/static/chunks/0dp-pbei00pod.js","/docs/_next/static/chunks/00hotlyl1uwsn.js"],"default"]
+8:I[32073,["/docs/_next/static/chunks/112ag9kh2ezjv.js","/docs/_next/static/chunks/0d9jj-5zzyuhf.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js","/docs/_next/static/chunks/0~7p8migmus42.js","/docs/_next/static/chunks/0dp-pbei00pod.js","/docs/_next/static/chunks/00hotlyl1uwsn.js"],"default"]
+9:I[55534,["/docs/_next/static/chunks/112ag9kh2ezjv.js","/docs/_next/static/chunks/0d9jj-5zzyuhf.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js","/docs/_next/static/chunks/0~7p8migmus42.js","/docs/_next/static/chunks/0dp-pbei00pod.js","/docs/_next/static/chunks/00hotlyl1uwsn.js"],"default"]
+a:I[84244,["/docs/_next/static/chunks/112ag9kh2ezjv.js","/docs/_next/static/chunks/0d9jj-5zzyuhf.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js","/docs/_next/static/chunks/0~7p8migmus42.js","/docs/_next/static/chunks/0dp-pbei00pod.js","/docs/_next/static/chunks/00hotlyl1uwsn.js"],"default"]
+b:I[29086,["/docs/_next/static/chunks/112ag9kh2ezjv.js","/docs/_next/static/chunks/0d9jj-5zzyuhf.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js","/docs/_next/static/chunks/0~7p8migmus42.js","/docs/_next/static/chunks/0dp-pbei00pod.js","/docs/_next/static/chunks/00hotlyl1uwsn.js"],"default"]
+c:I[75611,["/docs/_next/static/chunks/112ag9kh2ezjv.js","/docs/_next/static/chunks/0d9jj-5zzyuhf.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js","/docs/_next/static/chunks/0~7p8migmus42.js","/docs/_next/static/chunks/0dp-pbei00pod.js","/docs/_next/static/chunks/00hotlyl1uwsn.js"],"default"]
+d:I[80874,["/docs/_next/static/chunks/112ag9kh2ezjv.js","/docs/_next/static/chunks/0d9jj-5zzyuhf.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js","/docs/_next/static/chunks/0~7p8migmus42.js","/docs/_next/static/chunks/0dp-pbei00pod.js","/docs/_next/static/chunks/00hotlyl1uwsn.js"],"default"]
+e:I[11445,["/docs/_next/static/chunks/112ag9kh2ezjv.js","/docs/_next/static/chunks/0d9jj-5zzyuhf.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js","/docs/_next/static/chunks/0~7p8migmus42.js","/docs/_next/static/chunks/0dp-pbei00pod.js","/docs/_next/static/chunks/00hotlyl1uwsn.js"],"MarkdownRenderer"]
+14:I[97367,["/docs/_next/static/chunks/112ag9kh2ezjv.js","/docs/_next/static/chunks/0d9jj-5zzyuhf.js","/docs/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
+15:"$Sreact.suspense"
+f:Tb71,<h2>How to merge specific changes into feature branch</h2>
+<p>Have you ever found yourself working on a feature branch that is a few commits behind <code>main</code>, and you realize you need an update from <code>main</code>—but <strong>only</strong> for one specific file?</p>
+<p>Worse yet, you’ve already made your own changes to that same file, so a simple copy-paste or full overwrite will destroy your progress.</p>
+<p>Instead of merging the entire <code>main</code> branch or manually copying lines of code, Git has a built-in superpower for this exact scenario: <strong>Interactive Patch Checkout</strong>.</p>
+<p>Here is a simple, step-by-step guide to using <code>git checkout -p</code> to selectively pull code line-by-line.</p>
+<h3>The Core Command</h3>
+<pre><code class="hljs language-bash">git checkout -p origin/main -- path/to/file.js
+</code></pre>
+<h3>What does this mean?</h3>
+<p><code>--path/to/file.js</code>: Restricts the operation strictly to this file.</p>
+<p><code>-p</code> (or <code>--patch</code>): Tells Git to break the differences between your branch and main into small, digestible blocks of code called "hunks". Git will ask you one by one whether you want to pull each hunk into your branch.</p>
+<h4>Step 1: Fetch the latest changes from Main</h4>
+<p>Before doing anything, make sure your local machine knows about the absolute latest updates on your remote repository.</p>
+<pre><code class="hljs language-bash">git fetch origin main
+</code></pre>
+<h4>Step 2: Make sure you are on your feature branch</h4>
+<p>Ensure you are working inside the branch where you want the changes to land.</p>
+<pre><code class="hljs language-bash">git checkout your-feature-branch
+</code></pre>
+<h4>Step 3: Run the interactive checkout command</h4>
+<p>Target the exact file you want to update from main.</p>
+<pre><code class="hljs language-bash">git checkout -p origin/main -- path/to/file.js
+</code></pre>
+<h4>Step 4: Review and choose your "Hunks"</h4>
+<p>Once you press Enter, Git will display the first block of differences. Green lines are additions from <code>main</code>, and red lines are deletions.</p>
+<p>At the bottom of the terminal, you will see a prompt like this:</p>
+<blockquote>
+<p>Stage this hunk? [y, n, q, a, d, j, J, g, /, s, e, ?]:</p>
+</blockquote>
+<p>Don't be intimidated by all the letters! You only need to know a few:</p>
+<ul>
+<li>
+<p><code>y</code> (yes): Pull this specific change from <code>main</code> into your file.</p>
+</li>
+<li>
+<p><code>n</code> (no): Skip this change and keep your branch's version exactly as it is.</p>
+</li>
+<li>
+<p><code>s</code> (split): If the block of code is too big, this splits it into even smaller pieces.</p>
+</li>
+<li>
+<p><code>q</code> (quit): Stop the process entirely. Any hunks you already said y to will be saved.</p>
+</li>
+</ul>
+<p>Go through the file, choosing <code>y</code> or <code>n</code> for each section until you reach the end.</p>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"sx":{"minHeight":"100dvh","bgcolor":"grey.200"},"children":["$","$L3",null,{"maxWidth":"sm","sx":{"py":3},"children":[["$","$L4",null,{"sx":{"p":3,"mb":5,"position":"relative","overflow":"hidden","&::before":{"content":"\"\"","position":"absolute","left":0,"top":0,"bottom":0,"width":8,"bgcolor":"common.black","borderRadius":"0 2px 2px 0"}},"children":[["$","$L5",null,{"variant":"caption","sx":{"color":"text.disabled","letterSpacing":"0.04em","fontVariantNumeric":"tabular-nums","display":"block","mb":1.5},"children":"9 July 2026"}],["$","$L5",null,{"variant":"h4","sx":{"mb":2},"children":"How to merge specific changes into feature branch"}],["$","$L2",null,{"sx":{"display":"flex","gap":1,"flexWrap":"wrap","mb":3},"children":[["$","$L6","github",{"label":"github","size":"small","variant":"filled","sx":{"bgcolor":"grey.300","color":"grey.800","fontSize":"0.8rem","& .MuiChip-label":{"px":1}}}],["$","$L6","git branch",{"label":"git branch","size":"small","variant":"filled","sx":{"bgcolor":"grey.300","color":"grey.800","fontSize":"0.8rem","& .MuiChip-label":{"px":1}}}],["$","$L6","merge branch",{"label":"merge branch","size":"small","variant":"filled","sx":{"bgcolor":"grey.300","color":"grey.800","fontSize":"0.8rem","& .MuiChip-label":{"px":1}}}]]}],["$","$L7",null,{"sx":{"mx":-3,"mb":2.5}}],["$","$L2",null,{"sx":{"display":"flex","alignItems":"center","justifyContent":"space-between"},"children":[["$","$L2",null,{"sx":{"display":"flex","alignItems":"center","gap":1},"children":[["$","$L8",null,{"sx":{"width":28,"height":28,"fontSize":"0.8rem","fontWeight":700,"bgcolor":"common.black"},"children":"T"}],["$","$L2",null,{"children":[["$","$L5",null,{"variant":"caption","sx":{"color":"text.disabled","display":"block","lineHeight":1},"children":"Published by"}],["$","$L5",null,{"variant":"body2","sx":{"fontWeight":600,"lineHeight":1.4},"children":"thatonevikash"}]]}]]}],["$","$L2",null,{"sx":{"display":"flex","gap":0.25},"children":[["$","$L9",null,{"title":"GitHub","arrow":true,"children":["$","$La",null,{"size":"small","component":"a","href":"https://github.com/thatonevikash","target":"_blank","rel":"noopener noreferrer","aria-label":"GitHub profile","sx":{"color":"text.secondary","transition":"color 0.15s ease, transform 0.15s ease","&:hover":{"color":"text.primary","bgcolor":"transparent"}},"children":["$","$Lb",null,{"sx":{"fontSize":18}}]}]}],["$","$L9",null,{"title":"LinkedIn","arrow":true,"children":["$","$La",null,{"size":"small","component":"a","href":"https://www.linkedin.com/in/thatonevikash/","target":"_blank","rel":"noopener noreferrer","aria-label":"LinkedIn profile","sx":{"color":"text.secondary","transition":"color 0.15s ease, transform 0.15s ease","&:hover":{"color":"text.primary","bgcolor":"transparent"}},"children":["$","$Lc",null,{"sx":{"fontSize":18}}]}]}],["$","$L9",null,{"title":"X (Twitter)","arrow":true,"children":["$","$La",null,{"size":"small","component":"a","href":"https://x.com/thatonevikash","target":"_blank","rel":"noopener noreferrer","aria-label":"X profile","sx":{"color":"text.secondary","transition":"color 0.15s ease, transform 0.15s ease","&:hover":{"color":"text.primary","bgcolor":"transparent"}},"children":["$","$Ld",null,{"sx":{"fontSize":18}}]}]}]]}]]}]]}],["$","$Le",null,{"content":"$f"}]]}]}],["$L10","$L11","$L12"],"$L13"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"39Y3ycQNep8hubYNB5PbI"}
+10:["$","script","script-0",{"src":"/docs/_next/static/chunks/0~7p8migmus42.js","async":true}]
+11:["$","script","script-1",{"src":"/docs/_next/static/chunks/0dp-pbei00pod.js","async":true}]
+12:["$","script","script-2",{"src":"/docs/_next/static/chunks/00hotlyl1uwsn.js","async":true}]
+13:["$","$L14",null,{"children":["$","$15",null,{"name":"Next.MetadataOutlet","children":"$@16"}]}]
+16:null
